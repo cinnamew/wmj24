@@ -424,7 +424,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   playerPrefab: {fileID: 6402946648853323602, guid: 8ed8243c2003743779679e446e8e807c, type: 3}
+  razorPrefab: {fileID: 9199897337528227772, guid: e584566270d7a47748113ef4e0583cda, type: 3}
   player: {fileID: 0}
+  isComplete: 0
 --- !u!4 &1812914883
 Transform:
   m_ObjectHideFlags: 0
@@ -504,7 +506,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
