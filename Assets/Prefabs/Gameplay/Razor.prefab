@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6402946648853323602
+--- !u!1 &9199897337528227772
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,26 +8,26 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4625108354987600922}
-  - component: {fileID: 4924670791800009385}
-  - component: {fileID: 114157115045361566}
-  - component: {fileID: 7560692558314412680}
-  - component: {fileID: 2397791678431861026}
-  - component: {fileID: -7094651629734666701}
+  - component: {fileID: 869639131077318732}
+  - component: {fileID: 4133291206025069971}
+  - component: {fileID: 7561135110063263739}
+  - component: {fileID: 3799793127671704302}
+  - component: {fileID: 3947176349883993870}
+  - component: {fileID: -3809909633817709243}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Razor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4625108354987600922
+--- !u!4 &869639131077318732
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402946648853323602}
+  m_GameObject: {fileID: 9199897337528227772}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -36,21 +36,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4924670791800009385
+--- !u!33 &4133291206025069971
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402946648853323602}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &114157115045361566
+  m_GameObject: {fileID: 9199897337528227772}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7561135110063263739
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402946648853323602}
+  m_GameObject: {fileID: 9199897337528227772}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -89,13 +89,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!58 &7560692558314412680
-CircleCollider2D:
+--- !u!61 &3799793127671704302
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402946648853323602}
+  m_GameObject: {fileID: 9199897337528227772}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -124,27 +124,37 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
---- !u!114 &2397791678431861026
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &3947176349883993870
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402946648853323602}
+  m_GameObject: {fileID: 9199897337528227772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 344c61b25a279432d9dffc20d050e82f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d2d1e2de11414a729e76cabf7e934d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!50 &-7094651629734666701
+--- !u!50 &-3809909633817709243
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402946648853323602}
+  m_GameObject: {fileID: 9199897337528227772}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0

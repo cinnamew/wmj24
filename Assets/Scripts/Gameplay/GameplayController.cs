@@ -23,17 +23,17 @@ public class GameplayController : MonoBehaviour
     {
         SKINNING,
         TANNING,
-        FLESHING,
-        STITCHING,
         FORMING,
+        STITCHING,
         MOUNTING
     }
 
     public GameState currentState;
 
-    public GameObject playerPrefab;
+    public GameObject playerPrefab, razorPrefab;
 
     public GameObject player;
+    public bool isComplete;
 
 
     void Start()
@@ -46,32 +46,31 @@ public class GameplayController : MonoBehaviour
     private void GameStart()
     {
         player = Instantiate(playerPrefab);
-        StartCoroutine(GameActive(0));
+        GameActive(0);
 
     }
 
-    private IEnumerator GameActive(int index)
+    private void GameActive(int index)
     {
         currentState = (GameState)index;
+        isComplete = false;
 
         string title = "";
 
-        switch(currentState)
+        switch (currentState)
         {
             case GameState.SKINNING:
                 title = "Skinning";
+                StartCoroutine(Skinning());
                 break;
             case GameState.TANNING:
                 title = "Tanning";
                 break;
-            case GameState.FLESHING:
-                title = "Fleshing";
+            case GameState.FORMING:
+                title = "Forming";
                 break;
             case GameState.STITCHING:
                 title = "Stitching";
-                break;
-            case GameState.FORMING:
-                title = "Forming";
                 break;
             case GameState.MOUNTING:
                 title = "Mounting";
@@ -83,12 +82,23 @@ public class GameplayController : MonoBehaviour
 
         ui.SetUI(title);
 
-        while(true)
+    }
+
+
+    //Skinning
+    public IEnumerator Skinning()
+    {
+        GameObject razor = Instantiate(razorPrefab);
+
+        while (!isComplete)
         {
             yield return null;
         }
-
-        StartCoroutine(GameActive(index + 1));
     }
+
+
+
+
+
 
 }
