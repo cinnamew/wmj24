@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - SettingsMenu
+  - DontDetectClick
   layers:
   - Default
   - TransparentFX

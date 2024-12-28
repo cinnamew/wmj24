@@ -2457,6 +2457,7 @@ GameObject:
   - component: {fileID: 1349629580}
   - component: {fileID: 1349629579}
   - component: {fileID: 1349629581}
+  - component: {fileID: 1349629582}
   m_Layer: 5
   m_Name: settings panel
   m_TagString: SettingsMenu
@@ -2540,6 +2541,18 @@ MonoBehaviour:
   mainMixer: {fileID: 24100000, guid: 9a7c7bcfaddac4993a208d905a4cd35a, type: 2}
   musicSlider: {fileID: 118827644}
   sfxSlider: {fileID: 58632491}
+--- !u!114 &1349629582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349629577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcde6274801a34adc8b090f055a70c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1549354015
 GameObject:
   m_ObjectHideFlags: 0
