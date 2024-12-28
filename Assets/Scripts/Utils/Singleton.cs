@@ -24,13 +24,6 @@ public abstract class Singleton<T> : MonoBehaviour where T : Singleton<T>
 
     protected virtual void Awake()
     {
-        if (instance == null)
-        {
-            instance = (T)this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        instance = (T)this;
     }
 }
