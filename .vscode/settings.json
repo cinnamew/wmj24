@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "base-2d-unity-template.sln"
+    "dotnet.defaultSolution": "wmj24.sln"
 }

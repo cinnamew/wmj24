@@ -1,17 +1,19 @@
 using UnityEngine;
 
-//uncoded
-public class Stay : MonoBehaviour
+//but only for the ui i'm just hardcoding
+public class Stay : Singleton<Stay>
 {
+    [SerializeField] GameObject settingsMenu;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        DontDestroyOnLoad(this);
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void ShowSettingsMenu()
     {
-        
+        settingsMenu.SetActive(true);
     }
 }
