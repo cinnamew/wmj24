@@ -5050,6 +5050,7 @@ GameObject:
   - component: {fileID: 1862574485}
   - component: {fileID: 1862574484}
   - component: {fileID: 1862574488}
+  - component: {fileID: 1862574489}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5155,6 +5156,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dialogInput: {fileID: 383023983}
   _writer: {fileID: 383023985}
+--- !u!114 &1862574489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862574483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b435eb2c834344aeb8718d004586ab54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTextureDefault: {fileID: 2800000, guid: 3c48cdf397a304c01902e0992e3814db, type: 3}
+  clickPosition: {x: 0, y: 0}
 --- !u!1 &1911511765
 GameObject:
   m_ObjectHideFlags: 0
