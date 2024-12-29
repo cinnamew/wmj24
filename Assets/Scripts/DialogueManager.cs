@@ -14,8 +14,7 @@ public class DialogueManager : Singleton<DialogueManager>
 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RunBlock(string blockName)
     {
 
     }
