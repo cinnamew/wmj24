@@ -5,6 +5,7 @@ public class Stay : Singleton<Stay>
 {
     [SerializeField] GameObject settingsMenu;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,8 +13,12 @@ public class Stay : Singleton<Stay>
     }
 
 
-    public void ShowSettingsMenu()
+    public void ShowSettingsMenu()  //toggles
     {
-        settingsMenu.SetActive(true);
+        if (settingsMenu.activeSelf)
+        {
+            settingsMenu.SetActive(false);
+        }
+        else settingsMenu.SetActive(true);
     }
 }
