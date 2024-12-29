@@ -30,7 +30,7 @@ public class IgnoreDialogueClick : MonoBehaviour, IPointerEnterHandler, IPointer
             disabled = false;
             DialogueManager.Instance.ChangeDialogInputClickMode(ClickMode.ClickAnywhere);
         }
-        print(disabled);
+        //print(disabled);
     }
 
     public void EnableClick()

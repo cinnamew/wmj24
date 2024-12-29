@@ -625,7 +625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: play!
+  m_text: new game!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24dc1815a4dfe4aeebcea0bc8bf1fafe, type: 2}
   m_sharedMaterial: {fileID: -5363499400676202196, guid: 24dc1815a4dfe4aeebcea0bc8bf1fafe, type: 2}
@@ -5156,6 +5156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dialogInput: {fileID: 383023983}
   _writer: {fileID: 383023985}
+  flowchart: {fileID: 0}
 --- !u!114 &1862574489
 MonoBehaviour:
   m_ObjectHideFlags: 0
