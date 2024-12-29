@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sewingtop_0: 720996919775027350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

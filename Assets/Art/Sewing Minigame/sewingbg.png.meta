@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sewingbg_0: -8378238490931765155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
