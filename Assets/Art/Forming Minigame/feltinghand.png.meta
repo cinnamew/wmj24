@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feltinghand_0: 2680729410590407417
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
