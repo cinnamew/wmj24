@@ -18,6 +18,8 @@ public class Forming : MonoBehaviour
     public int count, stepCount;
 
     public GameObject phone;
+    public AnimationClip[] animations;
+    public RuntimeAnimatorController[] animators;
 
     public IEnumerator FormingGameplay(Flowchart flowchart)
     {
@@ -25,7 +27,12 @@ public class Forming : MonoBehaviour
         hand.SetActive(false);
         felting.SetActive(true);
 
-        //Starts call
+        if(SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
+        {
+            feltBase.AddComponent<Animator>().runtimeAnimatorController = animators[0];
+            feltBase.AddComponent<Animation>().clip = animations[0];
+        }
+
         // phone.SetActive(true);
         // phone.GetComponent<Phone>().Call("domo");
 
@@ -39,7 +46,7 @@ public class Forming : MonoBehaviour
             if (activeClickable == null)
             {
                 yield return new WaitForSeconds(delay);
-                StartCoroutine(FormButton());
+                FormButton();
             }
 
             if (Input.GetMouseButtonDown(0))
@@ -60,11 +67,10 @@ public class Forming : MonoBehaviour
         //GameplayController.instance.GameActive();  //CHANGE TO NEXT SCENE
     }
 
-    IEnumerator FormButton()
+    public void FormButton()
     {
         GenerateClickable();
-        yield return new WaitForSeconds(life);
-        ClearFormButton();
+        Destroy(activeClickable, life);
     }
 
     void GenerateClickable()
@@ -79,7 +85,15 @@ public class Forming : MonoBehaviour
     public void Clicked()
     {
         count++;
-        if (count >= stepCount) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 2)];
+        if (count >= stepCount) 
+        {
+            if(SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
+            {
+                feltBase.GetComponent<Animator>().runtimeAnimatorController = animators[Math.Clamp(count / stepCount, 0, 2)];
+                feltBase.GetComponent<Animation>().clip = animations[Math.Clamp(count / stepCount, 0, 2)];
+            }
+            else feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 2)];
+        }
         StartCoroutine(ShowHand());
         ClearFormButton();
     }

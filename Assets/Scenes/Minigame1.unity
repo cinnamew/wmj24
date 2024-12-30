@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: day dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 6571640686812259153, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
