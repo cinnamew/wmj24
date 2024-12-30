@@ -2795,7 +2795,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 993440455}
   selectedCommands: []
   variables: []
   description: 
@@ -2857,8 +2858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 85.75903
-    y: 413.35355
+    x: 37.939102
+    y: 427.41818
     width: 71.47
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3721,7 +3722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _writer: {fileID: 1503114009}
-  flowchart: {fileID: 0}
+  flowchart: {fileID: 993440448}
 --- !u!114 &1486730266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4361,9 +4362,9 @@ MonoBehaviour:
   feltBase: {fileID: 535158603}
   hand: {fileID: 772284425}
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
-  handSprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  handSprite: {fileID: -3802154098315920397, guid: c22f8c95cd89f4ac1baa9835459a684d, type: 3}
   changeSprites: []
-  bloodyHand: {fileID: -960603031636303676, guid: bf3e965d5d139408cad3523f84ca00ed, type: 3}
+  bloodyHand: {fileID: -4998218797367720841, guid: fbd33d78624ab4569aee4a508fd02aaf, type: 3}
   glitchSprite: {fileID: -6123208370717119994, guid: 1c52762fe76744bd48808da8820b64ab, type: 3}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}

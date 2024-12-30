@@ -27,7 +27,7 @@ public class Forming : MonoBehaviour
         hand.SetActive(false);
         felting.SetActive(true);
 
-        if(SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
+        if (SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
         {
             feltBase.AddComponent<Animator>().runtimeAnimatorController = animators[0];
             feltBase.AddComponent<Animation>().clip = animations[0];
@@ -85,9 +85,9 @@ public class Forming : MonoBehaviour
     public void Clicked()
     {
         count++;
-        if (count >= stepCount) 
+        if (count >= stepCount)
         {
-            if(SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
+            if (SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
             {
                 feltBase.GetComponent<Animator>().runtimeAnimatorController = animators[Math.Clamp(count / stepCount, 0, 2)];
                 feltBase.GetComponent<Animation>().clip = animations[Math.Clamp(count / stepCount, 0, 2)];

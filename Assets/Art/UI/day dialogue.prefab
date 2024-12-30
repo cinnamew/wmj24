@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: 0.205
+  volume: 0.4
   loop: 1
   targetAudioSource: {fileID: 0}
   audioMode: 1
@@ -830,6 +830,7 @@ MonoBehaviour:
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
+  inputSystemUIInputModule: {fileID: 0}
 --- !u!82 &8630112874706601602
 AudioSource:
   m_ObjectHideFlags: 0

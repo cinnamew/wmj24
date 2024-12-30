@@ -1477,6 +1477,7 @@ MonoBehaviour:
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
+  inputSystemUIInputModule: {fileID: 0}
 --- !u!114 &383023984
 MonoBehaviour:
   m_ObjectHideFlags: 0

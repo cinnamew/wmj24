@@ -4477,7 +4477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 144.62666, y: -96.82487}
+  scrollPos: {x: -5.650728, y: -157.33925}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
@@ -4490,8 +4490,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 993440455}
-  selectedCommands:
-  - {fileID: 993440453}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4639,7 +4638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 931
   indentLevel: 0
-  duration: 1
+  duration: 0.8
   targetAlpha: 1
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
@@ -4659,8 +4658,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 85.75903
-    y: 413.35355
+    x: 52.476105
+    y: 529.33936
     width: 71.47
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4672,9 +4671,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 993440452}
   - {fileID: 993440451}
-  - {fileID: 993440450}
   - {fileID: 993440454}
   - {fileID: 993440453}
+  - {fileID: 993440450}
   suppressAllAutoSelections: 0
 --- !u!114 &993440456
 MonoBehaviour:
@@ -5532,7 +5531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _writer: {fileID: 1503114009}
-  flowchart: {fileID: 0}
+  flowchart: {fileID: 993440448}
 --- !u!114 &1486730266
 MonoBehaviour:
   m_ObjectHideFlags: 0
