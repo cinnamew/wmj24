@@ -55,9 +55,9 @@ public class GameplayController : MonoBehaviour
 
     }
 
-    private void GameActive(int index)
+    public void GameActive(int index)
     {
-        // currentState = (GameState)index;
+        currentState = (GameState)index;
         isComplete = false;
 
         string title = "";
@@ -86,6 +86,11 @@ public class GameplayController : MonoBehaviour
     }
 
 
+    IEnumerator Glitch()
+    {
+
+        yield return null;
+    }
 
 
 }
