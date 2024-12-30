@@ -5859,7 +5859,6 @@ GameObject:
   - component: {fileID: 1715772532}
   - component: {fileID: 1715772531}
   - component: {fileID: 1715772533}
-  - component: {fileID: 1715772578}
   - component: {fileID: 1715772579}
   - component: {fileID: 1715772580}
   - component: {fileID: 1715772624}
@@ -5908,6 +5907,8 @@ GameObject:
   - component: {fileID: 1715772672}
   - component: {fileID: 1715772671}
   - component: {fileID: 1715772670}
+  - component: {fileID: 1715772720}
+  - component: {fileID: 1715772718}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5963,11 +5964,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -443.21802, y: -228.91281}
+  scrollPos: {x: -97.40243, y: -141.49106}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
-  zoom: 0.93049955
+  zoom: 0.7919984
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -5975,9 +5976,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1715772709}
+  - {fileID: 1715772720}
   selectedCommands:
-  - {fileID: 1715772670}
+  - {fileID: 1715772718}
   variables: []
   description: 
   stepPause: 0
@@ -21094,7 +21095,7 @@ MonoBehaviour:
   itemId: 743
   blockName: delulu
   description: 
-  eventHandler: {fileID: 1715772578}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1715772518}
   - {fileID: 1715772579}
@@ -21557,21 +21558,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1715772578
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715771830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1715772517}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &1715772579
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22890,6 +22876,64 @@ MonoBehaviour:
   - {fileID: 1715772672}
   - {fileID: 1715772671}
   - {fileID: 1715772670}
+  suppressAllAutoSelections: 0
+--- !u!114 &1715772718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715771830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 880
+  indentLevel: 0
+  storyText: '{i}I try to call my recurring customer for advice or clarification
+    on what''s happening, on these strange and horrifying things I''m seeing.{wc}But
+    when I try to call the number, my phone gives an error, saying the user does
+    not exist.{wc}My mind begins reeling. {wi}What was happening? Did they block
+    me? {wc}Or did they just never exist...?'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1715772720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715771830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 254.25296
+    y: 515.26794
+    width: 89.41
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 34
+  blockName: lastcall
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1715772718}
   suppressAllAutoSelections: 0
 --- !u!1 &1726091304
 GameObject:
