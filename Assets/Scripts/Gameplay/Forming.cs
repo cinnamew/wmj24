@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
+using Fungus;
 
 public class Forming : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class Forming : MonoBehaviour
 
     public GameObject phone;
 
-    public IEnumerator FormingGameplay(string nextScene)
+    public IEnumerator FormingGameplay(Flowchart flowchart)
     {
         count = 0;
         hand.SetActive(false);
@@ -30,18 +31,18 @@ public class Forming : MonoBehaviour
 
         while (!GameplayController.instance.isComplete)
         {
-            if (count >= 4*stepCount)
+            if (count >= 4 * stepCount)
             {
                 GameplayController.instance.isComplete = true;
             }
 
-            if(activeClickable == null)
+            if (activeClickable == null)
             {
                 yield return new WaitForSeconds(delay);
                 StartCoroutine(FormButton());
             }
 
-            if(Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit2D hit = Physics2D.Raycast(ray.origin, Vector3.forward);
@@ -54,8 +55,9 @@ public class Forming : MonoBehaviour
             yield return null;
         }
 
-        SceneManager.LoadScene(nextScene);
-        // GameplayController.instance.GameActive();  //CHANGE TO NEXT SCENE
+        //SceneManager.LoadScene(nextScene);
+        flowchart.ExecuteBlock("end");
+        //GameplayController.instance.GameActive();  //CHANGE TO NEXT SCENE
     }
 
     IEnumerator FormButton()
@@ -71,13 +73,13 @@ public class Forming : MonoBehaviour
         xExtent = feltBase.GetComponent<CircleCollider2D>().bounds.extents.x;
         yExtent = feltBase.GetComponent<CircleCollider2D>().bounds.extents.y;
 
-        activeClickable = Instantiate(clickablePrefab, new Vector3(Random.Range(-xExtent, xExtent), Random.Range(-yExtent, yExtent), -2), new Quaternion(0,0,0,0));
+        activeClickable = Instantiate(clickablePrefab, new Vector3(Random.Range(-xExtent, xExtent), Random.Range(-yExtent, yExtent), -2), new Quaternion(0, 0, 0, 0));
     }
 
     public void Clicked()
     {
         count++;
-        if (count >= stepCount) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count/stepCount, 0, 2)];
+        if (count >= stepCount) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 2)];
         StartCoroutine(ShowHand());
         ClearFormButton();
     }
@@ -92,13 +94,13 @@ public class Forming : MonoBehaviour
     {
         hand.SetActive(true);
         hand.transform.position = activeClickable.transform.position;
-        if(count == stepCount || count == stepCount*2)
+        if (count == stepCount || count == stepCount * 2)
         {
             if (glitchSprite != null) feltBase.GetComponent<SpriteRenderer>().sprite = glitchSprite;
             hand.GetComponent<SpriteRenderer>().sprite = bloodyHand;
             yield return new WaitForSeconds(.3f);
             hand.GetComponent<SpriteRenderer>().sprite = handSprite;
-            if(glitchSprite != null) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count/stepCount, 0, 2)];
+            if (glitchSprite != null) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 2)];
         }
         yield return new WaitForSeconds(.5f);
         hand.SetActive(false);

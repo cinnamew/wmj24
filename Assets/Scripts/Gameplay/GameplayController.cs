@@ -73,12 +73,11 @@ public class GameplayController : MonoBehaviour
                 break;
             case GameState.FORMING:
                 title = "Forming";
-                StartCoroutine(formingController.FormingGameplay(nextScene));
+                StartCoroutine(formingController.FormingGameplay(flowchart));
                 break;
             case GameState.STITCHING:
                 //if (nextScene != "END") SceneManager.LoadScene(nextScene);
                 //else DialogueManager.Instance.ChangeToEnding();
-                flowchart.ExecuteBlock("end");
                 title = "Stitching";
                 StartCoroutine(stitchingController.StitchingGameplay());
                 break;
