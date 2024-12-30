@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bloodhand2_0: -3802154098315920397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
