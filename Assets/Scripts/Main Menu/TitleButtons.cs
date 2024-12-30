@@ -33,9 +33,14 @@ public class TitleButtons : MonoBehaviour
 
     }
 
-    public void Settings()
+    public void Continue()
     {
+        SceneManager.LoadScene(PlayerPrefs.GetString("currScene", firstScene));
+    }
 
+    public void SwitchToScene(string s)
+    {
+        SceneManager.LoadScene(s);
     }
 
     public void Quit()

@@ -625,7 +625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue!
+  m_text: death end
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24dc1815a4dfe4aeebcea0bc8bf1fafe, type: 2}
   m_sharedMaterial: {fileID: -5363499400676202196, guid: 24dc1815a4dfe4aeebcea0bc8bf1fafe, type: 2}
@@ -2138,14 +2138,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 244715822}
         m_TargetAssemblyTypeName: TitleButtons, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
+        m_MethodName: SwitchToScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Death End
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &605868365

@@ -22,7 +22,7 @@ public class DialogueManager : Singleton<DialogueManager>
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        PlayerPrefs.SetString("currScene", SceneManager.GetActiveScene().name);
     }
 
     public void ChangeWritingSpeed(float f)
@@ -54,4 +54,5 @@ public class DialogueManager : Singleton<DialogueManager>
         }
         else SceneManager.LoadScene("Delusion End");
     }
+
 }
