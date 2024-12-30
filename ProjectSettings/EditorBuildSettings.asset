@@ -12,14 +12,35 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: cb7bc5e49e1fb4cdabd416b0ed95a6b2
   - enabled: 1
-    path: Assets/Scenes/VN Basics.unity
-    guid: c8d0196fad7ce49c88697fc112ba33b9
+    path: Assets/Scenes/Work1VN.unity
+    guid: db765191011574ecda1caa0f0392871b
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: c6987673622a44a5da2fecfd688e26a6
   - enabled: 1
-    path: Assets/Scenes/Death Ending.unity
+    path: Assets/Scenes/Home1.unity
+    guid: 8defbfd7c6dad478d8d64a73a3fcaa4b
+  - enabled: 1
+    path: Assets/Scenes/Work2VN.unity
+    guid: 208289d908490472786f9adf3c1060db
+  - enabled: 1
+    path: Assets/Scenes/Home2.unity
+    guid: f5c0425b8304f4a0e9845b5be09d1cfc
+  - enabled: 1
+    path: Assets/Scenes/Work3VN.unity
+    guid: e014b3bb5cc1547c8adbb96cb9f6db1b
+  - enabled: 1
+    path: Assets/Scenes/Home3.unity
+    guid: 09482b1618b8b4fb5bd01599bda7f717
+  - enabled: 1
+    path: Assets/Scenes/Death End.unity
     guid: aaca1e3fe69c34c9c8785df4e5034249
+  - enabled: 1
+    path: Assets/Scenes/Delusion End.unity
+    guid: 0555198ea4c9d4a06b3189a1fd84c408
+  - enabled: 0
+    path: Assets/Scenes/VN Basics.unity
+    guid: c8d0196fad7ce49c88697fc112ba33b9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

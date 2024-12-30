@@ -14,7 +14,7 @@ public class Phone : Singleton<Phone>
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Call("domo");
+        //Call("domo");
     }
 
     // Update is called once per frame
