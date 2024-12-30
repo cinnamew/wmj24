@@ -17,15 +17,15 @@ public class GameplayController : MonoBehaviour
     }
 
     private GameplayUI ui;
-
+    public Skinning skinningController;
+    public Forming formingController;
+    public Stitching stitchingController;
 
     public enum GameState
     {
         SKINNING,
-        TANNING,
         FORMING,
-        STITCHING,
-        MOUNTING
+        STITCHING
     }
 
     public GameState currentState;
@@ -39,6 +39,11 @@ public class GameplayController : MonoBehaviour
     void Start()
     {
         ui = GetComponent<GameplayUI>();
+
+        skinningController = GetComponent<Skinning>();
+        formingController = GetComponent<Forming>();
+        stitchingController = GetComponent<Stitching>();
+
         GameStart();
     }
 
@@ -52,7 +57,7 @@ public class GameplayController : MonoBehaviour
 
     private void GameActive(int index)
     {
-        currentState = (GameState)index;
+        // currentState = (GameState)index;
         isComplete = false;
 
         string title = "";
@@ -61,19 +66,15 @@ public class GameplayController : MonoBehaviour
         {
             case GameState.SKINNING:
                 title = "Skinning";
-                StartCoroutine(Skinning());
-                break;
-            case GameState.TANNING:
-                title = "Tanning";
+                StartCoroutine(skinningController.SkinningGameplay());
                 break;
             case GameState.FORMING:
                 title = "Forming";
+                StartCoroutine(formingController.FormingGameplay());
                 break;
             case GameState.STITCHING:
                 title = "Stitching";
-                break;
-            case GameState.MOUNTING:
-                title = "Mounting";
+                StartCoroutine(stitchingController.StitchingGameplay());
                 break;
             default:
                 title = "";
@@ -83,20 +84,6 @@ public class GameplayController : MonoBehaviour
         ui.SetUI(title);
 
     }
-
-
-    //Skinning
-    public IEnumerator Skinning()
-    {
-        GameObject razor = Instantiate(razorPrefab);
-
-        while (!isComplete)
-        {
-            yield return null;
-        }
-    }
-
-
 
 
 
