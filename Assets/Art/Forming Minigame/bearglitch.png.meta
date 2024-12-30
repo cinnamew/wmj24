@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bearglitch_0: -5513032306122263001
+      bearglitch_1: -5413176308257058882
+      bearglitch_2: 3399859226188106999
+      bearglitch_3: 8437249423360854672
+      bearglitch_4: -480029944613804867
+      bearglitch_5: -2850593962351330974
+      bearglitch_6: -4743031808271309186
+      bearglitch_7: 2924963174119317663
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

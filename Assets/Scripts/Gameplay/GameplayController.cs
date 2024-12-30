@@ -37,7 +37,6 @@ public class GameplayController : MonoBehaviour
     public GameObject player;
     public bool isComplete;
 
-
     void Start()
     {
         ui = GetComponent<GameplayUI>();
@@ -53,13 +52,13 @@ public class GameplayController : MonoBehaviour
     private void GameStart()
     {
         player = Instantiate(playerPrefab);
-        GameActive(1);
+        GameActive();
 
     }
 
-    public void GameActive(int index)
+    public void GameActive()
     {
-        currentState = (GameState)index;
+        currentState = (GameState)1;
         isComplete = false;
 
         string title = "";
@@ -72,7 +71,7 @@ public class GameplayController : MonoBehaviour
                 break;
             case GameState.FORMING:
                 title = "Forming";
-                StartCoroutine(formingController.FormingGameplay());
+                StartCoroutine(formingController.FormingGameplay(nextScene));
                 break;
             case GameState.STITCHING:
                 SceneManager.LoadScene(nextScene);
@@ -88,12 +87,6 @@ public class GameplayController : MonoBehaviour
 
     }
 
-
-    IEnumerator Glitch()
-    {
-
-        yield return null;
-    }
 
 
 }

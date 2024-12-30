@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -9,17 +10,23 @@ public class Forming : MonoBehaviour
     public GameObject felting;
     public GameObject feltBase, hand;
     public Sprite baseSprite, handSprite;
-    public Sprite[] bearSprites, catSprites, rabbitSprites;
-    public Sprite bloodyHand;
+    public Sprite[] changeSprites;
+    public Sprite bloodyHand, glitchSprite;
     public GameObject activeClickable, clickablePrefab;
     public float delay, life;
     public int count, stepCount;
 
-    public IEnumerator FormingGameplay()
+    public GameObject phone;
+
+    public IEnumerator FormingGameplay(string nextScene)
     {
         count = 0;
         hand.SetActive(false);
         felting.SetActive(true);
+
+        //Starts call
+        // phone.SetActive(true);
+        // phone.GetComponent<Phone>().Call("domo");
 
         while (!GameplayController.instance.isComplete)
         {
@@ -47,7 +54,8 @@ public class Forming : MonoBehaviour
             yield return null;
         }
 
-        GameplayController.instance.GameActive(2);  //CHANGE TO NEXT SCENE
+        SceneManager.LoadScene(nextScene);
+        // GameplayController.instance.GameActive();  //CHANGE TO NEXT SCENE
     }
 
     IEnumerator FormButton()
@@ -69,7 +77,7 @@ public class Forming : MonoBehaviour
     public void Clicked()
     {
         count++;
-        if (count >= stepCount) feltBase.GetComponent<SpriteRenderer>().sprite = rabbitSprites[Math.Clamp(count/stepCount, 0, 2)];
+        if (count >= stepCount) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count/stepCount, 0, 2)];
         StartCoroutine(ShowHand());
         ClearFormButton();
     }
@@ -86,9 +94,11 @@ public class Forming : MonoBehaviour
         hand.transform.position = activeClickable.transform.position;
         if(count == stepCount || count == stepCount*2)
         {
+            if (glitchSprite != null) feltBase.GetComponent<SpriteRenderer>().sprite = glitchSprite;
             hand.GetComponent<SpriteRenderer>().sprite = bloodyHand;
             yield return new WaitForSeconds(.3f);
             hand.GetComponent<SpriteRenderer>().sprite = handSprite;
+            if(glitchSprite != null) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count/stepCount, 0, 2)];
         }
         yield return new WaitForSeconds(.5f);
         hand.SetActive(false);

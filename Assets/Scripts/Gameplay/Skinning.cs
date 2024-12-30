@@ -20,7 +20,7 @@ public class Skinning : MonoBehaviour
         bunny.GetComponent<SpriteRenderer>().sprite = bunnyEnd;
         skinning.SetActive(false);
 
-        GameplayController.instance.GameActive(1);
+        GameplayController.instance.GameActive();
     }
 
 }

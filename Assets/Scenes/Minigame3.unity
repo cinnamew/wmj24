@@ -2989,7 +2989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8babd2257b1d6484aa65b75d773d73d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Home2
+  nextScene: Home3
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
@@ -3062,11 +3062,11 @@ MonoBehaviour:
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
   handSprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
   changeSprites:
-  - {fileID: -8384973831825190149, guid: 25ae882590b1f49b19eb326ae634521b, type: 3}
-  - {fileID: 1322362134426298308, guid: 4282c9ce28f944cfe810e1cd26a298c6, type: 3}
-  - {fileID: -5771926045132695653, guid: 60afe444bb2864ea1bb942737c86ef96, type: 3}
+  - {fileID: -8345435589167100473, guid: 30c9b95968e804f978b2d05200a04ad7, type: 3}
+  - {fileID: 4388439379732790877, guid: 7c09ec30774244bc08202bdf81945760, type: 3}
+  - {fileID: 8862088391488173714, guid: b074b212e6e194ed6b7d0ac685a1cc37, type: 3}
   bloodyHand: {fileID: -960603031636303676, guid: bf3e965d5d139408cad3523f84ca00ed, type: 3}
-  glitchSprite: {fileID: -5513032306122263001, guid: fc38a7fa2849f48a98ec8decd1a059af, type: 3}
+  glitchSprite: {fileID: -6123208370717119994, guid: 1c52762fe76744bd48808da8820b64ab, type: 3}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}
   delay: 1
