@@ -3379,7 +3379,6 @@ GameObject:
   - component: {fileID: 1785132608}
   - component: {fileID: 1785132607}
   - component: {fileID: 1785132606}
-  - component: {fileID: 1785132609}
   m_Layer: 0
   m_Name: Flowchart (1)
   m_TagString: Untagged
@@ -5071,7 +5070,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1785132608}
+  - {fileID: 1785132605}
   selectedCommands: []
   variables: []
   description: 
@@ -5249,7 +5248,7 @@ MonoBehaviour:
   itemId: 934
   blockName: end
   description: 
-  eventHandler: {fileID: 1785132609}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1785132604}
   - {fileID: 1785132603}
@@ -5319,21 +5318,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1785132606}
   suppressAllAutoSelections: 0
---- !u!114 &1785132609
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785131974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1785132605}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!1 &1799049788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,6 +5682,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6121616369467210206, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: inputSystemUIInputModule
+      value: 
+      objectReference: {fileID: 516289965}
     - target: {fileID: 6571640686812259153, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
       propertyPath: m_Name
       value: day dialogue

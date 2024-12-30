@@ -1,6 +1,5 @@
 // This code is part of the Fungus library (https://github.com/snozbot/fungus)
 // It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)
-
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
@@ -90,9 +89,10 @@ namespace Fungus
             if (writer != null)
             {
                 //print(EventSystem.current.GetComponent<StandaloneInputModule>());
-                if (inputSystemUIInputModule != null && Input.GetButtonDown((inputSystemUIInputModule.current.currentInputModule).submit))
+                //Input.GetButtonDown(((InputSystemUIInputModule)EventSystem.current.currentInputModule).submit)
+                if (inputSystemUIInputModule != null)
                 {
-                    SetNextLineFlag();
+                    if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown("space"))) SetNextLineFlag();
                 }
                 else if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
                     (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
