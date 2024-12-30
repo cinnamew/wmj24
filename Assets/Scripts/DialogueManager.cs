@@ -1,5 +1,6 @@
 using UnityEngine;
 using Fungus;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : Singleton<DialogueManager>
 {
@@ -45,4 +46,12 @@ public class DialogueManager : Singleton<DialogueManager>
         PlayerPrefs.SetInt("death", PlayerPrefs.GetInt("death", 0) + 1);
     }
 
+    public void ChangeToEnding()
+    {
+        if (PlayerPrefs.GetInt("death") > PlayerPrefs.GetInt("delusion"))
+        {
+            SceneManager.LoadScene("Death End");
+        }
+        else SceneManager.LoadScene("Delusion End");
+    }
 }

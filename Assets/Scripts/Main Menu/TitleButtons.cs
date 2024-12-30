@@ -23,6 +23,8 @@ public class TitleButtons : MonoBehaviour
 
     public void Play()
     {
+        PlayerPrefs.SetInt("death", 0);
+        PlayerPrefs.SetInt("delusion", 0);
         SceneManager.LoadScene(firstScene);
     }
 
