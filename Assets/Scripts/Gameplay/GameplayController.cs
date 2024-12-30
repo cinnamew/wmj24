@@ -51,7 +51,7 @@ public class GameplayController : MonoBehaviour
     private void GameStart()
     {
         player = Instantiate(playerPrefab);
-        GameActive(0);
+        GameActive(1);
 
     }
 

@@ -8,8 +8,9 @@ public class Forming : MonoBehaviour
 {
     public GameObject felting;
     public GameObject feltBase, hand;
-    public Sprite baseSprite;
+    public Sprite baseSprite, handSprite;
     public Sprite[] bearSprites, catSprites, rabbitSprites;
+    public Sprite bloodyHand;
     public GameObject activeClickable, clickablePrefab;
     public float delay, life;
     public int count, stepCount;
@@ -46,7 +47,7 @@ public class Forming : MonoBehaviour
             yield return null;
         }
 
-        GameplayController.instance.GameActive(2);
+        GameplayController.instance.GameActive(2);  //CHANGE TO NEXT SCENE
     }
 
     IEnumerator FormButton()
@@ -83,6 +84,12 @@ public class Forming : MonoBehaviour
     {
         hand.SetActive(true);
         hand.transform.position = activeClickable.transform.position;
+        if(count == stepCount || count == stepCount*2)
+        {
+            hand.GetComponent<SpriteRenderer>().sprite = bloodyHand;
+            yield return new WaitForSeconds(.3f);
+            hand.GetComponent<SpriteRenderer>().sprite = handSprite;
+        }
         yield return new WaitForSeconds(.5f);
         hand.SetActive(false);
     }

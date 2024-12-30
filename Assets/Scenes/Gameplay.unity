@@ -1026,7 +1026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1341124937
 Transform:
   m_ObjectHideFlags: 0
@@ -1293,6 +1293,7 @@ MonoBehaviour:
   feltBase: {fileID: 535158603}
   hand: {fileID: 772284425}
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
+  handSprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
   bearSprites:
   - {fileID: -8384973831825190149, guid: 25ae882590b1f49b19eb326ae634521b, type: 3}
   - {fileID: 1322362134426298308, guid: 4282c9ce28f944cfe810e1cd26a298c6, type: 3}
@@ -1305,6 +1306,7 @@ MonoBehaviour:
   - {fileID: 5425306608427372515, guid: daa89c8d14acf4548b7790076ca73a81, type: 3}
   - {fileID: 1496096794336910866, guid: c59fae93c773a4f37bab5be4736e57fe, type: 3}
   - {fileID: -7196900697414554543, guid: ae0108f49a0f3499eb9ccefa7c1e19c8, type: 3}
+  bloodyHand: {fileID: -4998218797367720841, guid: fbd33d78624ab4569aee4a508fd02aaf, type: 3}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}
   delay: 1
