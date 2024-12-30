@@ -13,12 +13,14 @@ public class Skinning : MonoBehaviour
 
         while (!GameplayController.instance.isComplete)
         {
+            if(Input.GetMouseButtonDown(0)) GameplayController.instance.isComplete = true;
             yield return null;
         }
 
         bunny.GetComponent<SpriteRenderer>().sprite = bunnyEnd;
+        skinning.SetActive(false);
+
+        GameplayController.instance.GameActive(1);
     }
-
-
 
 }

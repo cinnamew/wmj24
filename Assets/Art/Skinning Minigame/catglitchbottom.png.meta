@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      catglitchbottom_0: 36281730237640127
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bearglitchbottom_0: 4200401951132430919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
