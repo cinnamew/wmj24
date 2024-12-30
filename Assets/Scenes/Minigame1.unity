@@ -3239,7 +3239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 678dd36c8f3254925b5b6e408ba1c6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _writer: {fileID: 1503114009}
+  _writer: {fileID: 1817052237}
   flowchart: {fileID: 1918942721}
 --- !u!114 &1486730266
 MonoBehaviour:
@@ -3325,17 +3325,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1503114009 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 19223825288338659, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
-  m_PrefabInstance: {fileID: 131489583}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a676940fce6344af1a70043b089a6c14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1590740587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3491,6 +3480,7 @@ GameObject:
   - component: {fileID: 1785132608}
   - component: {fileID: 1785132607}
   - component: {fileID: 1785132606}
+  - component: {fileID: 1785132609}
   m_Layer: 0
   m_Name: Flowchart (1)
   m_TagString: Untagged
@@ -5183,8 +5173,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1785132608}
-  selectedCommands:
-  - {fileID: 1785132606}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5361,7 +5350,7 @@ MonoBehaviour:
   itemId: 934
   blockName: end
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1785132609}
   commandList:
   - {fileID: 1785132604}
   - {fileID: 1785132603}
@@ -5420,7 +5409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 254.11194
     y: 356.79846
-    width: 110.19
+    width: 76.24
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5431,6 +5420,21 @@ MonoBehaviour:
   commandList:
   - {fileID: 1785132606}
   suppressAllAutoSelections: 0
+--- !u!114 &1785132609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785131974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1785132605}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &1799049788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5614,7 +5618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Home1
-  flowchart: {fileID: 1918942721}
+  flowchart: {fileID: 1785132598}
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
@@ -5699,6 +5703,120 @@ MonoBehaviour:
   count: 0
   stepCount: 3
   phone: {fileID: 261046356}
+--- !u!1001 &1817052236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2873847403325163686, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_Text
+      value: "Domo, having a piece of you on me couldn\u2019t make me any happier.
+        I love you I love you I love you I love you I love you I love you I LOVE
+        YOU!!!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166005114927214865, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571640686812259153, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+      propertyPath: m_Name
+      value: day dialogue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+--- !u!114 &1817052237 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 19223825288338659, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+  m_PrefabInstance: {fileID: 1817052236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a676940fce6344af1a70043b089a6c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1913809073
 GameObject:
   m_ObjectHideFlags: 0
@@ -9991,10 +10109,10 @@ SceneRoots:
   - {fileID: 586900342}
   - {fileID: 1486730269}
   - {fileID: 1918942722}
-  - {fileID: 131489583}
   - {fileID: 1785132599}
   - {fileID: 276185702}
   - {fileID: 2099486886}
   - {fileID: 2141042217}
   - {fileID: 2017057193}
   - {fileID: 1666309427}
+  - {fileID: 1817052236}
