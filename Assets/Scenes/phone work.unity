@@ -893,8 +893,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163.76057, y: 0}
-  m_SizeDelta: {x: 516.2964, y: 746.3818}
+  m_AnchoredPosition: {x: -171.1649, y: 0.6}
+  m_SizeDelta: {x: 531.1098, y: 742.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &212659070
 MonoBehaviour:
@@ -944,9 +944,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3302830503435636147, guid: 9a7c7bcfaddac4993a208d905a4cd35a, type: 2}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 63d3d4755234e44508b4759e5559cbe6, type: 3}
+  m_Resource: {fileID: 8300000, guid: 63d3d4755234e44508b4759e5559cbe6, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1112,7 +1112,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &258615720
 RectTransform:
@@ -1211,13 +1211,14 @@ GameObject:
   m_Component:
   - component: {fileID: 280228258}
   - component: {fileID: 280228259}
+  - component: {fileID: 280228260}
   m_Layer: 5
   m_Name: phone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &280228258
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1337,6 +1338,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &280228260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280228257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a26f865877342c885bb65fd1b72c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  workNum: 1
+  callNum: 1
+  audioSource: {fileID: 280228259}
 --- !u!1 &314026355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,7 +2848,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 900624389}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &900624389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3362,7 +3390,7 @@ GameObject:
   - component: {fileID: 1063147808}
   - component: {fileID: 1063147807}
   m_Layer: 0
-  m_Name: Offscreen Right
+  m_Name: right (phone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3384,8 +3412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1452.8551, y: -1204}
-  m_SizeDelta: {x: 1117.5808, y: 1117.5808}
+  m_AnchoredPosition: {x: 792, y: -1058.3}
+  m_SizeDelta: {x: 1117.5808, y: 975.6125}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1063147807
 MonoBehaviour:
@@ -3407,7 +3435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: -3852080275182671534, guid: 0c6084abfd58243fdb0a64ab8bb39003, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -5352,7 +5380,7 @@ GameObject:
   - component: {fileID: 1686427138}
   - component: {fileID: 1686427137}
   m_Layer: 0
-  m_Name: Offscreen Left
+  m_Name: middle (phone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5374,8 +5402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1452.8549, y: -1204}
-  m_SizeDelta: {x: 1117.5808, y: 1117.5808}
+  m_AnchoredPosition: {x: 186, y: -950}
+  m_SizeDelta: {x: 1079.4017, y: 921.394}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1686427137
 MonoBehaviour:
@@ -5390,14 +5418,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: -3852080275182671534, guid: 0c6084abfd58243fdb0a64ab8bb39003, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -5916,6 +5944,7 @@ GameObject:
   - component: {fileID: 1715772468}
   - component: {fileID: 1715772469}
   - component: {fileID: 1715772471}
+  - component: {fileID: 1715772470}
   - component: {fileID: 1715772472}
   - component: {fileID: 1715772474}
   - component: {fileID: 1715772476}
@@ -6007,8 +6036,6 @@ GameObject:
   - component: {fileID: 1715772670}
   - component: {fileID: 1715772720}
   - component: {fileID: 1715772718}
-  - component: {fileID: 1715772724}
-  - component: {fileID: 1715772725}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6064,11 +6091,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -354.7121, y: -112.24352}
+  scrollPos: {x: 54.303665, y: 1.6679206}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
-  zoom: 0.92350054
+  zoom: 0.6970014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6076,9 +6103,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1715772415}
+  - {fileID: 1715771875}
   selectedCommands:
-  - {fileID: 1715772468}
+  - {fileID: 1715771878}
   variables: []
   description: 
   stepPause: 0
@@ -7057,7 +7084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 283
+    x: 284.53964
     y: 344
     width: 87.25
     height: 40
@@ -7477,7 +7504,7 @@ MonoBehaviour:
   itemId: 58
   indentLevel: 0
   storyText: '{i}However, just as quickly as her face lifts, I notice her expression
-    l vanish, replaced with a new one both tensed and unamused. '
+    l vanish, replaced with a new one both tense and unamused. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8628,7 +8655,7 @@ MonoBehaviour:
   itemId: 94
   indentLevel: 0
   storyText: "{i}A spark of annoyance flares up inside me -- why won\u2019t Domo
-    communicate? -- But I snuff it out and focus on the TV.{wc}Ahh, I love Mailer
+    communicate? -- but I snuff it out and focus on the TV.{wc}Ahh, I love Mailer
     Soon! Always wanted to be a magical girl."
   description: 
   character: {fileID: 0}
@@ -19142,7 +19169,7 @@ MonoBehaviour:
   itemId: 577
   blockName: home3 later
   description: 
-  eventHandler: {fileID: 1715772724}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1715772465}
   - {fileID: 1715772466}
@@ -19150,7 +19177,7 @@ MonoBehaviour:
   - {fileID: 1715772468}
   - {fileID: 1715772469}
   - {fileID: 1715772483}
-  - {fileID: 1715772725}
+  - {fileID: 1715772470}
   - {fileID: 1715772471}
   - {fileID: 1715772474}
   - {fileID: 1715772472}
@@ -20268,6 +20295,62 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1715772470
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715771830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 633
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 725815969}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1715772471
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22979,77 +23062,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1715772718}
   suppressAllAutoSelections: 0
---- !u!114 &1715772724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715771830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1715772415}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
---- !u!114 &1715772725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715771830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 882
-  indentLevel: 0
-  description: 
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 725815969}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1726091304
 GameObject:
   m_ObjectHideFlags: 0
@@ -23977,8 +23989,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163.76, y: -255}
-  m_SizeDelta: {x: 130, y: 130}
+  m_AnchoredPosition: {x: -171.16, y: -240.51}
+  m_SizeDelta: {x: 172.7305, y: 172.7305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976897859
 MonoBehaviour:
@@ -24023,7 +24035,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1976897860}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 280228260}
+        m_TargetAssemblyTypeName: Phone, Assembly-CSharp
+        m_MethodName: PickUpCall
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 280228259}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1976897860
 MonoBehaviour:
   m_ObjectHideFlags: 0
