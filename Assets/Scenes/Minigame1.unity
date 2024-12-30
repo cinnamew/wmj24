@@ -3379,6 +3379,7 @@ GameObject:
   - component: {fileID: 1785132608}
   - component: {fileID: 1785132607}
   - component: {fileID: 1785132606}
+  - component: {fileID: 1785132609}
   m_Layer: 0
   m_Name: Flowchart (1)
   m_TagString: Untagged
@@ -5070,8 +5071,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1785132608}
-  selectedCommands: []
+  - {fileID: 1785132605}
+  selectedCommands:
+  - {fileID: 1785132609}
   variables: []
   description: 
   stepPause: 0
@@ -5250,6 +5252,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1785132609}
   - {fileID: 1785132604}
   - {fileID: 1785132603}
   - {fileID: 1785132602}
@@ -5318,6 +5321,24 @@ MonoBehaviour:
   commandList:
   - {fileID: 1785132606}
   suppressAllAutoSelections: 0
+--- !u!114 &1785132609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785131974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 937
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &1799049788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5588,6 +5609,7 @@ MonoBehaviour:
   phone: {fileID: 261046356}
   animations: []
   animators: []
+  maxCount: 4
 --- !u!1001 &1817052236
 PrefabInstance:
   m_ObjectHideFlags: 0

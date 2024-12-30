@@ -1198,7 +1198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5862476, g: 0.5825027, b: 0.6603774, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1440,7 +1440,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
+  m_Sprite: {fileID: -5232054832569766298, guid: be5b12f161d99409b9f206a4e413713b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1460,8 +1460,8 @@ Transform:
   m_GameObject: {fileID: 535158603}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.021297, y: 8.653822, z: -0.8110386}
-  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
+  m_LocalPosition: {x: -2.6985, y: 8.8422, z: -0.8110386}
+  m_LocalScale: {x: 2.049662, y: 2.049662, z: 1.1387011}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 920109150}
@@ -1612,8 +1612,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -7526398708962899003, guid: 9a7c7bcfaddac4993a208d905a4cd35a, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 17a1adabb3f024479a88b7d05a90f3fb, type: 3}
-  m_Resource: {fileID: 8300000, guid: 17a1adabb3f024479a88b7d05a90f3fb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 204b1b6c963674434b70bda69e1d0e6c, type: 3}
+  m_Resource: {fileID: 8300000, guid: 204b1b6c963674434b70bda69e1d0e6c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2464,6 +2464,7 @@ GameObject:
   - component: {fileID: 993440455}
   - component: {fileID: 993440454}
   - component: {fileID: 993440456}
+  - component: {fileID: 993440457}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2629,7 +2630,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 254.25296
-    y: 515.26794
+    y: 513.86145
     width: 89.41
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2797,7 +2798,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 993440455}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 993440457}
   variables: []
   description: 
   stepPause: 0
@@ -2869,6 +2871,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 993440457}
   - {fileID: 993440454}
   - {fileID: 993440456}
   suppressAllAutoSelections: 0
@@ -2928,6 +2931,37 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &993440457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993439824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 937
+  indentLevel: 0
+  storyText: '{i}I try to call my recurring customer for advice or clarification
+    on what''s happening, on these strange and horrifying things I''m seeing.{wc}But
+    when I try to call the number, my phone gives an error, saying the user does
+    not exist.{wc}My mind begins reeling. {wi}What was happening? Did they block
+    me? {wc}Or did they just never exist...?'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &998400398
 GameObject:
   m_ObjectHideFlags: 0
@@ -4383,6 +4417,7 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 13f53ba404b5549c6b35cbff84c7f4ef, type: 2}
   - {fileID: 9100000, guid: 7d5c65c621f084ec8ac42772b38ba731, type: 2}
   - {fileID: 9100000, guid: b954a5fae36504f8990b599c7694a6dd, type: 2}
+  maxCount: 4
 --- !u!1 &1923056846
 GameObject:
   m_ObjectHideFlags: 0

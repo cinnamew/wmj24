@@ -21,6 +21,9 @@ public class Forming : MonoBehaviour
     public AnimationClip[] animations;
     public RuntimeAnimatorController[] animators;
 
+    [SerializeField] int maxCount = 4;
+
+
     public IEnumerator FormingGameplay(Flowchart flowchart)
     {
         count = 0;
@@ -31,6 +34,7 @@ public class Forming : MonoBehaviour
         {
             feltBase.AddComponent<Animator>().runtimeAnimatorController = animators[0];
             feltBase.AddComponent<Animation>().clip = animations[0];
+            maxCount = 5;
         }
 
         // phone.SetActive(true);
@@ -38,7 +42,7 @@ public class Forming : MonoBehaviour
 
         while (!GameplayController.instance.isComplete)
         {
-            if (count >= 4 * stepCount)
+            if (count > maxCount * stepCount)
             {
                 GameplayController.instance.isComplete = true;
             }
@@ -87,12 +91,13 @@ public class Forming : MonoBehaviour
         count++;
         if (count >= stepCount)
         {
+            //print(Math.Clamp(count / stepCount, 0, 2));
             if (SceneManager.GetSceneByName("Minigame4") == SceneManager.GetActiveScene())
             {
-                feltBase.GetComponent<Animator>().runtimeAnimatorController = animators[Math.Clamp(count / stepCount, 0, 2)];
-                feltBase.GetComponent<Animation>().clip = animations[Math.Clamp(count / stepCount, 0, 2)];
+                feltBase.GetComponent<Animator>().runtimeAnimatorController = animators[Math.Clamp(count / stepCount, 0, 3)];
+                feltBase.GetComponent<Animation>().clip = animations[Math.Clamp(count / stepCount, 0, 3)];
             }
-            else feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 2)];
+            else feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 3) - 1];
         }
         StartCoroutine(ShowHand());
         ClearFormButton();
@@ -114,7 +119,7 @@ public class Forming : MonoBehaviour
             hand.GetComponent<SpriteRenderer>().sprite = bloodyHand;
             yield return new WaitForSeconds(.3f);
             hand.GetComponent<SpriteRenderer>().sprite = handSprite;
-            if (glitchSprite != null) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 2)];
+            if (glitchSprite != null && changeSprites.Length > 0) feltBase.GetComponent<SpriteRenderer>().sprite = changeSprites[Math.Clamp(count / stepCount, 0, 3) - 1];
         }
         yield return new WaitForSeconds(.5f);
         hand.SetActive(false);

@@ -1596,8 +1596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0011418, y: 0.00069237}
-  m_SizeDelta: {x: 800, y: 449.88}
+  m_AnchoredPosition: {x: -1.7221, y: 0.9685}
+  m_SizeDelta: {x: 878.937, y: 494.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328752377
 MonoBehaviour:
@@ -6256,7 +6256,6 @@ GameObject:
   - component: {fileID: 1715772771}
   - component: {fileID: 1715772772}
   - component: {fileID: 1715772773}
-  - component: {fileID: 1715772774}
   - component: {fileID: 1715772775}
   - component: {fileID: 1715772776}
   - component: {fileID: 1715772777}
@@ -6281,7 +6280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -570.7284, y: -1.2598648}
+  scrollPos: {x: -495.83072, y: -78.49805}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
@@ -6292,8 +6291,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1715772389}
+  selectedCommands:
+  - {fileID: 1715772398}
   variables: []
   description: 
   stepPause: 0
@@ -6962,12 +6963,12 @@ MonoBehaviour:
   - {fileID: 1715772484}
   - {fileID: 1715772344}
   - {fileID: 1715772347}
+  - {fileID: 1715772773}
   - {fileID: 1715772346}
   - {fileID: 1715772348}
   - {fileID: 1715772349}
   - {fileID: 1715772350}
   - {fileID: 1715772351}
-  - {fileID: 1715772773}
   - {fileID: 1715772352}
   - {fileID: 1715772353}
   - {fileID: 1715772354}
@@ -7784,7 +7785,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1715772388}
   - {fileID: 1715772384}
-  - {fileID: 1715772774}
   - {fileID: 1715772385}
   - {fileID: 1715772395}
   - {fileID: 1715772386}
@@ -10415,74 +10415,6 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1715772774
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715771830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 930
-  indentLevel: 0
-  description: set music
-  delay: 0
-  invokeType: 0
-  staticEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 146831176}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: set_clip
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: b290bc65b4bcb4d19a744ab63ffff3a8, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 146831176}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  booleanParameter:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  booleanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  integerParameter:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  integerEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  floatParameter:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  floatEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  stringParameter:
-    stringRef: {fileID: 0}
-    stringVal: 
-  stringEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1715772775
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10490,7 +10422,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1715771830}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
   m_Name: 

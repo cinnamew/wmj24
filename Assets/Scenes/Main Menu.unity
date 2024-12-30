@@ -4097,7 +4097,7 @@ MonoBehaviour:
 
     adexia: writing
 
-    fightlight55:
+    jcrose:
     minigame code
 
 
@@ -6437,7 +6437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2145029935
 RectTransform:
   m_ObjectHideFlags: 0

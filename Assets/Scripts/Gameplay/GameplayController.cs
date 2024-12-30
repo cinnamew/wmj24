@@ -47,11 +47,11 @@ public class GameplayController : MonoBehaviour
         formingController = GetComponent<Forming>();
         stitchingController = GetComponent<Stitching>();
 
-        GameStart();
+        if (SceneManager.GetActiveScene().name != "Minigame3") GameStart();
     }
 
 
-    private void GameStart()
+    public void GameStart()
     {
         player = Instantiate(playerPrefab);
         GameActive();
