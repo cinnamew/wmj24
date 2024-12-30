@@ -3,6 +3,8 @@
 
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.UI;
+
 
 namespace Fungus
 {
@@ -45,6 +47,7 @@ namespace Fungus
         protected float ignoreClickTimer;
 
         protected StandaloneInputModule currentStandaloneInputModule;
+        [SerializeField] protected InputSystemUIInputModule inputSystemUIInputModule;
 
         protected Writer writer;
 
@@ -86,7 +89,12 @@ namespace Fungus
 
             if (writer != null)
             {
-                if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
+                //print(EventSystem.current.GetComponent<StandaloneInputModule>());
+                if (inputSystemUIInputModule != null && Input.GetButtonDown((inputSystemUIInputModule.current.currentInputModule).submit))
+                {
+                    SetNextLineFlag();
+                }
+                else if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
                     (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
                 {
                     SetNextLineFlag();
