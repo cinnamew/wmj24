@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Work1VN.unity
     guid: db765191011574ecda1caa0f0392871b
   - enabled: 1
-    path: Assets/Scenes/Gameplay.unity
+    path: Assets/Scenes/Minigame1.unity
     guid: c6987673622a44a5da2fecfd688e26a6
   - enabled: 1
     path: Assets/Scenes/Home1.unity
@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Work2VN.unity
     guid: 208289d908490472786f9adf3c1060db
+  - enabled: 1
+    path: Assets/Scenes/Minigame2.unity
+    guid: 8ee484df9892345f1a85d950d8e90da0
   - enabled: 1
     path: Assets/Scenes/Home2.unity
     guid: f5c0425b8304f4a0e9845b5be09d1cfc

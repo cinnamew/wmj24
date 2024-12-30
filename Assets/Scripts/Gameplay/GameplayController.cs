@@ -1,9 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameplayController : MonoBehaviour
 {
     public static GameplayController instance;
+    [SerializeField] string nextScene;
 
     private void Awake()
     {
@@ -73,6 +75,7 @@ public class GameplayController : MonoBehaviour
                 StartCoroutine(formingController.FormingGameplay());
                 break;
             case GameState.STITCHING:
+                SceneManager.LoadScene(nextScene);
                 title = "Stitching";
                 StartCoroutine(stitchingController.StitchingGameplay());
                 break;

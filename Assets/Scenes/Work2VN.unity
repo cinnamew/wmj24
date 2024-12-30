@@ -6827,9 +6827,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1715771832}
+  - {fileID: 1715771986}
   selectedCommands:
-  - {fileID: 1715772775}
+  - {fileID: 1715772776}
   variables: []
   description: 
   stepPause: 0
@@ -25382,7 +25382,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Home2
+    stringVal: Minigame2
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1715772777

@@ -6681,7 +6681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 162.86159, y: 34.423466}
+  scrollPos: {x: 89.900185, y: 4.380539}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
@@ -25206,7 +25206,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Home1
+    stringVal: Minigame1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!1 &1726091304
