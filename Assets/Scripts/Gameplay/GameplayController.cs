@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Fungus;
 
 public class GameplayController : MonoBehaviour
 {
     public static GameplayController instance;
     [SerializeField] string nextScene;
+    [SerializeField] Flowchart flowchart;
 
     private void Awake()
     {
@@ -74,7 +76,9 @@ public class GameplayController : MonoBehaviour
                 StartCoroutine(formingController.FormingGameplay(nextScene));
                 break;
             case GameState.STITCHING:
-                SceneManager.LoadScene(nextScene);
+                //if (nextScene != "END") SceneManager.LoadScene(nextScene);
+                //else DialogueManager.Instance.ChangeToEnding();
+                flowchart.ExecuteBlock("end");
                 title = "Stitching";
                 StartCoroutine(stitchingController.StitchingGameplay());
                 break;

@@ -805,7 +805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click the screen when prompted. You're felting a beautiful animal!
+  m_text: Click the screen when prompted. You're felting a beautiful Domo!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3155d4a387d647b8bd322d821b93aaf, type: 2}
   m_sharedMaterial: {fileID: 1603448207983653725, guid: a3155d4a387d647b8bd322d821b93aaf, type: 2}
@@ -2989,7 +2989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8babd2257b1d6484aa65b75d773d73d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Home1
+  nextScene: END
+  flowchart: {fileID: 1918942721}
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
@@ -3060,12 +3061,12 @@ MonoBehaviour:
   feltBase: {fileID: 535158603}
   hand: {fileID: 772284425}
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
-  handSprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  handSprite: {fileID: -3802154098315920397, guid: c22f8c95cd89f4ac1baa9835459a684d, type: 3}
   changeSprites:
   - {fileID: 5425306608427372515, guid: daa89c8d14acf4548b7790076ca73a81, type: 3}
   - {fileID: 1496096794336910866, guid: c59fae93c773a4f37bab5be4736e57fe, type: 3}
   - {fileID: -7196900697414554543, guid: ae0108f49a0f3499eb9ccefa7c1e19c8, type: 3}
-  bloodyHand: {fileID: -960603031636303676, guid: bf3e965d5d139408cad3523f84ca00ed, type: 3}
+  bloodyHand: {fileID: -4998218797367720841, guid: fbd33d78624ab4569aee4a508fd02aaf, type: 3}
   glitchSprite: {fileID: 0}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}
@@ -3712,6 +3713,9 @@ GameObject:
   - component: {fileID: 1918942093}
   - component: {fileID: 1918942092}
   - component: {fileID: 1918942723}
+  - component: {fileID: 1918942726}
+  - component: {fileID: 1918942725}
+  - component: {fileID: 1918942724}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -22260,9 +22264,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1918942099}
+  - {fileID: 1918942726}
   selectedCommands:
-  - {fileID: 1918942095}
+  - {fileID: 1918942724}
   variables: []
   description: 
   stepPause: 0
@@ -22291,7 +22295,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1918942723
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22304,6 +22308,110 @@ MonoBehaviour:
   parentBlock: {fileID: 1918942099}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &1918942724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918942091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 936
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1486730265}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: ChangeToEnding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1918942725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918942091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 935
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &1918942726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918942091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 236.31354
+    y: 239.22224
+    width: 71.47
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 934
+  blockName: end
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1918942725}
+  - {fileID: 1918942724}
+  suppressAllAutoSelections: 0
 --- !u!1 &1923056846
 GameObject:
   m_ObjectHideFlags: 0
@@ -22320,7 +22428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1923056847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22748,8 +22856,8 @@ Camera:
   m_GameObject: {fileID: 2139081910}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
