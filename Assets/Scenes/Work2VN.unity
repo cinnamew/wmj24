@@ -6752,6 +6752,7 @@ GameObject:
   - component: {fileID: 1715772778}
   - component: {fileID: 1715772777}
   - component: {fileID: 1715772776}
+  - component: {fileID: 1715772779}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6828,8 +6829,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1715771986}
-  selectedCommands:
-  - {fileID: 1715772776}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -10873,6 +10873,7 @@ MonoBehaviour:
   - {fileID: 1715772740}
   - {fileID: 1715771988}
   - {fileID: 1715771987}
+  - {fileID: 1715772779}
   - {fileID: 1715771989}
   - {fileID: 1715771990}
   - {fileID: 1715771991}
@@ -10904,9 +10905,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  storyText: "Hello, you\u2019ve reached Dermimi\u2019s!"
+  storyText: '{i}I get another call as soon as I enter my little shop. It''s the
+    same customer from yesterday, and I pick up to see if they have any more instructions
+    for me.'
   description: 
-  character: {fileID: 949669857}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -25425,6 +25428,33 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1715772779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715771830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 937
+  indentLevel: 0
+  storyText: "Hello, you\u2019ve reached Dermimi\u2019s!"
+  description: 
+  character: {fileID: 949669857}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1792722746}
 --- !u!1 &1726091304
 GameObject:
   m_ObjectHideFlags: 0
