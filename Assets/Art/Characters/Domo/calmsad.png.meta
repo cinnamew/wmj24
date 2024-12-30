@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      calmsad_0: 8082453943085716577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

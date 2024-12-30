@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horrorbg_0: 8141569580598208216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

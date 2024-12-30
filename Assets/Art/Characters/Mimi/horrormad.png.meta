@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horrormad_0: 4825674607952389918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

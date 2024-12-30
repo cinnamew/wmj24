@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ririphone_0: -3852080275182671534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

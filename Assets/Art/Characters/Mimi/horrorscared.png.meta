@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      horrorscared_0: 1225836245614476999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

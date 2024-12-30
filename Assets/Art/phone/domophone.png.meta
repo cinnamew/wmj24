@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      domophone_0: 3143901666125594149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

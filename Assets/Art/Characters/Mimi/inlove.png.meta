@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      inlove_0: -7199021442690127456
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
