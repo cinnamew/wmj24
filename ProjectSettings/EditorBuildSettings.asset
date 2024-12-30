@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Delusion End.unity
     guid: 0555198ea4c9d4a06b3189a1fd84c408
   - enabled: 0
-    path: Assets/Scenes/VN Basics.unity
+    path: Assets/Scenes/deprecated scenes/VN Basics.unity
     guid: c8d0196fad7ce49c88697fc112ba33b9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

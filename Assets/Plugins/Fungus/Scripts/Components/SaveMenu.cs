@@ -111,6 +111,7 @@ namespace Fungus
 
         protected virtual void Update()
         {
+            if(SceneManager.GetActiveScene().name == "Main Menu") Destroy(this.gameObject);
             var saveManager = FungusManager.Instance.SaveManager;
 
             // Hide the Save and Load buttons if autosave is on
