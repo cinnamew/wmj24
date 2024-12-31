@@ -37,7 +37,7 @@ public class Forming : MonoBehaviour
             feltBase.AddComponent<Animation>().clip = animations[0];
             maxCount = 5;
         }
-        else
+        else if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
         {
             phone.SetActive(true);
             phone.GetComponent<Phone>().Call("domo");
