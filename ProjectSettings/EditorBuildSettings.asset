@@ -40,13 +40,16 @@ EditorBuildSettings:
     guid: 09482b1618b8b4fb5bd01599bda7f717
   - enabled: 1
     path: Assets/Scenes/Minigame4.unity
-    guid: c987ddc166d0998468fee6af622ddfe3
+    guid: ebd5ecac49cf060498ff2de88f8f3abe
   - enabled: 1
     path: Assets/Scenes/Death End.unity
     guid: aaca1e3fe69c34c9c8785df4e5034249
   - enabled: 1
     path: Assets/Scenes/Delusion End.unity
     guid: 0555198ea4c9d4a06b3189a1fd84c408
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 9b29f50a0ca23469291a38d94eb5a4aa
   - enabled: 0
     path: Assets/Scenes/deprecated scenes/VN Basics.unity
     guid: c8d0196fad7ce49c88697fc112ba33b9

@@ -3741,8 +3741,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1250590303}
   m_HandleRect: {fileID: 1250590302}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.50595754
+  m_Value: 0.9999999
+  m_Size: 0.49973956
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5715,7 +5715,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1715772517}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1715772778}
   variables: []
   description: 
   stepPause: 0
@@ -8432,7 +8433,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Main Menu
+    stringVal: Credits
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1715772779
