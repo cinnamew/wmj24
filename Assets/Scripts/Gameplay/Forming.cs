@@ -20,6 +20,7 @@ public class Forming : MonoBehaviour
     public GameObject phone;
     public AnimationClip[] animations;
     public RuntimeAnimatorController[] animators;
+    public GameObject dialogue;
 
     [SerializeField] int maxCount = 4;
 
@@ -36,30 +37,36 @@ public class Forming : MonoBehaviour
             feltBase.AddComponent<Animation>().clip = animations[0];
             maxCount = 5;
         }
+        else
+        {
+            phone.SetActive(true);
+            phone.GetComponent<Phone>().Call("domo");
+        }
 
-        // phone.SetActive(true);
-        // phone.GetComponent<Phone>().Call("domo");
 
         while (!GameplayController.instance.isComplete)
         {
-            if (count > maxCount * stepCount)
+            if (!dialogue.activeSelf && !phone.activeSelf)
             {
-                GameplayController.instance.isComplete = true;
-            }
-
-            if (activeClickable == null)
-            {
-                yield return new WaitForSeconds(delay);
-                FormButton();
-            }
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit2D hit = Physics2D.Raycast(ray.origin, Vector3.forward);
-                if (hit.collider.gameObject == activeClickable)
+                if (count > maxCount * stepCount)
                 {
-                    Clicked();
+                    GameplayController.instance.isComplete = true;
+                }
+
+                if (activeClickable == null)
+                {
+                    yield return new WaitForSeconds(delay);
+                    FormButton();
+                }
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit2D hit = Physics2D.Raycast(ray.origin, Vector3.forward);
+                    if (hit.collider.gameObject == activeClickable)
+                    {
+                        Clicked();
+                    }
                 }
             }
 

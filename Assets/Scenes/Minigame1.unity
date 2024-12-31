@@ -5609,7 +5609,13 @@ MonoBehaviour:
   phone: {fileID: 261046356}
   animations: []
   animators: []
+  dialogue: {fileID: 1814007241}
   maxCount: 4
+--- !u!1 &1814007241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6571640686812259153, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
+  m_PrefabInstance: {fileID: 1817052236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1817052236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5722,7 +5728,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 19223825288338659, guid: 6ecd9470b947e407f99d1efe801d92f4, type: 3}
   m_PrefabInstance: {fileID: 1817052236}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1814007241}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a676940fce6344af1a70043b089a6c14, type: 3}
