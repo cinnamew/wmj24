@@ -4658,7 +4658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 0
-  storyText: Okay, see you soon then.{wc}Miss you.
+  storyText: Okay, see you soon then.{wc}Miss you. Please come back soon.
   description: 
   character: {fileID: 574489395}
   portrait: {fileID: 0}
@@ -5286,7 +5286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: ...Sorry, I spaced oUT--
+  storyText: ...Sorry, I spaced oU--
   description: 
   character: {fileID: 574489395}
   portrait: {fileID: 0}
@@ -6059,9 +6059,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1313505285}
-  selectedCommands:
-  - {fileID: 1313505281}
+  - {fileID: 1313505259}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
