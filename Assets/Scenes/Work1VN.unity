@@ -1137,8 +1137,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3302830503435636147, guid: 9a7c7bcfaddac4993a208d905a4cd35a, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 63d3d4755234e44508b4759e5559cbe6, type: 3}
-  m_Resource: {fileID: 8300000, guid: 63d3d4755234e44508b4759e5559cbe6, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2879,7 +2879,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 3302830503435636147, guid: 9a7c7bcfaddac4993a208d905a4cd35a, type: 2}
   m_audioClip: {fileID: 8300000, guid: 63d3d4755234e44508b4759e5559cbe6, type: 3}
   m_Resource: {fileID: 8300000, guid: 63d3d4755234e44508b4759e5559cbe6, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -6256,9 +6256,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1715772768}
+  - {fileID: 1715771832}
   selectedCommands:
-  - {fileID: 1715772772}
+  - {fileID: 1715772737}
   variables: []
   description: 
   stepPause: 0
@@ -7723,7 +7723,7 @@ MonoBehaviour:
   staticEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 31897201}
+      - m_Target: {fileID: 697315449}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
