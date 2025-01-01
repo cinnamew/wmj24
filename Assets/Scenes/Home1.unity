@@ -4228,8 +4228,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1250590303}
   m_HandleRect: {fileID: 1250590302}
   m_Direction: 2
-  m_Value: 0.9999999
-  m_Size: 0.49973956
+  m_Value: 1
+  m_Size: 0.5226707
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6265,7 +6265,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1715771953}
+  - {fileID: 1715771892}
   selectedCommands: []
   variables: []
   description: 
