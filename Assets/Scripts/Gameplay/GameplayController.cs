@@ -60,7 +60,7 @@ public class GameplayController : MonoBehaviour
 
     public void GameActive()
     {
-        currentState = (GameState)1;
+        //currentState = (GameState)1;
         isComplete = false;
 
         string title = "";

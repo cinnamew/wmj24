@@ -6981,7 +6981,7 @@ MonoBehaviour:
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
-  currentState: 1
+  currentState: 0
   playerPrefab: {fileID: 6402946648853323602, guid: 8ed8243c2003743779679e446e8e807c, type: 3}
   razorPrefab: {fileID: 9199897337528227772, guid: e584566270d7a47748113ef4e0583cda, type: 3}
   player: {fileID: 0}
@@ -7030,8 +7030,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinning: {fileID: 1590740587}
   bunny: {fileID: 891286205}
-  bunnyStart: {fileID: -5386167433852183595, guid: 532795974ebfd45a0878556732ff5738, type: 3}
-  bunnyEnd: {fileID: -8195258974467846146, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
+  bunnyStart: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
+  bunnyEnd: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
 --- !u!114 &1812914886
 MonoBehaviour:
   m_ObjectHideFlags: 0
