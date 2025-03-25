@@ -18,14 +18,9 @@ public class Skinning : MonoBehaviour
     
     public float completeThreshold;
 
-    private void Start()
-    {
-        razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
-
-    }
-
     public IEnumerator SkinningGameplay()
     {
+        razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
         skinning.SetActive(true);
         GameObject lineObj = Instantiate(linePrefab, new Vector3(0,0,0), new Quaternion(0,0,0,0));
         LineRenderer line = lineObj.GetComponent<LineRenderer>();

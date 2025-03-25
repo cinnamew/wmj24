@@ -11,7 +11,8 @@ public class Razor : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, -3), new Vector3(GameplayController.instance.player.transform.position.x, GameplayController.instance.player.transform.position.y, -3), speed * Time.deltaTime);
+        transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, 0);
+        //transform.position = Vector3.MoveTowards(new Vector3(transform.position.x, transform.position.y, -3), new Vector3(GameplayController.instance.player.transform.position.x, GameplayController.instance.player.transform.position.y, -3), speed * Time.deltaTime);
     }
 
 
