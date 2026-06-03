@@ -981,7 +981,7 @@ MonoBehaviour:
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
-  currentState: 0
+  currentState: 2
   playerPrefab: {fileID: 6402946648853323602, guid: 8ed8243c2003743779679e446e8e807c, type: 3}
   razorPrefab: {fileID: 9199897337528227772, guid: e584566270d7a47748113ef4e0583cda, type: 3}
   player: {fileID: 0}
