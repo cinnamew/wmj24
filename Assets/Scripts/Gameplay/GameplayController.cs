@@ -27,8 +27,8 @@ public class GameplayController : MonoBehaviour
 
     public enum GameState
     {
-        SKINNING,
         FORMING,
+        SKINNING,
         STITCHING
     }
 
@@ -58,18 +58,19 @@ public class GameplayController : MonoBehaviour
 
     }
 
-    public void GameActive()
+    public void GameActive(int index = 0)
     {
         //currentState = (GameState)1;
         isComplete = false;
 
         string title = "";
+        currentState = (GameState)index;
 
         switch (currentState)
         {
             case GameState.SKINNING:
                 title = "Skinning";
-                StartCoroutine(skinningController.SkinningGameplay());
+                StartCoroutine(skinningController.SkinningGameplay(flowchart));
                 break;
             case GameState.FORMING:
                 title = "Forming";

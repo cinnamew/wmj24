@@ -18,7 +18,7 @@ public class Skinning : MonoBehaviour
     
     public float completeThreshold;
 
-    public IEnumerator SkinningGameplay()
+    public IEnumerator SkinningGameplay(Flowchart flowchart)
     {
         razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
         skinning.SetActive(true);
@@ -46,8 +46,9 @@ public class Skinning : MonoBehaviour
         }
 
         skinning.SetActive(false);
+        flowchart.ExecuteBlock("end");
 
-        GameplayController.instance.GameActive();
+        //GameplayController.instance.GameActive();
     }
 
     void AssignMask()
@@ -108,6 +109,7 @@ public class Skinning : MonoBehaviour
         if(num >= xNum*yNum*completeThreshold)
         {
             Debug.Log("Done");
+            GameplayController.instance.isComplete = true;
         }
         else 
         {

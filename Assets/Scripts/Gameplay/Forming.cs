@@ -73,9 +73,10 @@ public class Forming : MonoBehaviour
             yield return null;
         }
 
+        felting.SetActive(false);
         //SceneManager.LoadScene(nextScene);
-        flowchart.ExecuteBlock("end");
-        //GameplayController.instance.GameActive();  //CHANGE TO NEXT SCENE
+        //flowchart.ExecuteBlock("end");
+        GameplayController.instance.GameActive(1);  //CHANGE TO NEXT SCENE
     }
 
     public void FormButton()
