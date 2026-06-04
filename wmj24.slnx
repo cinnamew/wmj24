@@ -5,6 +5,7 @@
   <Project Path="Fungus.FungusLuaEditor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="Fungus.LineEndingsEditor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Fungus.UsfxrEditor.csproj" />
   <Project Path="Fungus.FungusLuaJSONCheckerEditor.csproj" />
 </Solution>

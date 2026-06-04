@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 //You'll need to set up stuff in the editor, but you shouldn't really need to touch this script :)
+//update 06/03: initialize analytics
 public class TitleButtons : MonoBehaviour
 {
     [SerializeField] string firstScene;
