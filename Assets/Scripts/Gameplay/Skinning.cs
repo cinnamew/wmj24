@@ -21,6 +21,11 @@ public class Skinning : MonoBehaviour
     public GameObject phone;
     public GameObject dialogue;
 
+    [SerializeField] SkinningOutline outline;
+
+    private int numGlitches = 0;
+    [SerializeField] int maxGlitches = 3;
+
     public IEnumerator SkinningGameplay(Flowchart flowchart)
     {
         if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
@@ -34,6 +39,7 @@ public class Skinning : MonoBehaviour
             yield return null;
         }
         Debug.Log("dialogue done");
+        StartCoroutine(Glitch());
 
         razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
         skinning.SetActive(true);
@@ -65,6 +71,11 @@ public class Skinning : MonoBehaviour
 
         //GameplayController.instance.GameActive();
         GameplayController.instance.GameActive(1);  //CHANGE TO NEXT SCENE
+    }
+
+    public IEnumerator Glitch()
+    {
+        yield return null;
     }
 
     void AssignMask()
@@ -108,7 +119,14 @@ public class Skinning : MonoBehaviour
                 
                 if(Physics.Raycast(new Vector3(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2), -20)+offset, Vector3.forward, out hit, Mathf.Infinity))
                 {
-                    if(hit.collider.gameObject == go) num++;
+                    if(hit.collider.gameObject == go) {
+                        num++;
+                          Debug.Log(num);
+                    }
+                    // if(hit.collider.gameObject == go && outline.getMouseInside()) {
+                    //     Debug.Log("yipepe");
+                    //     num++;
+                    // }
                 }
 
                 // RaycastHit2D hit = Physics2D.Raycast(new Vector2(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2))+offset, Vector2.zero);
