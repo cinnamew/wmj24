@@ -4215,6 +4215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: Home3
   flowchart: {fileID: 993440448}
+  instructions: {fileID: 337846625}
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}

@@ -4565,8 +4565,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 993440080}
+  selectedCommands:
+  - {fileID: 993440465}
   variables: []
   description: 
   stepPause: 0
@@ -4718,7 +4720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 133.16606
     y: 471.99182
-    width: 76.24
+    width: 76.65
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4830,7 +4832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 204.33961
     y: 556.7342
-    width: 95.91
+    width: 95.7
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6687,9 +6689,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3261113914055077078, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2311806440385500304, guid: 02dee89d242774f1e9433eef7c995077, type: 3}
     - target: {fileID: 3326344036129199303, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Name
       value: Skinning
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326344036129199303, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4369168886392734836, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6731,6 +6741,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6927197056805546217, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4147748715444532587, guid: df921d4af63434a41862396cce8c7d75, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6941,6 +6955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: Home3
   flowchart: {fileID: 993440448}
+  instructions: {fileID: 337846625}
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
@@ -7008,11 +7023,11 @@ MonoBehaviour:
   life: 2
   count: 0
   stepCount: 3
-  phone: {fileID: 261046356}
   animations: []
   animators: []
-  dialogue: {fileID: 131489584}
   maxCount: 4
+  phone: {fileID: 261046356}
+  dialogue: {fileID: 131489584}
 --- !u!114 &1812914887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7035,6 +7050,8 @@ MonoBehaviour:
   skinStart: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
   skinEnd: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
   completeThreshold: 0.9
+  phone: {fileID: 261046356}
+  dialogue: {fileID: 131489584}
 --- !u!1 &1923056846
 GameObject:
   m_ObjectHideFlags: 0

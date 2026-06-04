@@ -6,6 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Skinning : MonoBehaviour
 {
@@ -17,9 +18,23 @@ public class Skinning : MonoBehaviour
     public Texture2D skinStart, skinEnd;
     
     public float completeThreshold;
+    public GameObject phone;
+    public GameObject dialogue;
 
     public IEnumerator SkinningGameplay(Flowchart flowchart)
     {
+        if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
+        {
+            Debug.Log("phone active");
+            phone.SetActive(true);
+            phone.GetComponent<Phone>().Call("domo");
+        }
+
+        while (dialogue.activeSelf || phone.activeSelf) {
+            yield return null;
+        }
+        Debug.Log("dialogue done");
+
         razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
         skinning.SetActive(true);
         GameObject lineObj = Instantiate(linePrefab, new Vector3(0,0,0), new Quaternion(0,0,0,0));
@@ -46,9 +61,10 @@ public class Skinning : MonoBehaviour
         }
 
         skinning.SetActive(false);
-        flowchart.ExecuteBlock("end");
+        Destroy(razor);
 
         //GameplayController.instance.GameActive();
+        GameplayController.instance.GameActive(1);  //CHANGE TO NEXT SCENE
     }
 
     void AssignMask()

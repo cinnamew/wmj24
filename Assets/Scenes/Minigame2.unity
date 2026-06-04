@@ -179,9 +179,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3261113914055077078, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7138428152197201594, guid: a41aea41b8e8645a0930a8db6481c804, type: 3}
     - target: {fileID: 3326344036129199303, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Name
       value: Skinning
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326344036129199303, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4369168886392734836, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -223,6 +231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6927197056805546217, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2081863425061171100, guid: e4018476a4d7d40e18b45f9063aab033, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3082,7 +3094,6 @@ GameObject:
   - component: {fileID: 1313505466}
   - component: {fileID: 1313505465}
   - component: {fileID: 1313505467}
-  - component: {fileID: 1313505468}
   - component: {fileID: 1313505469}
   m_Layer: 0
   m_Name: Flowchart
@@ -5286,7 +5297,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -5500,7 +5511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 589.15405
+    x: 588.06885
     y: 133.33391
     width: 80.97
     height: 40
@@ -5525,7 +5536,6 @@ MonoBehaviour:
   - {fileID: 1313504846}
   - {fileID: 1313505287}
   - {fileID: 1313505286}
-  - {fileID: 1313505468}
   - {fileID: 1313504845}
   suppressAllAutoSelections: 0
 --- !u!114 &1313505297
@@ -5982,7 +5992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 335
     y: 126
-    width: 85.15
+    width: 84.92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6051,7 +6061,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1313505259}
+  - {fileID: 1313505454}
   selectedCommands: []
   variables: []
   description: 
@@ -6253,7 +6263,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 21.744019
     y: 345.35355
-    width: 76.24
+    width: 76.65
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -6355,39 +6365,9 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1313505468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1313504826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 951
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1377634331}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &1313505469
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7496,6 +7476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: Home2
   flowchart: {fileID: 1313505450}
+  instructions: {fileID: 337846625}
   skinningController: {fileID: 0}
   formingController: {fileID: 0}
   stitchingController: {fileID: 0}
@@ -7563,11 +7544,11 @@ MonoBehaviour:
   life: 2
   count: 0
   stepCount: 4
-  phone: {fileID: 261046356}
   animations: []
   animators: []
-  dialogue: {fileID: 131489584}
   maxCount: 4
+  phone: {fileID: 261046356}
+  dialogue: {fileID: 131489584}
 --- !u!114 &1812914887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7590,6 +7571,8 @@ MonoBehaviour:
   skinStart: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
   skinEnd: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
   completeThreshold: 0.9
+  phone: {fileID: 261046356}
+  dialogue: {fileID: 131489584}
 --- !u!1 &1923056846
 GameObject:
   m_ObjectHideFlags: 0

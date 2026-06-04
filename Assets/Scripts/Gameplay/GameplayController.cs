@@ -2,12 +2,14 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using Fungus;
+using TMPro;
 
 public class GameplayController : MonoBehaviour
 {
     public static GameplayController instance;
     [SerializeField] string nextScene;
     [SerializeField] Flowchart flowchart;
+    [SerializeField] TMP_Text instructions;
 
     private void Awake()
     {
@@ -27,8 +29,8 @@ public class GameplayController : MonoBehaviour
 
     public enum GameState
     {
-        FORMING,
         SKINNING,
+        FORMING,
         STITCHING
     }
 
@@ -64,16 +66,19 @@ public class GameplayController : MonoBehaviour
         isComplete = false;
 
         string title = "";
+        if (SceneManager.GetActiveScene().name == "Minigame4") index = 1;
         currentState = (GameState)index;
 
         switch (currentState)
         {
             case GameState.SKINNING:
                 title = "Skinning";
+                instructions.text = "Move your mouse to cut out the animal!";
                 StartCoroutine(skinningController.SkinningGameplay(flowchart));
                 break;
             case GameState.FORMING:
                 title = "Forming";
+                instructions.text = "Click the screen when prompted. You're felting a beautiful animal!";
                 StartCoroutine(formingController.FormingGameplay(flowchart));
                 break;
             case GameState.STITCHING:
