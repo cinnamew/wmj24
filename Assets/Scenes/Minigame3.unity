@@ -2100,7 +2100,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  m_Sprite: {fileID: 840907009289505105, guid: d1a83778ed12a48c391e38965b9bd522, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6696,7 +6696,7 @@ PrefabInstance:
     - target: {fileID: 3261113914055077078, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2311806440385500304, guid: 02dee89d242774f1e9433eef7c995077, type: 3}
+      objectReference: {fileID: -4147748715444532587, guid: df921d4af63434a41862396cce8c7d75, type: 3}
     - target: {fileID: 3326344036129199303, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Name
       value: Skinning
@@ -6748,7 +6748,7 @@ PrefabInstance:
     - target: {fileID: 6927197056805546217, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -4147748715444532587, guid: df921d4af63434a41862396cce8c7d75, type: 3}
+      objectReference: {fileID: 2311806440385500304, guid: 02dee89d242774f1e9433eef7c995077, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7019,12 +7019,12 @@ MonoBehaviour:
   feltBase: {fileID: 535158603}
   hand: {fileID: 772284425}
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
-  handSprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  handSprite: {fileID: 840907009289505105, guid: d1a83778ed12a48c391e38965b9bd522, type: 3}
   changeSprites:
   - {fileID: -8345435589167100473, guid: 30c9b95968e804f978b2d05200a04ad7, type: 3}
   - {fileID: 4388439379732790877, guid: 7c09ec30774244bc08202bdf81945760, type: 3}
   - {fileID: 8862088391488173714, guid: b074b212e6e194ed6b7d0ac685a1cc37, type: 3}
-  bloodyHand: {fileID: -960603031636303676, guid: bf3e965d5d139408cad3523f84ca00ed, type: 3}
+  bloodyHand: {fileID: -3195951328138470410, guid: 5d4e78301083a4c15a30e055ce75a926, type: 3}
   glitchSprite: {fileID: -6123208370717119994, guid: 1c52762fe76744bd48808da8820b64ab, type: 3}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}

@@ -2043,7 +2043,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  m_Sprite: {fileID: 840907009289505105, guid: d1a83778ed12a48c391e38965b9bd522, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6077,12 +6077,12 @@ MonoBehaviour:
   feltBase: {fileID: 535158603}
   hand: {fileID: 772284425}
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
-  handSprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  handSprite: {fileID: 840907009289505105, guid: d1a83778ed12a48c391e38965b9bd522, type: 3}
   changeSprites:
   - {fileID: 5425306608427372515, guid: daa89c8d14acf4548b7790076ca73a81, type: 3}
   - {fileID: 1496096794336910866, guid: c59fae93c773a4f37bab5be4736e57fe, type: 3}
   - {fileID: -7196900697414554543, guid: ae0108f49a0f3499eb9ccefa7c1e19c8, type: 3}
-  bloodyHand: {fileID: -960603031636303676, guid: bf3e965d5d139408cad3523f84ca00ed, type: 3}
+  bloodyHand: {fileID: 7252743398856043426, guid: c58540ba4419f4c37af4d37dd480ba48, type: 3}
   glitchSprite: {fileID: 0}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}
@@ -9798,7 +9798,7 @@ PrefabInstance:
     - target: {fileID: 3261113914055077078, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8195258974467846146, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
+      objectReference: {fileID: -5386167433852183595, guid: 532795974ebfd45a0878556732ff5738, type: 3}
     - target: {fileID: 3326344036129199303, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Name
       value: Skinning
@@ -9850,7 +9850,7 @@ PrefabInstance:
     - target: {fileID: 6927197056805546217, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5386167433852183595, guid: 532795974ebfd45a0878556732ff5738, type: 3}
+      objectReference: {fileID: -8195258974467846146, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

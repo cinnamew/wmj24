@@ -1967,7 +1967,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2680729410590407417, guid: 5f26bde7a38aa4c0397a920223379f90, type: 3}
+  m_Sprite: {fileID: 840907009289505105, guid: d1a83778ed12a48c391e38965b9bd522, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4268,9 +4268,9 @@ MonoBehaviour:
   feltBase: {fileID: 535158603}
   hand: {fileID: 772284425}
   baseSprite: {fileID: -3966044189379602213, guid: 407bdec72cb1a449e8917b2b7d680588, type: 3}
-  handSprite: {fileID: -3802154098315920397, guid: c22f8c95cd89f4ac1baa9835459a684d, type: 3}
+  handSprite: {fileID: -3195951328138470410, guid: 5d4e78301083a4c15a30e055ce75a926, type: 3}
   changeSprites: []
-  bloodyHand: {fileID: -4998218797367720841, guid: fbd33d78624ab4569aee4a508fd02aaf, type: 3}
+  bloodyHand: {fileID: -6385564574130247247, guid: 09a66728393d04033ac5c6b0aee32bf5, type: 3}
   glitchSprite: {fileID: -6123208370717119994, guid: 1c52762fe76744bd48808da8820b64ab, type: 3}
   activeClickable: {fileID: 0}
   clickablePrefab: {fileID: 6970057123229201991, guid: 9d45e009e74c5e245aa70fe63ec52b8c, type: 3}

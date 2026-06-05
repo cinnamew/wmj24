@@ -73,7 +73,7 @@ public class GameplayController : MonoBehaviour
         {
             case GameState.SKINNING:
                 title = "Skinning";
-                instructions.text = "Move your mouse to clean the cloth for the animal!";
+                instructions.text = "Move your mouse to reveal this pretty animal's pretty patterns!";
                 StartCoroutine(skinningController.SkinningGameplay(flowchart));
                 break;
             case GameState.FORMING:
