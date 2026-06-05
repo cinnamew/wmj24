@@ -119,9 +119,9 @@ public class Skinning : MonoBehaviour
                 
                 if(Physics.Raycast(new Vector3(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2), -20)+offset, Vector3.forward, out hit, Mathf.Infinity))
                 {
-                    if(hit.collider.gameObject == go) {
+                    if(hit.collider.gameObject == go && outline.mouseInside) {
                         num++;
-                          Debug.Log(num);
+                        // Debug.Log(num);
                     }
                     // if(hit.collider.gameObject == go && outline.getMouseInside()) {
                     //     Debug.Log("yipepe");
@@ -139,6 +139,9 @@ public class Skinning : MonoBehaviour
                 // }
             }
         }
+
+        // debug to check how much is complete
+        // Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
         
         if(num >= xNum*yNum*completeThreshold)
         {
