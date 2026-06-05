@@ -7,13 +7,13 @@ public class SkinningOutline : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        // Debug.Log("mouse in");
+        Debug.Log("mouse in");
         mouseInside = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        // Debug.Log("mouse out");
+        Debug.Log("mouse out");
         mouseInside = false;
     }
 }

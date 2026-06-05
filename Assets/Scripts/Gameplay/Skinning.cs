@@ -137,10 +137,6 @@ public class Skinning : MonoBehaviour
                         num++;
                         // Debug.Log(num);
                     }
-                    // if(hit.collider.gameObject == go && outline.getMouseInside()) {
-                    //     Debug.Log("yipepe");
-                    //     num++;
-                    // }
                 }
 
                 // RaycastHit2D hit = Physics2D.Raycast(new Vector2(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2))+offset, Vector2.zero);
@@ -155,7 +151,7 @@ public class Skinning : MonoBehaviour
         }
 
         // debug to check how much is complete
-        // Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
+        Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
 
         float a = UnityEngine.Random.Range(0f, 10f);
         if (num >= xNum*yNum*completeThreshold/2 && a <= 1 && numGlitches < maxGlitches)
