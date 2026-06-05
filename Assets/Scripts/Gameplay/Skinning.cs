@@ -17,6 +17,7 @@ public class Skinning : MonoBehaviour
     public GameObject skinObj;
     public SpriteRenderer skinStart, skinEnd;
     [SerializeField] Sprite skinStartGlitch, skinEndGlitch;
+    private Sprite beforeTop, beforeBot;
     
     public float completeThreshold;
     public GameObject phone;
@@ -26,7 +27,14 @@ public class Skinning : MonoBehaviour
 
     private int numGlitches = 0;
     [SerializeField] int maxGlitches = 3;
+    
 
+    public void Start()
+    {
+        beforeTop = skinStart.sprite;
+        beforeBot = skinEnd.sprite;
+    }
+    
     public IEnumerator SkinningGameplay(Flowchart flowchart)
     {
         if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
@@ -78,8 +86,7 @@ public class Skinning : MonoBehaviour
     {
         if (skinStartGlitch == null || skinEndGlitch == null) yield return null;
 
-        Sprite beforeTop = skinStart.sprite;
-        Sprite beforeBot = skinEnd.sprite;
+        
 
         skinStart.sprite = skinStartGlitch;
         skinEnd.sprite = skinEndGlitch;
@@ -89,7 +96,7 @@ public class Skinning : MonoBehaviour
         skinStart.sprite = beforeTop;
         skinEnd.sprite = beforeBot;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
     }
 
     void AssignMask()
@@ -153,7 +160,7 @@ public class Skinning : MonoBehaviour
         // debug to check how much is complete
         Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
 
-        float a = UnityEngine.Random.Range(0f, 10f);
+        float a = UnityEngine.Random.Range(0f, 2f);
         if (num >= xNum*yNum*completeThreshold/2 && a <= 1 && numGlitches < maxGlitches)
         {
             StartCoroutine(Glitch());
