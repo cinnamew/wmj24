@@ -616,6 +616,11 @@ MonoBehaviour:
   callNum: 2
   name: {fileID: 1799049790}
   audioSource: {fileID: 261046358}
+--- !u!212 &261631293 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3261113914055077078, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+  m_PrefabInstance: {fileID: 1965734929}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &273763447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2520,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6052,8 +6057,8 @@ MonoBehaviour:
   razorPrefab: {fileID: 9199897337528227772, guid: e584566270d7a47748113ef4e0583cda, type: 3}
   linePrefab: {fileID: 8100492143911607646, guid: 6e988e825f9016446974c9dce33779ed, type: 3}
   skinObj: {fileID: 1965734932}
-  skinStart: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
-  skinEnd: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
+  skinStart: {fileID: 261631293}
+  skinEnd: {fileID: 1965734939}
   skinStartGlitch: {fileID: 0}
   skinEndGlitch: {fileID: 0}
   completeThreshold: 0.37
@@ -9882,6 +9887,11 @@ Camera:
 --- !u!4 &1965734934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4369168886392734836, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+  m_PrefabInstance: {fileID: 1965734929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1965734939 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6927197056805546217, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
   m_PrefabInstance: {fileID: 1965734929}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1969935102

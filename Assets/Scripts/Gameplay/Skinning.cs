@@ -31,10 +31,14 @@ public class Skinning : MonoBehaviour
 
     public void Start()
     {
-        beforeTop = skinStart.sprite;
-        beforeBot = skinEnd.sprite;
+        if (skinStart != null)
+        {
+            beforeTop = skinStart.sprite;
+            beforeBot = skinEnd.sprite;
+        }
+        
     }
-    
+
     public IEnumerator SkinningGameplay(Flowchart flowchart)
     {
         if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
@@ -84,7 +88,7 @@ public class Skinning : MonoBehaviour
 
     public IEnumerator Glitch()
     {
-        if (skinStartGlitch == null || skinEndGlitch == null) yield return null;
+        if (skinStartGlitch == null || skinEndGlitch == null) yield break;
 
         
 
