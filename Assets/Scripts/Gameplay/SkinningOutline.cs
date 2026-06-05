@@ -1,23 +1,19 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class SkinningOutline : MonoBehaviour
+public class SkinningOutline : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public bool mouseInside;
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("mouse in");
+        // Debug.Log("mouse in");
         mouseInside = true;
     }
 
-    private void OnTriggerExit(Collider other) { mouseInside = false; }
-
-    public bool getMouseInside() { return mouseInside; }
-    
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        // Debug.Log("mouse out");
+        mouseInside = false;
+    }
 }
