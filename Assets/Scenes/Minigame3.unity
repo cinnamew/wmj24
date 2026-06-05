@@ -928,7 +928,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -2528,7 +2528,6 @@ GameObject:
   - component: {fileID: 993440106}
   - component: {fileID: 993440105}
   - component: {fileID: 993440104}
-  - component: {fileID: 993440103}
   - component: {fileID: 993440102}
   - component: {fileID: 993440101}
   - component: {fileID: 993440100}
@@ -2597,6 +2596,7 @@ GameObject:
   - component: {fileID: 993440477}
   - component: {fileID: 993440479}
   - component: {fileID: 993440478}
+  - component: {fileID: 993440482}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3809,36 +3809,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &993440103
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 993439824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 439
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1932894960}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 6266176060360064, guid: 1d832573d2eb5415db8ec64340759876, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 1694907376}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &993440104
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3866,7 +3836,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 993439833}
   - {fileID: 993439832}
-  - {fileID: 993440103}
+  - {fileID: 993440482}
   - {fileID: 993440102}
   - {fileID: 993440101}
   - {fileID: 993440100}
@@ -4554,11 +4524,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -165.05333, y: -225.44507}
+  scrollPos: {x: 2.0016065, y: -271.71432}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 405
-  zoom: 0.7583333
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4566,9 +4536,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 993440080}
+  - {fileID: 993440104}
   selectedCommands:
-  - {fileID: 993440465}
+  - {fileID: 993440085}
   variables: []
   description: 
   stepPause: 0
@@ -5532,6 +5502,36 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &993440482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993439824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 963
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1932894960}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 6266176060360064, guid: 1d832573d2eb5415db8ec64340759876, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1694907376}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &998400398
 GameObject:
   m_ObjectHideFlags: 0
@@ -6294,6 +6294,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 48.39}
+--- !u!212 &1470094194 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3261113914055077078, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+  m_PrefabInstance: {fileID: 1755266215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1486730264
 GameObject:
   m_ObjectHideFlags: 0
@@ -6770,6 +6775,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8000981370575244640, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
   m_PrefabInstance: {fileID: 1755266215}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1755266226 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6927197056805546217, guid: 7188e348e183ab743b55b0842b63e1da, type: 3}
+  m_PrefabInstance: {fileID: 1755266215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1799049788
 GameObject:
   m_ObjectHideFlags: 0
@@ -7047,11 +7057,15 @@ MonoBehaviour:
   razorPrefab: {fileID: 9199897337528227772, guid: e584566270d7a47748113ef4e0583cda, type: 3}
   linePrefab: {fileID: 8100492143911607646, guid: 6e988e825f9016446974c9dce33779ed, type: 3}
   skinObj: {fileID: 1755266219}
-  skinStart: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
-  skinEnd: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
+  skinStart: {fileID: 1470094194}
+  skinEnd: {fileID: 1755266226}
+  skinStartGlitch: {fileID: 6261879998563067461, guid: 29e80b9983c854d7fae1b416b9bb5d68, type: 3}
+  skinEndGlitch: {fileID: 36281730237640127, guid: 14c7491308ddb4ec384e905b636b23d4, type: 3}
   completeThreshold: 0.9
   phone: {fileID: 261046356}
   dialogue: {fileID: 131489584}
+  outline: {fileID: 0}
+  maxGlitches: 3
 --- !u!1 &1923056846
 GameObject:
   m_ObjectHideFlags: 0

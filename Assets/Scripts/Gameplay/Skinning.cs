@@ -15,7 +15,8 @@ public class Skinning : MonoBehaviour
     public SpriteMask mask;
     public GameObject razor, razorPrefab, linePrefab;
     public GameObject skinObj;
-    public Texture2D skinStart, skinEnd;
+    public SpriteRenderer skinStart, skinEnd;
+    [SerializeField] Sprite skinStartGlitch, skinEndGlitch;
     
     public float completeThreshold;
     public GameObject phone;
@@ -39,7 +40,7 @@ public class Skinning : MonoBehaviour
             yield return null;
         }
         Debug.Log("dialogue done");
-        StartCoroutine(Glitch());
+        // StartCoroutine(Glitch());
 
         razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
         skinning.SetActive(true);
@@ -75,7 +76,20 @@ public class Skinning : MonoBehaviour
 
     public IEnumerator Glitch()
     {
-        yield return null;
+        if (skinStartGlitch == null || skinEndGlitch == null) yield return null;
+
+        Sprite beforeTop = skinStart.sprite;
+        Sprite beforeBot = skinEnd.sprite;
+
+        skinStart.sprite = skinStartGlitch;
+        skinEnd.sprite = skinEndGlitch;
+
+        yield return new WaitForSeconds(0.5f);
+
+        skinStart.sprite = beforeTop;
+        skinEnd.sprite = beforeBot;
+
+        yield return new WaitForSeconds(3f);
     }
 
     void AssignMask()
@@ -121,7 +135,7 @@ public class Skinning : MonoBehaviour
                 {
                     if(hit.collider.gameObject == go) {
                         num++;
-                          Debug.Log(num);
+                        // Debug.Log(num);
                     }
                     // if(hit.collider.gameObject == go && outline.getMouseInside()) {
                     //     Debug.Log("yipepe");
