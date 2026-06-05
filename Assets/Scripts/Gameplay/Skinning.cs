@@ -156,6 +156,13 @@ public class Skinning : MonoBehaviour
 
         // debug to check how much is complete
         // Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
+
+        float a = UnityEngine.Random.Range(0f, 10f);
+        if (num >= xNum*yNum*completeThreshold/2 && a <= 1 && numGlitches < maxGlitches)
+        {
+            StartCoroutine(Glitch());
+            numGlitches++;
+        }
         
         if(num >= xNum*yNum*completeThreshold)
         {

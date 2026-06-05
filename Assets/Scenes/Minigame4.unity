@@ -2550,7 +2550,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 254.25296
     y: 513.86145
-    width: 89.41
+    width: 89.34
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -2715,10 +2715,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 993440455}
-  selectedCommands:
-  - {fileID: 993440457}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2852,7 +2850,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &993440457
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4280,7 +4278,6 @@ MonoBehaviour:
   life: 2
   count: 0
   stepCount: 3
-  phone: {fileID: 261046356}
   animations:
   - {fileID: 7400000, guid: 7c23d87449f474a39ac9254ffc85e1b8, type: 2}
   - {fileID: 7400000, guid: 0474d3bb766d147ebb4cf55d8425fedb, type: 2}
@@ -4291,8 +4288,9 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 13f53ba404b5549c6b35cbff84c7f4ef, type: 2}
   - {fileID: 9100000, guid: 7d5c65c621f084ec8ac42772b38ba731, type: 2}
   - {fileID: 9100000, guid: b954a5fae36504f8990b599c7694a6dd, type: 2}
-  dialogue: {fileID: 131489584}
   maxCount: 4
+  phone: {fileID: 261046356}
+  dialogue: {fileID: 131489584}
 --- !u!114 &1812914887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4314,7 +4312,13 @@ MonoBehaviour:
   skinObj: {fileID: 2136855897}
   skinStart: {fileID: 2800000, guid: df921d4af63434a41862396cce8c7d75, type: 3}
   skinEnd: {fileID: 2800000, guid: 02dee89d242774f1e9433eef7c995077, type: 3}
+  skinStartGlitch: {fileID: 0}
+  skinEndGlitch: {fileID: 0}
   completeThreshold: 0.9
+  phone: {fileID: 0}
+  dialogue: {fileID: 0}
+  outline: {fileID: 0}
+  maxGlitches: 3
 --- !u!1 &1923056846
 GameObject:
   m_ObjectHideFlags: 0
