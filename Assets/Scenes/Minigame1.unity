@@ -6054,6 +6054,8 @@ MonoBehaviour:
   skinObj: {fileID: 1965734932}
   skinStart: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
   skinEnd: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
+  skinStartGlitch: {fileID: 0}
+  skinEndGlitch: {fileID: 0}
   completeThreshold: 0.37
   phone: {fileID: 261046356}
   dialogue: {fileID: 1814007241}
@@ -6091,7 +6093,7 @@ MonoBehaviour:
   animations: []
   animators: []
   maxCount: 4
-  phone: {fileID: 261046356}
+  phone: {fileID: 0}
   dialogue: {fileID: 1814007241}
 --- !u!1 &1814007241 stripped
 GameObject:

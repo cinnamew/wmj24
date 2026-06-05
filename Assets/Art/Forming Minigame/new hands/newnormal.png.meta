@@ -150,7 +150,7 @@ TextureImporter:
         width: 23
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: newnormal_1
       rect:
         serializedVersion: 2
-        x: 897
-        y: 48
-        width: 792
-        height: 1100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 898
+        y: 49
+        width: 790
+        height: 1098
+      alignment: 9
+      pivot: {x: 0.18, y: 0.75}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,7 +189,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4a095d33589ac4b7bab6092cd46a57e7
     internalID: 0
     vertices: []
     indices: 
