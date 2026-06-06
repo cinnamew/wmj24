@@ -27,6 +27,9 @@ public class Skinning : MonoBehaviour
 
     private int numGlitches = 0;
     [SerializeField] int maxGlitches = 3;
+
+    private RenderTexture render;
+    private Texture2D texture;
     
 
     public void Start()
@@ -105,27 +108,28 @@ public class Skinning : MonoBehaviour
 
     void AssignMask()
     {
-        int height = Screen.height;
-        int width = Screen.width;
-        int depth = 10;
+        int width = Screen.width, height = Screen.height;
+        if (width == 0 || height == 0) return;
 
-        RenderTexture render = new RenderTexture(width, height, depth);
+        if (render == null)
+        {
+            render  = new RenderTexture(width, height, 24);
+            texture = new Texture2D(width, height, TextureFormat.RGBA32, false);
+        }
+
         Rect rect = new Rect(0, 0, width, height);
-        Texture2D texture = new Texture2D(width, height, TextureFormat.RGBA32, false);
-
         cam.targetTexture = render;
         cam.Render();
 
-        RenderTexture currentRender = RenderTexture.active;
+        var prev = RenderTexture.active;
         RenderTexture.active = render;
-        texture.ReadPixels(rect, 0,0);
+        texture.ReadPixels(rect, 0, 0);
         texture.Apply();
+        // cam.targetTexture = null;
+        RenderTexture.active = prev;
 
-        cam.targetTexture = null;
-        RenderTexture.active = currentRender;
-        Destroy(render);
-
-        Sprite sprite = Sprite.Create(texture, rect, new Vector2(0.5f, 0.5f), height/20);
+        if (mask.sprite != null) Destroy(mask.sprite);
+        Sprite sprite = Sprite.Create(texture, rect, new Vector2(0.5f, 0.5f), height / 20f);
         sprite.name = "line";
         mask.sprite = sprite;
     }
