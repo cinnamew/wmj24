@@ -1,0 +1,58 @@
+Key,Description,Standard
+SAY.Flowchart.46.,,"{i}After a long and fulfilling day of work, I call it a night and return upstairs to my home, where my beloved waits for me, sitting on the living room couch."
+SAY.Flowchart.47.Domo,,Finally. You took forever...{wc}Welcome home.
+SAY.Flowchart.48.Mimi,,"Sorry! I was working, you know that!"
+SAY.Flowchart.51.Domo,,I know.{wc}You were just... gone for so long.{wc}I missed you.{wc}It’s just so stressful sitting in the living room all day waiting for you.
+SAY.Flowchart.52.Mimi,,"Aw, I missed you too!"
+SAY.Flowchart.54.Mimi,,Work was great today. I started working on a rabbit. I couldn’t stop thinking about you the whole time. It just reminded me of you so much! It’s your favorite animal!
+SAY.Flowchart.55.,,{i}A hint of red touches Domo’s cheeks as she seemingly tries to avoid my gaze.
+SAY.Flowchart.58.,,"{i}However, just as quickly as her face lifts, I notice her expression had vanished, replaced with a new one both tensed and unamused. "
+MENU.Flowchart.59,,Ignore it
+MENU.Flowchart.64,,Push on
+SAY.Flowchart.65.Domo,,Are you sure you’re not overdoing it? You come back so late...
+SAY.Flowchart.66.Mimi,,"Absolutely not! If anything, I’m really stoked and energized."
+SAY.Flowchart.69.Domo,,Oh...{wc}That’s good.
+SAY.Flowchart.70.Domo,,"Well, if you have energy right now... why don't we play some games?"
+SAY.Flowchart.72.,,"{i}Of course -- gaming is one of our favorite pastimes!{wc}Or rather, Domo watching while I game is one of our favorite pastimes. She never really plays herself, always insisting it's more fun to sit by my side and watch me."
+SAY.Flowchart.73.Mimi,,Sure! Have any games in mind?
+SAY.Flowchart.74.Domo,,"I saw this visual novel the other day that looked pretty interesting...{wc}It was about joining a company of cute maid girls.{wc}Something like Miss Inconsiderate Maid Girls...? {wi}No, that can’t be right..."
+SAY.Flowchart.75.Mimi,,"Ooh, sounds fun! I’m sure we’ll find it, don’t worry."
+SAY.Flowchart.76.,,"{i}We crowd around my PC and find the game. Loading it up, we spend an hour playing through it."
+SAY.Flowchart.78.Mimi,,"Wow, that story was really interesting!{wc}And the maid girls really are cute! Not as cute as my Domo, though!"
+SAY.Flowchart.79.,,{i}Domo blushes and leans on my shoulder.
+SAY.Flowchart.80.Domo,,You’re cuter!
+SAY.Flowchart.82.,,{i}I playfully squeeze her cheeks.
+SAY.Flowchart.83.Mimi,,"No, you are!"
+SAY.Flowchart.84.,,{i}We continue back and forth like this until I catch a glance at the clock.
+SAY.Flowchart.85.Mimi,,"Woah, look at the time! I can’t believe it’s almost 9:00PM! Our favorite show is about to start!"
+SAY.Flowchart.87.,,"{i}Domo’s discontented expression flashes back over her face, a momentary flicker revealing her true feelings. "
+SAY.Flowchart.88.Domo,,I w-wouldn’t say it’s my favorite.
+SAY.Flowchart.89.Mimi,,Is it not??
+SAY.Flowchart.90.Mimi,,"You like it too! I mean, you always watch it with me. It isn’t wrong to say it’s both of our favorite shows."
+SAY.Flowchart.93.Domo,,Please... {wi}Let’s just watch it...
+SAY.Flowchart.94.,,"{i}A spark of annoyance flares up inside me -- why won’t Domo communicate? -- But I snuff it out and focus on the TV.{wc}Ahh, I love Mailer Soon! Always wanted to be a magical girl."
+SAY.Flowchart.97.Mimi,,This again.
+SAY.Flowchart.99.Domo,,You know I don’t like hearing about your work.
+SAY.Flowchart.101.Mimi,,Huh? I don’t find anything wrong with my work.
+SAY.Flowchart.103.Domo,,It’s just... you know. Kind of gross. Maybe a little gruesome.
+SAY.Flowchart.105.Mimi,,"I mean, it’s not that bad. Honestly, you’re so sensitive about these things. It’s good work, and people find my work beneficial to them."
+SAY.Flowchart.107.Domo,,It just makes me... uncomfortable. I wish that someday you’d stop.
+SAY.Flowchart.108.Mimi,,"I do it all for you, anyway. We need the money!"
+SAY.Flowchart.109.Domo,,"I thought it was fine at first -- you know I -- I didn’t gift you that cat sewing tool, pin cushion, needles, or everything else so you can use it like this."
+SAY.Flowchart.110.Mimi,,I don’t know why you keep bringing it up. It’s unhealthy for you to keep focusing on something so useless when you can come downstairs and see for yourself how it is.
+SAY.Flowchart.113.Domo,,"But you know the creepy animals everywhere are the -- the very reason I can’t go down to your shop.{wc}I could visit you more if you weren’t... I don’t know, working with d-dead animals!"
+SAY.Flowchart.114.,,{i}...
+SAY.Flowchart.115.Mimi,,"I don’t understand why you have to be so negative about it. Besides, I'm not killing the animals, and it makes my customers happy."
+SAY.Flowchart.117.,,"{i}Domo just sighs, and the conversation naturally comes to a close. The air suffocates us with neither of our gazes meeting the other."
+SAY.Flowchart.118.Domo,,"Come on, let’s go watch TV, okay?{wc}It’s almost 9:00PM and your favorite show is about to air.{wc}“I am the pretty Mimi, who fights for love and for justice! I am Mailor Soon! And now in the name of the Moon, I'll punish you...!”{wi} Yeah?"
+SAY.Flowchart.120.Mimi,,"Haha, okay, that sounds good to me."
+SAY.Flowchart.124.,,{i}I try not to think much of the minor disagreement as the night passes to the next morning.
+SAY.Flowchart.125.Domo,,By the way... The neighbor next door came knocking an hour ago while you were sleeping.
+SAY.Flowchart.141.Mimi,,What did they want?
+SAY.Flowchart.142.Domo,,"I don’t know... Something about a smell?{wc}They weren’t very clear about it, but they insisted that it needed to be removed..."
+SAY.Flowchart.143.Mimi,,"A smell? I don’t smell anything. Maybe they're just trying to be an asshole, or they’ve got the wrong place. Just ignore it."
+SAY.Flowchart.144.Domo,,Okay.
+SAY.Flowchart.146.Mimi,,"Well, I'm off to work! See you later! Love you!"
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi
+CHARACTER.Customer,,Customer

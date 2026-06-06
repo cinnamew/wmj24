@@ -1,0 +1,50 @@
+Key,Description,Standard
+SAY.Flowchart.656.Mimi,,"Domo! {wi}Oh, my precious Domo! You're fixed! You're complete again!"
+SAY.Flowchart.683.,,"{i}Domo's body stirs, and she blinks up at me.{wc}She's still so beautiful, even like this -- no, especially like this. {wi}So beautiful, forever."
+SAY.Flowchart.660.Domo,,...Mimi...
+SAY.Flowchart.661.Mimi,,"I'm here for you! I'm so sorry, Domo! I love you, I didn't mean to-- I never meant to hurt you!"
+SAY.Flowchart.684.,,{i}Tears start pouring uncontrollably from my eyes now that the stress of fixing her has passed. She simply watches with an unreadable expression.
+SAY.Flowchart.878.Domo,,Mimi.
+SAY.Flowchart.685.Mimi,,Yes..?
+SAY.Flowchart.662.Domo,,"...{wc}You know, why is it that you love me?"
+SAY.Flowchart.690.Mimi,,Why is it??{wc}Because you’re perfect in every way and you’re so good to me. I love you so much. You’re everything I could ever want.
+SAY.Flowchart.667.Domo,,No. You’re lying.
+SAY.Flowchart.879.Mimi,,I’m not lying!! I truly love you SO MUCH and you are so special to me. How could I lie about this??
+SAY.Flowchart.881.Domo,,You know exactly what I mean.
+SAY.Flowchart.884.Mimi,,"Domo, for one second, could you stop being so negative? Could you stop gaslighting me??"
+SAY.Flowchart.885.Domo,,"But, you know...{wc}I truly loved you. I loved cooking with you. I loved going out to dates with you. {wi}You made me so happy. You pulled me out of a dark, dark place and showed me light. {wi}I loved feeling your skin, your lovely hair, your lips, your everything.{wc}I love accompanying you everywhere -- I loved seeing you giggle whenever we went shopping and found a cute plushie. {wi}Yet... I’m confused about one thing."
+SAY.Flowchart.886.Mimi,,"What is there to be confused about? I feel the exact same way, Domo."
+SAY.Flowchart.888.Domo,,No. Not that.{wc}I’m confused as to why...{wi} you keep lying.
+SAY.Flowchart.889.Mimi,,"Ugh, not this again."
+SAY.Flowchart.891.Domo,,What is it that you truly loved in this relationship?
+SAY.Flowchart.892.Mimi,,...
+SAY.Flowchart.893.Domo,,SAY IT!
+SAY.Flowchart.895.Mimi,,...I-I did nothing wrong. {wi}I truly did love you. {wi}I just wanted you.
+SAY.Flowchart.897.Domo,,You won’t even say it. {wi}I know what you want.{wc}You’re an ungrateful bitch that wants nothing but control. 
+SAY.Flowchart.898.Mimi,,No.
+SAY.Flowchart.899.Domo,,Someone you can walk all over.
+SAY.Flowchart.900.Mimi,,No!
+SAY.Flowchart.901.Domo,,"Someone who loves you, but doesn’t have the agency to leave you."
+SAY.Flowchart.902.Mimi,,NO!!
+SAY.Flowchart.905.Domo,,"You have everything you want, and you weren’t even fucking happy.{wc}Nothing ever seems to work out, does it? Just like what happened just now."
+SAY.Flowchart.906.Mimi,,You don’t know what you’re talking about. I’ve done EVERYTHING for you and this is how you repay me??{wc}YOU’RE the ungrateful bitch! I work my ass off just to fucking feed you!
+SAY.Flowchart.908.Domo,,"...{wc}But, you know...{wc}This wasn't even the first time.{wc}Wow... you couldn’t even prevent it in your own little fantasy. {wi}Have you forgotten what you did only a week before?"
+SAY.Flowchart.909.Mimi,,Shut it.
+SAY.Flowchart.910.Domo,,Look around you.
+SAY.Flowchart.911.Mimi,,Shut up shut up shut up!
+SAY.Flowchart.915.Domo,,You can’t ignore it.
+SAY.Flowchart.916.Mimi,,SHUT THE FUCK UP!!
+SAY.Flowchart.917.,,"{i}I begin to falter. I look down. {wi}A rancid stench emanates through the room. No... no, no, no... what the hell am I holding..?"
+SAY.Flowchart.919.Mimi,,"No...no, this can't be!{wc}I didn't... It wasn't my fault!{wc}It wasn’t preventable-- it wasn't my fault! Domo... my Domo..."
+SAY.Flowchart.922.Mimi,,"It was an accident... I love you, Domo! I loved you too much!{wi} And I made a mistake, but-- I can fix you! I did fix you!"
+SAY.Flowchart.923.,,"{i}Suddenly, Domo’s gaze snaps to me. The next thing I know, her hands are gripping my throat."
+SAY.Flowchart.928.Domo,,This is why nobody will ever love you.{wc}You fucking waste of space.
+SAY.Flowchart.929.,,"{i}I try to respond, but I can’t fight her grasp -- as if it was a part of me. I can only make out a few measly sounds as a reply."
+SAY.Flowchart.930.Domo,,They were right. You shouldn’t have loved a woman. Something’s wrong with you. Look how you turned out.
+SAY.Flowchart.934.Domo,,This is why your mother decided it was better to kill herself than raise you.
+SAY.Flowchart.936.Domo,,All because of YOU.{wc}Because not even a GOD ON THIS EARTH could have the heart to...
+SAY.Flowchart.937.,,{i}{w=10}...Love or forgive me.
+SAY.Flowchart.940.,,"{i}I can’t stop coughing and choking. I can't get any words out. {w=10}Slowly, {wi}painfully, {wi}my vision begins to fade, and I feel it all drain away.{/w}{wc}But at least... {wi}...Domo.... {wc}Yes... yes, Domo..."
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi
+CHARACTER.Customer,,Customer

@@ -1,0 +1,37 @@
+Key,Description,Standard
+SAY.Flowchart.7.Mimi,,"Hello~, thank you for calling Dermimi's! You're speaking with Mimi."
+SAY.Flowchart.8.,,"{i}Today is another day of work at my crafty hobby-turned-business, run out of the first floor of my house.{wc}Right at the morning's start, my phone had begun to ring, and I'd accepted it with giddy excitement that someone was already reaching out to place an order."
+SAY.Flowchart.9.Customer,,"Mimi, right?{wc}I heard you took orders of animals."
+SAY.Flowchart.10.Mimi,,"Oh, sure! I specialize in stuffing animals."
+SAY.Flowchart.11.Customer,,"Excellent... Though I must say, this is going to be a larger project. Are you up for it?"
+SAY.Flowchart.12.Mimi,,Of course! I'm the best around when it comes to this craft. Leave it to me!
+SAY.Flowchart.13.,,"{i}The call ends, and I survey the materials I have to use for this job.{wc}Scissors, thread, stuffing... I have everything I'll need."
+SAY.Flowchart.14.Mimi,,"Well, I better get right to work!"
+SAY.Flowchart.837.,,"{i}I kiss her a third time, this time for longer. My mouth tingles, as if tiny little things were crawling in. It’s itchy."
+SAY.Flowchart.839.Domo,,"We’ll be here forever, right? {wi}Always?"
+SAY.Flowchart.840.Mimi,,Yes! Yesyesyesyes!!!
+SAY.Flowchart.841.Domo,,Promise?
+SAY.Flowchart.842.Mimi,,"I promise! Us, together, always! {wi}I love you! My Domo!"
+SAY.Flowchart.843.Domo,,I promise to make all your favorite dishes every day.
+SAY.Flowchart.844.Mimi,,I promise we will watch only the TV shows you like!
+SAY.Flowchart.846.,,"{i}Domo turns away shyly, as if trying to conceal her feelings.{wc}However, her face betrays her as she turns beet red and smiles ear to ear."
+SAY.Flowchart.847.Domo,,..Mimi...
+SAY.Flowchart.849.Mimi,,What’s wrong? Did I do something wrong? Are you okay?
+SAY.Flowchart.850.Domo,,I love you.
+SAY.Flowchart.852.Mimi,,I love you too!! SO MUCH!
+SAY.Flowchart.853.Domo,,Will you... can we get married? Will you marry me??
+SAY.Flowchart.854.Mimi,,ABSOLUTELY!!
+SAY.Flowchart.856.Domo,,"Mimi... I love you so much, Mimi...{wc}I don’t have a ring, but you can take a piece of my hair and wrap it around your finger like an engagement ring. Is that okay?"
+SAY.Flowchart.858.Mimi,,"Domo, I don’t care. This is the best ring I could’ve gotten from you."
+SAY.Flowchart.860.Domo,,"I’m sorry. I should’ve planned this better. I... I just couldn’t help it. I’m yours, for the rest of eternity..."
+SAY.Flowchart.861.Mimi,,"Domo, having a piece of you on me makes me the happiest I could ever be. I love you I love you I love you I love you I love you I love you I LOVE YOU!!!"
+SAY.Flowchart.865.,,"{i}I hug her eternal body close to mine.{wc}Her skin is cold, and it numbs my mind like ice, sweet whispers of her voice growing louder and louder as my mind shuts down."
+SAY.Flowchart.866.,,"{i}I’m so happy. I promise, Domo, we will be together forever."
+SAY.Flowchart.867.,,{i}We'll stay together forever and ever.
+SAY.Flowchart.869.,,{i}We’ll never have to worry about a thing from now on.{wc}I promise to be with you forever...
+SAY.Flowchart.871.,,{i}and forever... and ever...
+SAY.Flowchart.873.,,{i}forever and ever and ever...
+SAY.Flowchart.875.,,{i}and forever and ever and ever together. {wi}I love you.
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi
+CHARACTER.Customer,,Customer

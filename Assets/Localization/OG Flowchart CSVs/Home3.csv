@@ -1,0 +1,71 @@
+Key,Description,Standard
+SAY.Flowchart.487.,,"{i}I return to our house on the second floor to find Domo waiting for me by the door, glaring daggers at me."
+SAY.Flowchart.489.Domo,,"Mimi, you can't keep coming back this late. It's not fair."
+SAY.Flowchart.492.Mimi,,I needed to finish my project. I already told you about this! What's not fair is how you keep nagging me about it.
+SAY.Flowchart.493.Domo,,I'm just so worried about you... This project has consumed your life! You barely eat or sleep or spend time with me at all anymore.
+SAY.Flowchart.494.Mimi,,"You're being so dramatic! It's not a big deal. And I'm done with the big project now, so everything should get better now! You'll see."
+SAY.Flowchart.495.Domo,,I don't want to see it! I've already told you that!
+SAY.Flowchart.496.,,"{i}I'm confused why Domo is getting so passionate today. She usually would have backed off by now; she never yells at me like this. My gut twists with anger at her behavior, but I try to push it down."
+SAY.Flowchart.504.Mimi,,I'm not having this conversation with you right now.
+SAY.Flowchart.505.Domo,,Let's just... do something else.
+SAY.Flowchart.506.Mimi,,Sure! Let's watch more of Mailer Soon! Our favoritest TV show!!
+SAY.Flowchart.508.,,"{i}Bitterness sours Domo's expression, and she crosses her arms over her chest."
+SAY.Flowchart.510.Domo,,"That's not what I meant. I've already told you, I don't want to watch that show."
+SAY.Flowchart.511.Mimi,,Why not?!
+SAY.Flowchart.513.Domo,,It makes me uncomfortable!
+SAY.Flowchart.514.Mimi,,What? Why does everything make you uncomfortable? You're acting like such an immature baby! Grow up!
+SAY.Flowchart.515.Domo,,And you're acting like a heartless partner...
+SAY.Flowchart.516.,,"{i}She remains adamant in her refusal. But her words stir something inside me, and I feel conflicted over what to do."
+MENU.Flowchart.497,,Don't watch the TV show
+MENU.Flowchart.498,,Watch the TV show
+SAY.Flowchart.521.Mimi,,"Argh, fine! We don't have to watch it!"
+SAY.Flowchart.520.Domo,,...Thank you.
+SAY.Flowchart.554.Mimi,,"I still don't understand why it's that big of a deal to you, though. Can't you just do this one little thing for me?"
+SAY.Flowchart.525.Domo,,"One little thing...? I do so much for you, Mimi. And you rarely ever appreciate it."
+SAY.Flowchart.526.,,"{i}I scoff incredulously, waiting for the punchline that never comes. "
+SAY.Flowchart.523.Mimi,,"Oh, you're serious? Haha, that's funny!"
+SAY.Flowchart.547.Domo,,"Yes, I'm serious..."
+SAY.Flowchart.579.Domo,,"I do a lot for you. I sit around here all day and take care of you and the house, and I wait for you. {wi}Because you're my entire life, Mimi!"
+SAY.Flowchart.557.Domo,,"But you care more about those stupid, dead animals than you ever did about me..."
+SAY.Flowchart.558.Mimi,,"Oh, come on, you're not still talking about the taxidermy, are you?"
+SAY.Flowchart.559.Domo,,"Yes, I am... It's disturbing, how easily you handle it all."
+SAY.Flowchart.560.Mimi,,"I never said it was easy! It's very hard -- but that's what makes it worth it. Because I'm so good at it, even though it's so difficult!"
+SAY.Flowchart.562.Domo,,There it is again. It's always about you and your ambition. It's like Dermimi's is the only thing in this whole world you're passionate about!
+SAY.Flowchart.550.,,"{i}Something about Domo is so different today. Loud, confrontational, emotional. It strikes pangs through my heart that I can't distinguish the feeling of between guilt or anger."
+SAY.Flowchart.566.Mimi,,"Hey, don't say that! Remember how the D in Dermimi’s was for you?--"
+SAY.Flowchart.565.Domo,,"-- It’s the ""D"" in ""taxid--"
+SAY.Flowchart.564.Mimi,,It’s a double meaning!!! And I think of it as representing you!!
+SAY.Flowchart.567.Mimi,,You have no idea how much I love you. How everything I do has always been for your sake.{wc}You don't get to decide that I don't love you enough by taking my actions out of context!
+SAY.Flowchart.569.Domo,,What context? Your actions -- {wi}we both know what you've truly done! What you're capable of!
+SAY.Flowchart.571.Domo,,I would know better than anyone! {wi}After what happened a week ago--
+SAY.Flowchart.572.Mimi,,Just stop it!
+SAY.Flowchart.573.Domo,,"{s=10}Remember, Mimi!?{/s} You--"
+SAY.Flowchart.575.Mimi,,JUST STOP IT!!
+SAY.Flowchart.563.,,{i}Anger rages inside of me. Her ignorance. Her disobedience. I cannot take it anymore and-
+SAY.Flowchart.631.,,{i}THUD
+SAY.Flowchart.634.Mimi,,...
+SAY.Flowchart.638.Mimi,,{s=5}.....{/s}
+SAY.Flowchart.641.Mimi,,{s=10}What have I done...?
+SAY.Flowchart.643.Mimi,,{s=15}She’s broken...
+SAY.Flowchart.645.Mimi,,I have to fix her...
+SAY.Flowchart.611.Mimi,,"Look -- it's my favorite show, and we always watch it, and you never used to complain about it. So we're going to watch it today.{wc}I don't care about how much you whine or hate it. We are going to watch the show."
+SAY.Flowchart.587.Domo,,How can you say things like this and then claim to love me?{wc}You never listen to me or what I want -- you only ever do what you want!
+SAY.Flowchart.606.,,"{i}Domo's speech keeps growing more and more heated, much to my surprise and annoyance."
+SAY.Flowchart.613.Domo,,"After all that you've done -- neglecting me and leaving me here, and ignoring my pleas, and covering it all up with cutesy cuddles and kisses to pretend nothing was wrong -- it makes sense to me.{wc}You never loved me. You just love yourself!"
+SAY.Flowchart.585.Mimi,,"Oh, really? You're trying to say that I'm the bad one in this relationship? When you're the one who constantly interrupts and insults my work, and relies on me to the point where I have no personal space?!{wc}You’re lucky I still love you. If it were anyone else, they probably would’ve left you already!"
+SAY.Flowchart.607.Domo,,What do you mean you still love me? Your actions -- {wi}we both know what you've truly done! What you're capable of!
+SAY.Flowchart.614.Mimi,,What are you even talking about?
+SAY.Flowchart.616.Mimi,,"Oh, you're not still talking about the taxidermy, are you? I've told you so many times before, I don't kill the animals myself!"
+SAY.Flowchart.618.Mimi,,"...But even if I did, what's wrong with that? I gift them eternal life through my art! {wi}You wouldn’t get it, Domo! You never do!"
+SAY.Flowchart.619.Domo,,"What?? No... you take lives! All you do is take, take, take! Because you're selfish and arrogant and--"
+SAY.Flowchart.620.Mimi,,"That's not true! You’re the one who has no passion, nothing to your name, no source of income yet you still keep spending my money on those stupid little trinkets--"
+SAY.Flowchart.621.Domo,,They were for you! You wouldn’t be able to do your creepy animal thing without me!!
+SAY.Flowchart.622.,,{i}A wisp of a laugh slips from Domo.
+SAY.Flowchart.623.Domo,,I should’ve known you were never grateful for me! After what you did to me--
+SAY.Flowchart.624.Mimi,,Stop!! I AM grateful for you!!!
+SAY.Flowchart.625.Domo,,{s=10}Oh yeah...? {/s}Then look me in the eye and tell me why you--
+SAY.Flowchart.626.Mimi,,SHUT UP!!
+SAY.Flowchart.924.,,{i}Anger rages inside of me. Her ignorance. Her disobedience. I cannot take it anymore and-
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi
+CHARACTER.Customer,,Customer

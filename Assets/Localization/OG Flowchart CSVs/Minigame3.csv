@@ -1,0 +1,47 @@
+Key,Description,Standard
+SAY.Flowchart.412.,,"{i}As if on cue, my customer calls me as soon as I sit before my desk. I almost miss the call because of my early morning lethargy."
+SAY.Flowchart.413.Customer,,Mimi. Are you almost finished with the project?
+SAY.Flowchart.414.Mimi,,Yep! It'll be done today for sure!
+SAY.Flowchart.415.Customer,,"Good. You're so close to the end, when all of this will be worth it. {wi}Remember, it has to be perfect."
+SAY.Flowchart.417.,,"{i}It might just be the lingering sleepiness, but I start to doubt whether or not I'll be able to finish the project as perfectly as the customer wants -- or maybe whether or not I even should."
+SAY.Flowchart.425.Mimi,,"Hmph, maybe Domo is rubbing off on me..."
+SAY.Flowchart.426.Customer,,"Domo, your little lover..."
+SAY.Flowchart.427.Mimi,,Wait -- you know about her?!
+SAY.Flowchart.429.Mimi,,Huh. I guess I must've mentioned her to you before! I totally forgot if I did!
+SAY.Flowchart.428.Customer,,Are the two of you having disagreements over this project?
+SAY.Flowchart.432.Mimi,,"Haha, I mean, a little bit! She thinks I've been working too much on it. But what happy couple doesn’t get in little scuffles every so often? It’s normal and completely healthy!"
+SAY.Flowchart.433.Customer,,"Just remember, you are doing the right thing. Your craft, this art of taxidermy, is too important.{wc}You bring the dead back to life by imitating their past vivacity and allowing them to eternally remain in that prime state.{wc}What you do is beautiful, and it’s necessary. In fact, that’s why you must finish this project.{wc}It will fix everything -- and solve all your problems with your ungrateful girlfriend, too. This is the final step. You must take it."
+SAY.Flowchart.434.,,{i}I blink a few times in confusion as I wait for the customer's words to absorb into my tired brain.
+SAY.Flowchart.435.Mimi,,You’re right -- I can’t give up now!{wc}I promise it'll be perfect! 
+SAY.Flowchart.440.Mimi,,"Hellooo, you’ve reached Dermimi’s, where last week’s death draws a new breath!!{wc}Hehe, just kidding~ what’s up, my Domo?"
+SAY.Flowchart.441.Domo,,Can you come back now?
+SAY.Flowchart.442.Mimi,,"No~, I have to finish my project."
+SAY.Flowchart.443.Domo,,Well... are -- are you done with it yet?
+SAY.Flowchart.444.Mimi,,"Obviously not, silly! I just clocked in!"
+SAY.Flowchart.445.Domo,,I just...  I don’t like...
+SAY.Flowchart.446.,,"{i}She seems to give up on whatever she was gearing up to say, sighing and changing the subject instead."
+SAY.Flowchart.447.Domo,,...The neighbors were knocking at the door again.
+SAY.Flowchart.448.Mimi,,"Argh, again? They really won't leave us alone."
+SAY.Flowchart.449.Domo,,They were saying something... complaining about the smell.
+SAY.Flowchart.450.Mimi,,What smell?
+SAY.Flowchart.451.Domo,,From our house.
+SAY.Flowchart.452.Mimi,,"Hm, it might be from Dermimi’s, but I don’t smell anything. If they come back, just tell them that."
+SAY.Flowchart.456.Domo,,Okay... Miss you. Bye.
+SAY.Flowchart.465.Domo,,You’ve been working forever. Are you really not done yet?
+SAY.Flowchart.464.Mimi,,"Almost done, I promise!"
+SAY.Flowchart.467.Domo,,Maybe you could... take a break.
+SAY.Flowchart.468.Mimi,,That’s what I'm doing now! Talking to you -- that's my break.
+SAY.Flowchart.469.Domo,,You sound tired.
+SAY.Flowchart.482.Mimi,,"I really am! I even woke up early for this, which isn't helping with the tiredness."
+SAY.Flowchart.471.Domo,,Oh no...
+SAY.Flowchart.473.Mimi,,"Argh, yeah, it’s actually gotten pretty bad. I think I've started seeing things."
+SAY.Flowchart.474.Domo,,What-- what do you mean?
+SAY.Flowchart.476.Mimi,,"Like when I'm working -- sometimes it looks like the objects I'm using... change. To something else. {wi}A quick flash, like a glitch in the matrix or something."
+SAY.Flowchart.484.Mimi,,"Haha, that probably doesn't make any sense! I'm just tired!"
+SAY.Flowchart.477.,,"{i}But the other side of the call is dead silent. Domo doesn't say a word. Then, the call abruptly ends."
+SAY.Flowchart.479.Mimi,,"Huh, that was weird."
+SAY.Flowchart.936.Mimi,,"That was a really complicated cat! It turned out well. It reminds me of Domo though, the black cat to my white bunny!{wc}I wonder what those weird things I saw were, though..."
+SAY.Flowchart.954.,,"My phone charm! Domo made this for me. Ohh, this is gonna be a bit of a lore dump!{wc}Okay, so -- the number of pearl beads is the number of months we’ve been together. 23 months!!! Almost 2 years... so exciting!{wc}The M is a bit of an inside joke. It’s my initial, but when I first met Domo, I heard her introduce herself as Momo!{wc}I thought she was so cute and I was like, oh my god we even have matching names?? I called her Momo for months, and she never once corrected me! Can you believe it?{wc}Mimi and Momo, the perfect couple...{wc}Oh, and the white rabbit and black cat beads are for us as well! I mean, Domo’s matching the charms with me, so of course everything represents us.{wc}Anyways, I think we’re SOOO the archetype of white rabbit and black cat! Or golden retriever and black cat, but rabbits are better because that’s Domo’s favorite animal and I’m Domo’s favorite!{wc}The last bead is a morning glory. I put it on a week ago. Domo has a yellow chrysanthemum instead."
+CHARACTER.Customer,,Customer
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi

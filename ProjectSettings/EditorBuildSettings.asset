@@ -54,5 +54,7 @@ EditorBuildSettings:
     path: Assets/Scenes/deprecated scenes/VN Basics.unity
     guid: c8d0196fad7ce49c88697fc112ba33b9
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: f60563d6ecd6a47a186df21628cbeb30, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 308efa4c785864da38e2819681991d39, type: 2}
   m_UseUCBPForAssetBundles: 0

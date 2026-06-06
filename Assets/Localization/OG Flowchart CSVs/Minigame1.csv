@@ -1,0 +1,80 @@
+Key,Description,Standard
+SAY.Flowchart (1).7.Mimi,,"Hello~, thank you for calling Dermimi's! You're speaking with Mimi."
+SAY.Flowchart (1).8.,,"{i}Today is another day of work at my crafty hobby-turned-business, run out of the first floor of my house.{wc}Right at the morning's start, my phone had begun to ring, and I'd accepted it with giddy excitement that someone was already reaching out to place an order."
+SAY.Flowchart (1).9.Customer,,"Mimi, right?{wc}I heard you took orders of animals."
+SAY.Flowchart (1).10.Mimi,,"Oh, sure! I specialize in stuffing animals."
+SAY.Flowchart (1).11.Customer,,"Excellent... Though I must say, this is going to be a larger project. Are you up for it?"
+SAY.Flowchart (1).12.Mimi,,Of course! I'm the best around when it comes to this craft. Leave it to me!
+SAY.Flowchart (1).13.,,"{i}The call ends, and I survey the materials I have to use for this job.{wc}Scissors, thread, stuffing... I have everything I'll need."
+SAY.Flowchart (1).14.Mimi,,"Well, I better get right to work!"
+SAY.Flowchart (1).650.Mimi,,"My phone charm! Domo made this for me. Ohh, this is gonna be a bit of a lore dump!{wc}Okay, so -- the number of pearl beads is the number of months we’ve been together. 23 months!!! Almost 2 years... so exciting!{wc}The M is a bit of an inside joke. It’s my initial, but when I first met Domo, I heard her introduce herself as Momo!{wc}I thought she was so cute and I was like, oh my god we even have matching names?? I called her Momo for months, and she never once corrected me! Can you believe it?{wc}Mimi and Momo, the perfect couple...{wc}Oh, and the white rabbit and black cat beads are for us as well! I mean, Domo’s matching the charms with me, so of course everything represents us.{wc}Anyways, I think we’re SOOO the archetype of white rabbit and black cat! Or golden retriever and black cat, but rabbits are better because that’s Domo’s favorite animal and I’m Domo’s favorite!{wc}The last bead is a morning glory. I put it on a week ago. Domo has a yellow chrysanthemum instead."
+SAY.Flowchart (1).16.Mimi,,Huh? Domo!
+SAY.Flowchart (1).18.Domo,,Mimi!
+SAY.Flowchart (1).20.Mimi,,"What’s up, Domo?"
+SAY.Flowchart (1).21.,,"{i}I have a feeling this job might take a while, so I’d better start as soon as possible."
+SAY.Flowchart (1).22.Mimi,,Is it urgent?
+SAY.Flowchart (1).23.Domo,,"Oh, no, it’s okay."
+SAY.Flowchart (1).24.Mimi,,"Okie, call me back later!!"
+SAY.Flowchart (1).26.Mimi,,Perfect timing!
+SAY.Flowchart (1).950.Mimi,,So what was up?
+SAY.Flowchart (1).31.Domo,,"Nothing, I just missed you... can you come back?"
+SAY.Flowchart (1).28.Mimi,,"Wahhh, I miss you too!!!!{wc}I’ll be back up soon, I just need to clean up."
+SAY.Flowchart (1).37.Domo,,"It’s fine, I just wanted to see you. I love you."
+SAY.Flowchart (1).38.Mimi,,"Ahh, I’ll see you soon!{wc}Bye bye then, I love you~~"
+SAY.Flowchart (1).39.,,{i}I love my girlfriend so much... my heart’s about to explode!!
+SAY.Flowchart (1).947.,,"Aww, what an adorable bunny!{wc}It’s just like the one on my phone charm."
+CHARACTER.Domo,,Domo
+SAY.Flowchart.875.,,{i}and forever and ever and ever together. {wi}I love you.
+SAY.Flowchart.873.,,{i}forever and ever and ever...
+SAY.Flowchart.871.,,{i}and forever... and ever...
+SAY.Flowchart.869.,,{i}We’ll never have to worry about a thing from now on.{wc}I promise to be with you forever...
+SAY.Flowchart.867.,,{i}We'll stay together forever and ever.
+SAY.Flowchart.866.,,"{i}I’m so happy. I promise, Domo, we will be together forever."
+SAY.Flowchart.865.,,"{i}I hug her eternal body close to mine.{wc}Her skin is cold, and it numbs my mind like ice, sweet whispers of her voice growing louder and louder as my mind shuts down."
+SAY.Flowchart.861.,,"Domo, having a piece of you on me makes me the happiest I could ever be. I love you I love you I love you I love you I love you I love you I LOVE YOU!!!"
+SAY.Flowchart.860.,,"I’m sorry. I should’ve planned this better. I... I just couldn’t help it. I’m yours, for the rest of eternity..."
+SAY.Flowchart.858.,,"Domo, I don’t care. This is the best ring I could’ve gotten from you."
+SAY.Flowchart.856.,,"Mimi... I love you so much, Mimi...{wc}I don’t have a ring, but you can take a piece of my hair and wrap it around your finger like an engagement ring. Is that okay?"
+SAY.Flowchart.854.,,ABSOLUTELY!!
+SAY.Flowchart.853.,,Will you... can we get married? Will you marry me??
+SAY.Flowchart.852.,,I love you too!! SO MUCH!
+SAY.Flowchart.850.,,I love you.
+SAY.Flowchart.849.,,What’s wrong? Did I do something wrong? Are you okay?
+SAY.Flowchart.847.,,..Mimi...
+SAY.Flowchart.846.,,"{i}Domo turns away shyly, as if trying to conceal her feelings.{wc}However, her face betrays her as she turns beet red and smiles ear to ear."
+SAY.Flowchart.844.,,I promise we will watch only the TV shows you like!
+SAY.Flowchart.843.,,I promise to make all your favorite dishes every day.
+SAY.Flowchart.842.,,"I promise! Us, together, always! {wi}I love you! My Domo!"
+SAY.Flowchart.841.,,Promise?
+SAY.Flowchart.840.,,Yes! Yesyesyesyes!!!
+SAY.Flowchart.839.,,"We’ll be here forever, right? {wi}Always?"
+SAY.Flowchart.837.,,"{i}I kiss her a third time, this time for longer. My mouth tingles, as if tiny little things were crawling in. It’s itchy."
+MENU.Flowchart.794,,Kiss her on the lips
+SAY.Flowchart.793.,,{i}I kiss her again. I can’t help it; she’s so cute! It makes up for the strange taste.
+MENU.Flowchart.747,,Kiss her on the lips
+SAY.Flowchart.746.,,{i}I kiss her hard. It’s sour; my tongue curls back instinctively.
+SAY.Flowchart.650.,,"My phone charm! Domo made this for me. Ohh, this is gonna be a bit of a lore dump!{wc}Okay, so -- the number of pearl beads is the number of months we’ve been together. 23 months!!! Almost 2 years... so exciting!{wc}The M is a bit of an inside joke. It’s my initial, but when I first met Domo, I heard her introduce herself as Momo!{wc}I thought she was so cute and I was like, oh my god we even have matching names?? I called her Momo for months, and she never once corrected me! Can you believe it?{wc}Mimi and Momo, the perfect couple...{wc}Oh, and the white rabbit and black cat beads are for us as well! I mean, Domo’s matching the charms with me, so of course everything represents us.{wc}Anyways, I think we’re SOOO the archetype of white rabbit and black cat! Or golden retriever and black cat, but rabbits are better because that’s Domo’s favorite animal and I’m Domo’s favorite!{wc}The last bead is a morning glory. I put it on a week ago. Domo has a yellow chrysanthemum instead."
+SAY.Flowchart.39.,,{i}I love my girlfriend so much... my heart’s about to explode!!
+SAY.Flowchart.38.,,"Ahh, I’ll see you soon!{wc}Bye bye then, I love you~~"
+SAY.Flowchart.37.,,"It’s fine, I just wanted to see you."
+SAY.Flowchart.31.,,"Nothing, I just missed you."
+SAY.Flowchart.28.,,"Wahhh, I miss you too!!!!{wc}I’ll be back up soon, I just need to clean up."
+SAY.Flowchart.26.,,Perfect timing!{wc}So what was up?
+SAY.Flowchart.24.,,"Okie, call me back later!!"
+SAY.Flowchart.23.,,"Oh, no, it’s okay."
+SAY.Flowchart.22.,,Is it urgent?
+SAY.Flowchart.21.,,"{i}I have a feeling this job might take a while, so I’d better start as soon as possible."
+SAY.Flowchart.20.,,"What’s up, Domo?"
+SAY.Flowchart.18.,,Mimi!
+SAY.Flowchart.16.,,Huh? Domo!
+SAY.Flowchart.14.,,"Well, I better get right to work!"
+SAY.Flowchart.13.,,"{i}The call ends, and I survey the materials I have to use for this job.{wc}Scissors, thread, stuffing... I have everything I'll need."
+SAY.Flowchart.12.,,Of course! I'm the best around when it comes to this craft. Leave it to me!
+SAY.Flowchart.11.,,"Excellent... Though I must say, this is going to be a larger project. Are you up for it?"
+SAY.Flowchart.10.,,"Oh, sure! I specialize in stuffing animals."
+SAY.Flowchart.9.,,"Mimi, right?{wc}I heard you took orders of animals."
+SAY.Flowchart.8.,,"{i}Today is another day of work at my crafty hobby-turned-business, run out of the first floor of my house.{wc}Right at the morning's start, my phone had begun to ring, and I'd accepted it with giddy excitement that someone was already reaching out to place an order."
+SAY.Flowchart.7.,,"Hello~, thank you for calling Dermimi's! You're speaking with Mimi."
+SAY.Flowchart.938.,,"Aww, what an adorable bunny!{wc}It’s just like the one on my phone charm."
+CHARACTER.Customer,,Customer
+CHARACTER.Mimi,,Mimi

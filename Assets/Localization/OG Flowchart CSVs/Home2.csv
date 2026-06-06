@@ -1,0 +1,71 @@
+Key,Description,Standard
+SAY.Flowchart.242.,,"{i}Domo waits in the same spot as last night, looking even more displeased."
+SAY.Flowchart.244.Domo,,What-- what took you so long...?{wc}You came back later than usual.. {wi}I missed you so much.
+SAY.Flowchart.247.Mimi,,"It’s not my fault that I’m busy! I have a project to do, and my customer wants it to be perfect, and rightfully so! I owe it to them to put my best effort into it."
+SAY.Flowchart.248.Domo,,But... what about me? What about all that you owe me in this relationship?
+SAY.Flowchart.249.Mimi,,"There’s no need to be so pushy about it, Domo.{wc}God, I wish I had someone that actually supported my work."
+SAY.Flowchart.250.Domo,,...That’s not what I...
+SAY.Flowchart.251.,,"{i}She averts her gaze, frowning at the ground."
+MENU.Flowchart.252,,Apologize
+MENU.Flowchart.253,,Change the subject
+SAY.Flowchart.330.Mimi,,"Ok, fine -- I'm sorry. Is that better?"
+SAY.Flowchart.331.Domo,,It's just... {wi}you were gone for so long... {wi}I got worried.
+SAY.Flowchart.333.Domo,,"You completely missed dinner, and the neighbors were knocking at the door again..."
+SAY.Flowchart.334.Mimi,,"Well, I'm here now! No harm, no foul."
+SAY.Flowchart.335.Domo,,...I guess so.
+SAY.Flowchart.337.Mimi,,"Now that you mention dinner, though... I’m pretty hungry. I didn’t even realize it!"
+SAY.Flowchart.338.,,"{i}Domo gets up from the couch, as if she’s about to go somewhere."
+SAY.Flowchart.339.Mimi,,Where are you going?
+SAY.Flowchart.341.,,{i}I follow her lead.{wc}We land in the kitchen.
+SAY.Flowchart.343.Domo,,...
+SAY.Flowchart.344.Mimi,,?
+SAY.Flowchart.345.Domo,,Take.
+SAY.Flowchart.346.,,{i}Domo gives me a container wrapped in foil. I uncover its contents to take a peek at what’s inside.
+SAY.Flowchart.347.Mimi,,Is this...{wc}...
+SAY.Flowchart.348.,,{i}I feel my eyes begin to shimmer. My chest begins to fill with an overwhelming rush of emotion.
+SAY.Flowchart.349.Domo,,I was so worried about you missing dinner... so I tried to make some macaroni pie... I know you like it.
+SAY.Flowchart.350.,,{i}You continue staring at the dish speechless. Tears come out one by one.
+SAY.Flowchart.351.Domo,,Do you not like it...? But it’s your favorite dish-- 
+SAY.Flowchart.353.Mimi,,DOMO... more than that. I love it so much. SO MUCH! You’re the absolutely bestest girlfriend ever! This looks like the most delicious macaroni pie I’ve ever seen!! Even more deliciouser yummy wummy than last time!! I can’t wait to gobble it up.
+SAY.Flowchart.354.Domo,,I’m... so happy you like it.{wc}I wish I could’ve made it better... I messed up cooking some parts by putting the temperature too high...
+SAY.Flowchart.356.,,{i}I look down at the container filled with the macaroni. Bits and pieces are a little charred.
+SAY.Flowchart.357.,,"{i}But who cares! I take a few bites, and it’s even more delicious than I’d expected! I should hype up Domo more next time.{wc}I savor the flavors as Domo glances at me worryingly."
+SAY.Flowchart.361.Mimi,,"This is amazing!! I don’t care if you messed up a little. It’s delicious, and it’s from you, which makes it the perfectest, hehe!! You cooked in more ways than one!!!"
+SAY.Flowchart.362.Domo,,I’m so glad... I love you...
+SAY.Flowchart.366.Mimi,,I love you more!!
+SAY.Flowchart.933.Domo,,Stay with me forever?
+SAY.Flowchart.934.Mimi,,Okay! Forever!!!
+MENU.Flowchart.363,,Kiss her
+MENU.Flowchart.368,,Do nothing
+SAY.Flowchart.290.,,"{i}The next morning, I head downstairs to work early so I can make good on my goal to finish the project today. "
+SAY.Flowchart.409.,,"{i}Domo is still sleeping, so I let her be."
+SAY.Flowchart.304.Mimi,,"Everything’s fine! I'll be done with this project tomorrow, anyway."
+SAY.Flowchart.306.Domo,,...Okay.
+SAY.Flowchart.380.Mimi,,"And when it’s done, I'll show it all to you! Then you'll see there's nothing gross or creepy about what I do."
+SAY.Flowchart.381.Domo,,...I-I don’t want to.
+SAY.Flowchart.382.Mimi,,Huh? What did you just say?
+SAY.Flowchart.384.Domo,,I don’t-- don’t want to see your project!
+SAY.Flowchart.385.,,{i}Domo had never refused me so outright. I almost couldn't believe my ears.
+SAY.Flowchart.387.Mimi,,Why are you being so stubborn about it? 
+SAY.Flowchart.388.Domo,,You know why...
+SAY.Flowchart.389.Mimi,,"No, I don’t. I can't read your mind, Domo!"
+SAY.Flowchart.392.Domo,,I've told you before... It-- it makes me uncomfortable...
+SAY.Flowchart.393.Mimi,,"That’s because you’re too close-minded. The way you constantly insult my work is so unfair. Once I show you, you'll understand. Everything I do is for you!"
+SAY.Flowchart.394.Domo,,"...If you were truly doing anything for me, you wouldn't be doing this job at all. You wouldn't spend all your time down there working with those dead animals. You would be with me!"
+SAY.Flowchart.397.Mimi,,"You don’t get to decide that, Domo! "
+SAY.Flowchart.396.Domo,,I don’t get to decide anything... It’s just the opposite of what you said -- everything I do is for you. I even made you macaroni pie today--
+SAY.Flowchart.395.Mimi,,"Oh, come on, don't be like this! You're being so frustrating, so manipulative, right now! This isn’t you, Domo!"
+SAY.Flowchart.400.,,"{i}Domo falters, and I can’t stop myself from filling up the air with words."
+SAY.Flowchart.401.Mimi,,"I know you, and I know what's good for you. Can’t you just listen to me instead of complaining all the time?"
+SAY.Flowchart.403.,,"{i}She goes quiet, pursing her lips."
+SAY.Flowchart.405.Mimi,,"Ugh... let’s just relax and have a good night, okay?"
+SAY.Flowchart.406.Domo,,...
+SAY.Flowchart.407.Mimi,,Can't you at least do that much for me?
+SAY.Flowchart.408.,,"{i}She finally listens to me, dropping the topic and going back to her usual self for the rest of the night."
+SAY.Flowchart.374.,,{i}I hold her face with my hands and lean in.
+SAY.Flowchart.376.,,"{i}Her breath hitches, and she kisses back with the cutest noises. Butterflies instantly suffocate me. She tastes as sweet as ever..."
+SAY.Flowchart.377.,,"{i}Boring, I could’ve kissed her just then..."
+SAY.Flowchart.372.,,"{i}And like any cheesy couple, we fight about who loves the other more for the next two hours. It’s me, of course!"
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi
+CHARACTER.Customer,,Customer

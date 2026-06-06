@@ -1,0 +1,48 @@
+Key,Description,Standard
+SAY.Flowchart.656.Mimi,,"Domo! {wi}Oh, my precious Domo! You're fixed! You're complete again!"
+SAY.Flowchart.683.,,"{i}Domo's body stirs, and she blinks up at me.{wc}She's still so beautiful, even like this -- no, especially like this."
+SAY.Flowchart.660.Domo,,...Mi...mi....?
+SAY.Flowchart.661.Mimi,,"I'm here for you! I'm so sorry, Domo! I love you, I didn't mean to-- I never meant to hurt you!"
+SAY.Flowchart.684.,,{i}Tears start pouring uncontrollably from my eyes now that the stress of fixing her has passed. She simply watches in apathy.
+SAY.Flowchart.662.Domo,,...What... happened?
+SAY.Flowchart.685.Mimi,,I’m so sorry Domo!! You’re all good now.. I love you so much.
+SAY.Flowchart.667.Domo,,...
+SAY.Flowchart.690.Mimi,,"You're my beautiful, beloved, bestest girlfriend! My girl!! And I'm so sorry if I haven't been good enough recently!"
+SAY.Flowchart.687.Domo,,"It’s okay... I forgive you, Mimi. You sound so sincere. {wi}I love you."
+SAY.Flowchart.688.Domo,,I can’t live without you. Every second without you feels like an extra stab to my heart.
+SAY.Flowchart.686.Mimi,,I'm so sorry.
+SAY.Flowchart.692.Domo,,"When you work such late hours, I feel like I’m dying. I’m suffocating. It’s hard to contain such painful feelings."
+SAY.Flowchart.694.Mimi,,"I’m sorry!! That's all going to change now... I'll quit my job, I'll end Dermimi's! And from now on it can just be us!"
+MENU.Flowchart.696,,Kiss her on the lips
+SAY.Flowchart.746.,,{i}I kiss her hard. It’s sour; my tongue curls back instinctively.
+MENU.Flowchart.747,,Kiss her on the lips
+SAY.Flowchart.793.,,{i}I kiss her again. I can’t help it; she’s so cute! It makes up for the strange taste.
+MENU.Flowchart.794,,Kiss her on the lips
+SAY.Flowchart.837.,,"{i}I kiss her a third time, this time for longer. My mouth tingles, as if tiny little things were crawling in. It’s itchy."
+SAY.Flowchart.839.Domo,,"We’ll be here forever, right? {wi}Always?"
+SAY.Flowchart.840.Mimi,,Yes! Yesyesyesyes!!!
+SAY.Flowchart.841.Domo,,Promise?
+SAY.Flowchart.842.Mimi,,"I promise! Us, together, always! {wi}I love you! My Domo!"
+SAY.Flowchart.843.Domo,,I promise to make all your favorite dishes every day.
+SAY.Flowchart.844.Mimi,,I promise we will watch only the TV shows you like!
+SAY.Flowchart.846.,,"{i}Domo turns away shyly, as if trying to conceal her feelings.{wc}However, her face betrays her as she turns beet red and smiles ear to ear."
+SAY.Flowchart.847.Domo,,..Mimi...
+SAY.Flowchart.849.Mimi,,What’s wrong? Did I do something wrong? Are you okay?
+SAY.Flowchart.850.Domo,,I love you.
+SAY.Flowchart.852.Mimi,,I love you too!! SO MUCH!
+SAY.Flowchart.853.Domo,,Will you... can we get married? Will you marry me??
+SAY.Flowchart.854.Mimi,,ABSOLUTELY!!
+SAY.Flowchart.856.Domo,,"Mimi... I love you so much, Mimi...{wc}I don’t have a ring, but you can take a piece of my hair and wrap it around your finger like an engagement ring. Is that okay?"
+SAY.Flowchart.858.Mimi,,"Domo, I don’t care. This is the best ring I could’ve gotten from you."
+SAY.Flowchart.860.Domo,,"I’m sorry. I should’ve planned this better. I... I just couldn’t help it. I’m yours, for the rest of eternity..."
+SAY.Flowchart.861.Mimi,,"Domo, having a piece of you on me makes me the happiest I could ever be. I love you I love you I love you I love you I love you I love you I LOVE YOU!!!"
+SAY.Flowchart.865.,,"{i}I hug her eternal body close to mine.{wc}Her skin is cold, and it numbs my mind like ice, sweet whispers of her voice growing louder and louder as my mind shuts down."
+SAY.Flowchart.866.,,"{i}I’m so happy. I promise, Domo, we will be together forever."
+SAY.Flowchart.867.,,{i}We'll stay together forever and ever.
+SAY.Flowchart.869.,,{i}We’ll never have to worry about a thing from now on.{wc}I promise to be with you forever...
+SAY.Flowchart.871.,,{i}and forever... and ever...
+SAY.Flowchart.873.,,{i}forever and ever and ever...
+SAY.Flowchart.875.,,{i}and forever and ever and ever together. {wi}I love you.
+CHARACTER.Domo,,Domo
+CHARACTER.Mimi,,Mimi
+CHARACTER.Customer,,Customer
