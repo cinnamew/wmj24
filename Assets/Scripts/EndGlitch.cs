@@ -20,7 +20,7 @@ public class EndGlitch : MonoBehaviour
 
     IEnumerator Glitch()
     {
-        print("yay");
+        // print("yay");
         this.gameObject.GetComponent<SpriteRenderer>().sprite = horror;
         float a = UnityEngine.Random.Range(0.01f, 0.2f);
         if (UnityEngine.Random.Range(0, 4) == 1)

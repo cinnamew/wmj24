@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "wmj24.sln"
+    "dotnet.defaultSolution": "wmj24.slnx"
 }

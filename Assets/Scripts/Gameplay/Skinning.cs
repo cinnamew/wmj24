@@ -1,31 +1,186 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using Fungus;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Skinning : MonoBehaviour
 {
     public GameObject skinning;
-    public GameObject bunny;
-    public Texture bunnyStart, bunnyEnd;
+    public Camera cam;
+    public SpriteMask mask;
+    public GameObject razor, razorPrefab, linePrefab;
+    public GameObject skinObj;
+    public SpriteRenderer skinStart, skinEnd;
+    [SerializeField] Sprite skinStartGlitch, skinEndGlitch;
+    private Sprite beforeTop, beforeBot;
+    
+    public float completeThreshold;
+    public GameObject phone;
+    public GameObject dialogue;
 
-    public IEnumerator SkinningGameplay()
+    [SerializeField] SkinningOutline outline;
+
+    private int numGlitches = 0;
+    [SerializeField] int maxGlitches = 3;
+    
+
+    public void Start()
     {
-        Texture2D textureArea = new Texture2D((int)bunny.GetComponent<SpriteRenderer>().size.x, (int)bunny.GetComponent<SpriteRenderer>().size.y);
+        if (skinStart != null)
+        {
+            beforeTop = skinStart.sprite;
+            beforeBot = skinEnd.sprite;
+        }
+        
+    }
+
+    public IEnumerator SkinningGameplay(Flowchart flowchart)
+    {
+        if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
+        {
+            Debug.Log("phone active");
+            phone.SetActive(true);
+            phone.GetComponent<Phone>().Call("domo");
+        }
+
+        while (dialogue.activeSelf || phone.activeSelf) {
+            yield return null;
+        }
+        Debug.Log("dialogue done");
+        // StartCoroutine(Glitch());
+
+        razor = Instantiate(razorPrefab, new Vector3(0,0,-3), new Quaternion(0,0,0,0));
         skinning.SetActive(true);
+        GameObject lineObj = Instantiate(linePrefab, new Vector3(0,0,0), new Quaternion(0,0,0,0));
+        LineRenderer line = lineObj.GetComponent<LineRenderer>();
+        MeshCollider meshCollider = lineObj.GetComponent<MeshCollider>();
+        Mesh mesh = new Mesh();
+        line.positionCount = 0;
+
+        StartCoroutine(CheckForComplete(7, 5, lineObj));
 
         while (!GameplayController.instance.isComplete)
         {
-            if (Input.GetMouseButton(0))
-            {
-                textureArea.SetPixel((int)Camera.main.ViewportToScreenPoint(Input.mousePosition).x, (int)Camera.main.ViewportToScreenPoint(Input.mousePosition).y, new Color(0, 1, 0));
-            }
+            Vector3 position = razor.transform.position;
+            position.z = 0;
+            line.positionCount++;
+            line.SetPosition(line.positionCount-1, position);
+
+            AssignMask();
+
+            line.BakeMesh(mesh, true);
+            meshCollider.sharedMesh = mesh;
+
             yield return null;
         }
 
-        //bunny.GetComponent<SpriteRenderer>().sprite = bunnyEnd;
         skinning.SetActive(false);
+        Destroy(razor);
 
-        GameplayController.instance.GameActive();
+        //GameplayController.instance.GameActive();
+        GameplayController.instance.GameActive(1);  //CHANGE TO NEXT SCENE
     }
 
+    public IEnumerator Glitch()
+    {
+        if (skinStartGlitch == null || skinEndGlitch == null) yield break;
+
+        
+
+        skinStart.sprite = skinStartGlitch;
+        skinEnd.sprite = skinEndGlitch;
+
+        yield return new WaitForSeconds(0.5f);
+
+        skinStart.sprite = beforeTop;
+        skinEnd.sprite = beforeBot;
+
+        yield return new WaitForSeconds(2f);
+    }
+
+    void AssignMask()
+    {
+        int height = Screen.height;
+        int width = Screen.width;
+        int depth = 10;
+
+        RenderTexture render = new RenderTexture(width, height, depth);
+        Rect rect = new Rect(0, 0, width, height);
+        Texture2D texture = new Texture2D(width, height, TextureFormat.RGBA32, false);
+
+        cam.targetTexture = render;
+        cam.Render();
+
+        RenderTexture currentRender = RenderTexture.active;
+        RenderTexture.active = render;
+        texture.ReadPixels(rect, 0,0);
+        texture.Apply();
+
+        cam.targetTexture = null;
+        RenderTexture.active = currentRender;
+        Destroy(render);
+
+        Sprite sprite = Sprite.Create(texture, rect, new Vector2(0.5f, 0.5f), height/20);
+        sprite.name = "line";
+        mask.sprite = sprite;
+    }
+
+    IEnumerator CheckForComplete(int xNum, int yNum, GameObject go)
+    {
+        int num = 0;
+        Vector2 size = skinObj.GetComponent<SpriteRenderer>().size;
+        Vector3 offset = new Vector2(0, 1);
+        
+        for(int x = 0; x < xNum; x++)
+        {
+            for(int y = 0; y < yNum; y++)
+            {
+                RaycastHit hit;
+                
+                if(Physics.Raycast(new Vector3(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2), -20)+offset, Vector3.forward, out hit, Mathf.Infinity))
+                {
+                    if(hit.collider.gameObject == go && outline.mouseInside) {
+                        num++;
+                        // Debug.Log(num);
+                    }
+                }
+
+                // RaycastHit2D hit = Physics2D.Raycast(new Vector2(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2))+offset, Vector2.zero);
+                // Debug.DrawRay(hit.point, Vector2.down, Color.blue);
+                
+                // if(hit.collider != null) 
+                // {
+                //     Debug.Log(hit.collider.gameObject.name);
+                //     if(hit.collider.gameObject == skinObj) num++;
+                // }
+            }
+        }
+
+        // debug to check how much is complete
+        Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
+
+        float a = UnityEngine.Random.Range(0f, 2f);
+        if (num >= xNum*yNum*completeThreshold/2 && a <= 1 && numGlitches < maxGlitches)
+        {
+            StartCoroutine(Glitch());
+            numGlitches++;
+        }
+        
+        if(num >= xNum*yNum*completeThreshold)
+        {
+            Debug.Log("Done");
+            GameplayController.instance.isComplete = true;
+        }
+        else 
+        {
+            yield return new WaitForSeconds(.5f);
+            StartCoroutine(CheckForComplete(xNum, yNum, go));       
+        }
+    }
 }
+

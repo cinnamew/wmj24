@@ -17,12 +17,13 @@ public class Forming : MonoBehaviour
     public float delay, life;
     public int count, stepCount;
 
-    public GameObject phone;
+    
     public AnimationClip[] animations;
     public RuntimeAnimatorController[] animators;
-    public GameObject dialogue;
 
     [SerializeField] int maxCount = 4;
+    public GameObject phone;
+    public GameObject dialogue;
 
 
     public IEnumerator FormingGameplay(Flowchart flowchart)
@@ -37,8 +38,9 @@ public class Forming : MonoBehaviour
             feltBase.AddComponent<Animation>().clip = animations[0];
             maxCount = 5;
         }
-        else if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene())
+        else if (SceneManager.GetSceneByName("Minigame3") != SceneManager.GetActiveScene() && phone != null && dialogue != null)
         {
+            Debug.Log("phone active forming");
             phone.SetActive(true);
             phone.GetComponent<Phone>().Call("domo");
         }
@@ -46,36 +48,39 @@ public class Forming : MonoBehaviour
 
         while (!GameplayController.instance.isComplete)
         {
-            if (!dialogue.activeSelf && !phone.activeSelf)
+            if (phone != null && dialogue != null) {
+                while (dialogue.activeSelf || phone.activeSelf) {
+                    yield return null;
+                }
+            }
+            if (count > maxCount * stepCount)
             {
-                if (count > maxCount * stepCount)
-                {
-                    GameplayController.instance.isComplete = true;
-                }
+                GameplayController.instance.isComplete = true;
+            }
 
-                if (activeClickable == null)
-                {
-                    yield return new WaitForSeconds(delay);
-                    FormButton();
-                }
+            if (activeClickable == null)
+            {
+                yield return new WaitForSeconds(delay);
+                FormButton();
+            }
 
-                if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit2D hit = Physics2D.Raycast(ray.origin, Vector3.forward);
+                if (hit.collider.gameObject == activeClickable)
                 {
-                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                    RaycastHit2D hit = Physics2D.Raycast(ray.origin, Vector3.forward);
-                    if (hit.collider.gameObject == activeClickable)
-                    {
-                        Clicked();
-                    }
+                    Clicked();
                 }
             }
 
             yield return null;
         }
 
+        felting.SetActive(false);
         //SceneManager.LoadScene(nextScene);
         flowchart.ExecuteBlock("end");
-        //GameplayController.instance.GameActive();  //CHANGE TO NEXT SCENE
+        
     }
 
     public void FormButton()

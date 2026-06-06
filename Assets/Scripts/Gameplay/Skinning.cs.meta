@@ -1,2 +1,20 @@
 fileFormatVersion: 2
 guid: 1f5b286d630d47f4e8e2d2dc9123ab4a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - skinning: {instanceID: 0}
+  - cam: {instanceID: 0}
+  - mask: {instanceID: 0}
+  - razor: {instanceID: 0}
+  - razorPrefab: {fileID: 9199897337528227772, guid: e584566270d7a47748113ef4e0583cda, type: 3}
+  - linePrefab: {fileID: 8100492143911607646, guid: 6e988e825f9016446974c9dce33779ed, type: 3}
+  - skinObj: {instanceID: 0}
+  - skinStart: {fileID: 2800000, guid: 532795974ebfd45a0878556732ff5738, type: 3}
+  - skinEnd: {fileID: 2800000, guid: 8bcadcd3265504291a23e4f80212a878, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
