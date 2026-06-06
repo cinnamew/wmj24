@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// it's actually all in Beginning oops
 public class Analytics : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
