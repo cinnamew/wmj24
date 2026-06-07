@@ -2490,6 +2490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseInside: 0
+  outlineCollider: {fileID: 950111916}
 --- !u!60 &950111916
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6061,7 +6062,7 @@ MonoBehaviour:
   skinEnd: {fileID: 1965734939}
   skinStartGlitch: {fileID: 0}
   skinEndGlitch: {fileID: 0}
-  completeThreshold: 0.37
+  completeThreshold: 0.35
   phone: {fileID: 261046356}
   dialogue: {fileID: 1814007241}
   outline: {fileID: 950111915}

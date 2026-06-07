@@ -2887,6 +2887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseInside: 0
+  outlineCollider: {fileID: 1065604356}
 --- !u!1 &1235140914
 GameObject:
   m_ObjectHideFlags: 0

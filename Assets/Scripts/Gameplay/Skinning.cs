@@ -139,8 +139,10 @@ public class Skinning : MonoBehaviour
         int num = 0;
         Vector2 size = skinObj.GetComponent<SpriteRenderer>().size;
         Vector3 offset = new Vector2(0, 1);
+        Vector2 cursorWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        bool inside = outline.IsInside(cursorWorld);
 
-        Debug.Log("outline bounds: " + outline.GetComponent<PolygonCollider2D>().bounds);
+        // Debug.Log("outline bounds: " + outline.GetComponent<PolygonCollider2D>().bounds);
         
         for(int x = 0; x < xNum; x++)
         {
@@ -150,9 +152,9 @@ public class Skinning : MonoBehaviour
                 
                 if(Physics.Raycast(new Vector3(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2), -20)+offset, Vector3.forward, out hit, Mathf.Infinity))
                 {
-                    if(hit.collider.gameObject == go && outline.mouseInside) {
+                    if(hit.collider.gameObject == go && inside) {   //trying inside instead of outline.mouseInside
                         num++;
-                        // Debug.Log(num);
+                        Debug.Log(num);
                     }
                 }
 
@@ -168,7 +170,7 @@ public class Skinning : MonoBehaviour
         }
 
         // debug to check how much is complete
-        Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
+        // Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
 
         float a = UnityEngine.Random.Range(0f, 2f);
         if (num >= xNum*yNum*completeThreshold/2 && a <= 1 && numGlitches < maxGlitches)
