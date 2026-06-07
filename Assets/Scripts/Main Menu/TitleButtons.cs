@@ -36,6 +36,7 @@ public class TitleButtons : MonoBehaviour
     public void Continue()
     {
         SceneManager.LoadScene(PlayerPrefs.GetString("currScene", firstScene));
+        // SceneManager.LoadScene("Minigame2");
     }
 
     public void SwitchToScene(string s)

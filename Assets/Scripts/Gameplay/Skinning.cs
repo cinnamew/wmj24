@@ -139,6 +139,8 @@ public class Skinning : MonoBehaviour
         int num = 0;
         Vector2 size = skinObj.GetComponent<SpriteRenderer>().size;
         Vector3 offset = new Vector2(0, 1);
+
+        Debug.Log("outline bounds: " + outline.GetComponent<PolygonCollider2D>().bounds);
         
         for(int x = 0; x < xNum; x++)
         {
