@@ -98,12 +98,12 @@ public class Skinning : MonoBehaviour
         skinStart.sprite = skinStartGlitch;
         skinEnd.sprite = skinEndGlitch;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
 
         skinStart.sprite = beforeTop;
         skinEnd.sprite = beforeBot;
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.5f);
     }
 
     void AssignMask()
@@ -136,58 +136,49 @@ public class Skinning : MonoBehaviour
 
     IEnumerator CheckForComplete(int xNum, int yNum, GameObject go)
     {
+        PolygonCollider2D oc = outline.GetComponent<PolygonCollider2D>();
+        Bounds b = oc.bounds;
+
+        int inside = 0;
         int num = 0;
-        Vector2 size = skinObj.GetComponent<SpriteRenderer>().size;
-        Vector3 offset = new Vector2(0, 1);
-        Vector2 cursorWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        bool inside = outline.IsInside(cursorWorld);
 
-        // Debug.Log("outline bounds: " + outline.GetComponent<PolygonCollider2D>().bounds);
-        
-        for(int x = 0; x < xNum; x++)
+        for (int x = 0; x < xNum; x++)
         {
-            for(int y = 0; y < yNum; y++)
+            for (int y = 0; y < yNum; y++)
             {
-                RaycastHit hit;
-                
-                if(Physics.Raycast(new Vector3(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2), -20)+offset, Vector3.forward, out hit, Mathf.Infinity))
-                {
-                    if(hit.collider.gameObject == go && inside) {   //trying inside instead of outline.mouseInside
-                        num++;
-                        Debug.Log(num);
-                    }
-                }
+                Vector2 p = new Vector2(
+                    b.min.x + (x + 0.5f) * b.size.x / xNum,
+                    b.min.y + (y + 0.5f) * b.size.y / yNum);
 
-                // RaycastHit2D hit = Physics2D.Raycast(new Vector2(x*(size.x/xNum)-(size.x/2), y*(size.y/yNum)-(size.y/2))+offset, Vector2.zero);
-                // Debug.DrawRay(hit.point, Vector2.down, Color.blue);
-                
-                // if(hit.collider != null) 
-                // {
-                //     Debug.Log(hit.collider.gameObject.name);
-                //     if(hit.collider.gameObject == skinObj) num++;
-                // }
+                if (!oc.OverlapPoint(p)) continue; 
+                inside++;
+
+                RaycastHit hit;
+                if (Physics.Raycast(new Vector3(p.x, p.y, -20), Vector3.forward, out hit, Mathf.Infinity)
+                    && hit.collider.gameObject == go)
+                    num++;
             }
         }
 
-        // debug to check how much is complete
-        // Debug.Log(num + " vs " + (xNum*yNum*completeThreshold));
+        float completion = inside > 0 ? (float)num / inside : 0f;
+        Debug.Log(completion + " vs " + completeThreshold);
 
         float a = UnityEngine.Random.Range(0f, 2f);
-        if (num >= xNum*yNum*completeThreshold/2 && a <= 1 && numGlitches < maxGlitches)
+        if (completion >= completeThreshold / 2 && a <= 1 && numGlitches < maxGlitches)
         {
             StartCoroutine(Glitch());
             numGlitches++;
         }
-        
-        if(num >= xNum*yNum*completeThreshold)
+
+        if (completion >= completeThreshold)
         {
             Debug.Log("Done");
             GameplayController.instance.isComplete = true;
         }
-        else 
+        else
         {
             yield return new WaitForSeconds(.5f);
-            StartCoroutine(CheckForComplete(xNum, yNum, go));       
+            StartCoroutine(CheckForComplete(xNum, yNum, go));
         }
     }
 }

@@ -6254,9 +6254,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1313505296}
+  - {fileID: 1313505285}
   selectedCommands:
-  - {fileID: 1313504845}
+  - {fileID: 1313505469}
   variables: []
   description: 
   stepPause: 0
@@ -6590,6 +6590,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Customer
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2067783488}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
@@ -7766,7 +7778,7 @@ MonoBehaviour:
   skinEnd: {fileID: 13291345}
   skinStartGlitch: {fileID: -1775769295680919764, guid: b91ab3c13f1d54a73826ba70c409245f, type: 3}
   skinEndGlitch: {fileID: -5513032306122263001, guid: fc38a7fa2849f48a98ec8decd1a059af, type: 3}
-  completeThreshold: 0.34
+  completeThreshold: 0.92
   phone: {fileID: 261046356}
   dialogue: {fileID: 131489584}
   outline: {fileID: 1065604358}
@@ -8094,7 +8106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2067783489
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3579,9 +3579,9 @@ GameObject:
   - component: {fileID: 1785132620}
   - component: {fileID: 1785132619}
   - component: {fileID: 1785132621}
-  - component: {fileID: 1785132623}
   - component: {fileID: 1785132622}
   - component: {fileID: 1785132624}
+  - component: {fileID: 1785132625}
   m_Layer: 0
   m_Name: Flowchart (1)
   m_TagString: Untagged
@@ -4820,8 +4820,8 @@ MonoBehaviour:
   - {fileID: 1785131999}
   - {fileID: 1785132571}
   - {fileID: 1785132013}
-  - {fileID: 1785132623}
   - {fileID: 1785132624}
+  - {fileID: 1785132625}
   suppressAllAutoSelections: 0
 --- !u!114 &1785132585
 MonoBehaviour:
@@ -5226,8 +5226,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1785132586}
-  selectedCommands: []
+  - {fileID: 1785132584}
+  selectedCommands:
+  - {fileID: 1785132625}
   variables: []
   description: 
   stepPause: 0
@@ -5745,21 +5746,6 @@ MonoBehaviour:
     stringVal: skip
   startIndex: 0
   callMode: 0
---- !u!114 &1785132623
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1785131974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4da378c47144a86979765ac5e9690c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 953
-  indentLevel: 0
-  key: skip
 --- !u!114 &1785132624
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5791,6 +5777,62 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1785132625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785131974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 956
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2067783488}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
@@ -6062,7 +6104,7 @@ MonoBehaviour:
   skinEnd: {fileID: 1965734939}
   skinStartGlitch: {fileID: 0}
   skinEndGlitch: {fileID: 0}
-  completeThreshold: 0.35
+  completeThreshold: 0.9
   phone: {fileID: 261046356}
   dialogue: {fileID: 1814007241}
   outline: {fileID: 950111915}
@@ -10267,12 +10309,12 @@ GameObject:
   - component: {fileID: 2067783490}
   - component: {fileID: 2067783489}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: instructions canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2067783489
 MonoBehaviour:
   m_ObjectHideFlags: 0
