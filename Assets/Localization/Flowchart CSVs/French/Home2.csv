@@ -1,0 +1,71 @@
+Key,Description,Standard,fr
+SAY.Flowchart.242.,,"{i}Domo waits in the same spot as last night, looking even more displeased.","{i}Domo m'attends au même endroit que hier soir, en ayant l'air encore plus mécontente."
+SAY.Flowchart.244.Domo,,What-- what took you so long...?{wc}You came back later than usual.. {wi}I missed you so much.,"Qu-- qu'est ce qui t'a pris si longtemps...?{wc}Tu reviens encore plus tard que d'habitude... {wi}Tu m'as tellement manqué."
+SAY.Flowchart.247.Mimi,,"It’s not my fault that I’m busy! I have a project to do, and my customer wants it to be perfect, and rightfully so! I owe it to them to put my best effort into it.","C'est pas de ma faute si je suis occupée ! Je travaille sur un projet, et ma cliente veut que ce soit parfait, et c'est son droit ! Je me dois de faire de mon mieux."
+SAY.Flowchart.248.Domo,,But... what about me? What about all that you owe me in this relationship?,Mais... et moi ? Pour ce que tu me dois dans notre relation ?
+SAY.Flowchart.249.Mimi,,"There’s no need to be so pushy about it, Domo.{wc}God, I wish I had someone that actually supported my work.","Pas besoin d'être aussi susceptible, Domo.{wc}Bon sang, j'aimerai avoir quelqu'un qui me supporte vraiment dans mon travail."
+SAY.Flowchart.250.Domo,,...That’s not what I...,...Ce n'est pas ce que j'ai...
+SAY.Flowchart.251.,,"{i}She averts her gaze, frowning at the ground.","{i}Elle détourne le regard, fixant le sol."
+MENU.Flowchart.252,,Apologize,S'excuser
+MENU.Flowchart.253,,Change the subject,Changer de sujet
+SAY.Flowchart.330.Mimi,,"Ok, fine -- I'm sorry. Is that better?","Bon, d'accord-- je suis désolée. C'est mieux ?"
+SAY.Flowchart.331.Domo,,It's just... {wi}you were gone for so long... {wi}I got worried.,C'est juste que... {wi}tu es partie si longtemps... {wi}Je commençais à m'inquièter.
+SAY.Flowchart.333.Domo,,"You completely missed dinner, and the neighbors were knocking at the door again...","Tu as complètement raté le dînner, et les voisins toquaient à nouveau à la porte..."
+SAY.Flowchart.334.Mimi,,"Well, I'm here now! No harm, no foul.","Eh bien, je suis là maintenant ! Plus de peur que de mal"
+SAY.Flowchart.335.Domo,,...I guess so.,...J'imagine.
+SAY.Flowchart.337.Mimi,,"Now that you mention dinner, though... I’m pretty hungry. I didn’t even realize it!","Mais maintenant que tu as parlé du dînner... J'ai assez faim. Je ne m'en étais même pas aperçu !"
+SAY.Flowchart.338.,,"{i}Domo gets up from the couch, as if she’s about to go somewhere.","{i}Domo se lève du canapé comme pour aller quelque part."
+SAY.Flowchart.339.Mimi,,Where are you going?,Où est-ce que tu vas ?
+SAY.Flowchart.341.,,{i}I follow her lead.{wc}We land in the kitchen.,{i}Je lui emboîte le pas.{wc} On se retrouve dans la cuisine.
+SAY.Flowchart.343.Domo,,...,...
+SAY.Flowchart.344.Mimi,,?,?
+SAY.Flowchart.345.Domo,,Take.,Tiens.
+SAY.Flowchart.346.,,{i}Domo gives me a container wrapped in foil. I uncover its contents to take a peek at what’s inside.,{i}Domo me donne une boîte entourée d'aluminium. Je la déballe pour regarder ce qu'elle contient.
+SAY.Flowchart.347.Mimi,,Is this...{wc}...,Est-ce que c'est...{wc}...
+SAY.Flowchart.348.,,{i}I feel my eyes begin to shimmer. My chest begins to fill with an overwhelming rush of emotion.,{i}Mes yeux commencent à briller. Mon cœur est submergé par l'émotion.
+SAY.Flowchart.349.Domo,,I was so worried about you missing dinner... so I tried to make some macaroni pie... I know you like it.,J'étais tellement inquiète que tu ne manges pas.. donc j'ai essayé de préparer un gratin de macaronis... Je sais que tu aimes bien.
+SAY.Flowchart.350.,,{i}You continue staring at the dish speechless. Tears come out one by one.,"{i}Je continue de fixer le repas, incapable de prononcer un mot. Les larmes coulant une par une."
+SAY.Flowchart.351.Domo,,Do you not like it...? But it’s your favorite dish-- ,Tu n'en veux pas...? Mais c'est ton plat préféré-- 
+SAY.Flowchart.353.Mimi,,DOMO... more than that. I love it so much. SO MUCH! You’re the absolutely bestest girlfriend ever! This looks like the most delicious macaroni pie I’ve ever seen!! Even more deliciouser yummy wummy than last time!! I can’t wait to gobble it up.,"DOMO... c'est tout le contraire. Je l'adore tellement. TELLEMENT ! Tu es la meilleure copine au monde ! Ce gratin de macaronis a l’air absolument délicieux, le plus appétissant que j’ai jamais vu !! Encore plus délicieux que la dernière fois !! J’ai trop hâte de le dévorer."
+SAY.Flowchart.354.Domo,,I’m... so happy you like it.{wc}I wish I could’ve made it better... I messed up cooking some parts by putting the temperature too high...,Je suis... si heureuse que ça te plaise.{wc}J'aurais aimé un peu mieux le réussir... J'ai raté la cuisson de certaines parties en mettant la température trop forte...
+SAY.Flowchart.356.,,{i}I look down at the container filled with the macaroni. Bits and pieces are a little charred.,{i}Je regarde la boîte remplie de macaronis. Ceux à la surface sont en effet un petit peu noirci.
+SAY.Flowchart.357.,,"{i}But who cares! I take a few bites, and it’s even more delicious than I’d expected! I should hype up Domo more next time.{wc}I savor the flavors as Domo glances at me worryingly.","{i}Mais c'est pas grave ! Je prends quelques bouchées, et c'est encore plus délicieux que ce à quoi je m'attendais ! Je devrais encourager Domo la prochaine fois.{wc} Je savoure chaque bouchée pendant que Domo me lance des regards inquiets."
+SAY.Flowchart.361.Mimi,,"This is amazing!! I don’t care if you messed up a little. It’s delicious, and it’s from you, which makes it the perfectest, hehe!! You cooked in more ways than one!!!","C'est incroyable !! Je m'en fiche si tu l'as un peu raté. C'est délicieux, et c'est toi qui l'as fait, ce qui le rend parfaitement parfait, hehe !! Tu t'es vraiment surpassée !!!"
+SAY.Flowchart.362.Domo,,I’m so glad... I love you...,Je suis contente... Je t'aime...
+SAY.Flowchart.366.Mimi,,I love you more!!,Je t'aime plus !!
+SAY.Flowchart.933.Domo,,Stay with me forever?,Reste avec moi pour toujours ?
+SAY.Flowchart.934.Mimi,,Okay! Forever!!!,D'accord ! Pour toujours !!!
+MENU.Flowchart.363,,Kiss her,L'embrasser
+MENU.Flowchart.368,,Do nothing,Ne rien faire
+SAY.Flowchart.290.,,"{i}The next morning, I head downstairs to work early so I can make good on my goal to finish the project today. ","{i}Le lendemain matin, je descends à l'atelier un peu en avance pour essayer de finir ce projet aujourd'hui. "
+SAY.Flowchart.409.,,"{i}Domo is still sleeping, so I let her be.","{i}Domo est encore endormie, donc je ne l'a réveille pas."
+SAY.Flowchart.304.Mimi,,"Everything’s fine! I'll be done with this project tomorrow, anyway.","Tout va bien ! En plus, j'en aurais fini avec ce projet demain."
+SAY.Flowchart.306.Domo,,...Okay.,...D'accord.
+SAY.Flowchart.380.Mimi,,"And when it’s done, I'll show it all to you! Then you'll see there's nothing gross or creepy about what I do.","Et quand il sera prêt, je te le montrerais ! Comme ça tu pourras voir qu'il n'y a rien de dégoutant ou de sordide dans mon travail."
+SAY.Flowchart.381.Domo,,...I-I don’t want to.,...J-Je ne veux pas.
+SAY.Flowchart.382.Mimi,,Huh? What did you just say?,Hein ? Qu'est-ce que t'as dit ?
+SAY.Flowchart.384.Domo,,I don’t-- don’t want to see your project!,Je ne-- veux pas voir ton projet !
+SAY.Flowchart.385.,,{i}Domo had never refused me so outright. I almost couldn't believe my ears.,{i}Domo ne m'avait jamais refusé quoi que ce soit aussi directement . Je n'en pouvais pas croire mes oreilles.
+SAY.Flowchart.387.Mimi,,Why are you being so stubborn about it? ,Pourquoi es-tu si entêtée ? 
+SAY.Flowchart.388.Domo,,You know why...,Tu sais pourquoi...
+SAY.Flowchart.389.Mimi,,"No, I don’t. I can't read your mind, Domo!","Non, je n'en sais rien. Je ne peux pas lire dans tes pensées, Domo !"
+SAY.Flowchart.392.Domo,,I've told you before... It-- it makes me uncomfortable...,Je te l'ai déjà dit avant... Ça -- ça me met mal à l'aise...
+SAY.Flowchart.393.Mimi,,"That’s because you’re too close-minded. The way you constantly insult my work is so unfair. Once I show you, you'll understand. Everything I do is for you!","C'est parce que t'es trop fermée d'esprit. La façon dont tu insultes toujours mon travail est tellement injuste. Une fois que je t'aurais montré, tu comprendras. Tout ce que je fais, je le fais pour toi !"
+SAY.Flowchart.394.Domo,,"...If you were truly doing anything for me, you wouldn't be doing this job at all. You wouldn't spend all your time down there working with those dead animals. You would be with me!","...Si tu faisais vraiment quelque chose pour moi, tu ne continuerais pas à faire ce travail. Tu ne passerais pas tout ton temps en bas en t'occupant d'animaux morts. Tu serais avec moi !"
+SAY.Flowchart.397.Mimi,,"You don’t get to decide that, Domo! ","Ce n'est pas à toi de décider ça, Domo !"
+SAY.Flowchart.396.Domo,,I don’t get to decide anything... It’s just the opposite of what you said -- everything I do is for you. I even made you macaroni pie today--,"Je ne décide jamais rien... En faite, c'est l'opposé de ce que tu as dit-- tout ce que je fais c'est pour toi. Je t'ai même préparé un gratin de macaronis aujourd'hui--"
+SAY.Flowchart.395.Mimi,,"Oh, come on, don't be like this! You're being so frustrating, so manipulative, right now! This isn’t you, Domo!","Oh, allez, ne me fais pas ça ! Tu es tellement frustrante, tellement manipulatrice en ce moment ! Ça ne te ressemble pas, Domo !"
+SAY.Flowchart.400.,,"{i}Domo falters, and I can’t stop myself from filling up the air with words.","{i}Domo semble déstabilisée, et je ne peux pas m'empêcher de combler le silence avec des mots."
+SAY.Flowchart.401.Mimi,,"I know you, and I know what's good for you. Can’t you just listen to me instead of complaining all the time?","Je te connais, et je sais ce qui est bon pour toi. Tu voudrais bien m'écouter pour une fois au lieu de te plaindre sans arrêt ?"
+SAY.Flowchart.403.,,"{i}She goes quiet, pursing her lips.","{i}Elle se tait, pincant ses lèvres."
+SAY.Flowchart.405.Mimi,,"Ugh... let’s just relax and have a good night, okay?","Pff... juste détendons-nous et allons dormir, d'accord ?"
+SAY.Flowchart.406.Domo,,...,...
+SAY.Flowchart.407.Mimi,,Can't you at least do that much for me?,Peux-tu au moins faire ça pour moi ?
+SAY.Flowchart.408.,,"{i}She finally listens to me, dropping the topic and going back to her usual self for the rest of the night.","{i}Elle m'écoute enfin, abandonnant ce sujet de discussion et retrouvant son comportement habituel pour le reste de la nuit."
+SAY.Flowchart.374.,,{i}I hold her face with my hands and lean in.,{i}IJ'attrape délicatement son visage avec mes mains et j'avance la tête.
+SAY.Flowchart.376.,,"{i}Her breath hitches, and she kisses back with the cutest noises. Butterflies instantly suffocate me. She tastes as sweet as ever...","{i}Elle a le souffle coupé, et elle répond à mon baiser avec un petit bruit des plus adorables. Les papillons m'asphyxient instantanément. Elle a toujours ce goût aussi sucré…"
+SAY.Flowchart.377.,,"{i}Boring, I could’ve kissed her just then...","{i}Mhm, j'aurais pu l'embrasser là..."
+SAY.Flowchart.372.,,"{i}And like any cheesy couple, we fight about who loves the other more for the next two hours. It’s me, of course!","{i}Et comme n'importe quel autre couple mielleux, on se chamaille pour savoir qui aime l'autre le plus pendant les deux prochaines heures. C'est moi, bien sûr !"
+CHARACTER.Domo,,Domo,Domo
+CHARACTER.Mimi,,Mimi,Mimi
+CHARACTER.Customer,,Customer,Cliente

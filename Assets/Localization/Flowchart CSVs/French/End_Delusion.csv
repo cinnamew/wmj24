@@ -1,0 +1,48 @@
+Key,Description,Standard,fr
+SAY.Flowchart.656.Mimi,,"Domo! {wi}Oh, my precious Domo! You're fixed! You're complete again!","Domo ! {wi}Oh, ma précieuse Domo ! Tu es réparée ! Tu es de nouveau complète !"
+SAY.Flowchart.683.,,"{i}Domo's body stirs, and she blinks up at me.{wc}She's still so beautiful, even like this -- no, especially like this.","{i}Le corps de Domo s'agite, et elle cligne des yeux.{wc}Elle reste tellement belle, même dans cet état -- non, surtout dans cet état."
+SAY.Flowchart.660.Domo,,...Mi...mi....?,...Mi...mi....?
+SAY.Flowchart.661.Mimi,,"I'm here for you! I'm so sorry, Domo! I love you, I didn't mean to-- I never meant to hurt you!","Je suis juste là ! Je suis tellement désolée, Domo ! Je t'aime, je ne voulais pas-- je n'ai jamais voulu te blesser !"
+SAY.Flowchart.684.,,{i}Tears start pouring uncontrollably from my eyes now that the stress of fixing her has passed. She simply watches in apathy.,{i}Des larmes commencent à couler sur mes joues maintenant que le stress de la réparer est passé. Elle me regarde simplement d'un air apathique.
+SAY.Flowchart.662.Domo,,...What... happened?,...Qu'est-ce... qui s'est passé ?
+SAY.Flowchart.685.Mimi,,I’m so sorry Domo!! You’re all good now.. I love you so much.,Je suis si désolée Domo !! Tout va mieux maintenant.. Je t'aime tellement.
+SAY.Flowchart.667.Domo,,...,...
+SAY.Flowchart.690.Mimi,,"You're my beautiful, beloved, bestest girlfriend! My girl!! And I'm so sorry if I haven't been good enough recently!","Tu es ma magnifique et adorable petite amie ! Ma Domo !! Et je te demande pardon si je n'ai pas été à la hauteur récemment !"
+SAY.Flowchart.687.Domo,,"It’s okay... I forgive you, Mimi. You sound so sincere. {wi}I love you.","Ce n'est rien... Je te pardonne, Mimi. Tu as l'air si sincère. {wi}Je t'aime."
+SAY.Flowchart.688.Domo,,I can’t live without you. Every second without you feels like an extra stab to my heart.,Je ne peux pas vivre sans toi. Chaque seconde loin de toi est comme un nouveau coup de poignard dans le cœur.
+SAY.Flowchart.686.Mimi,,I'm so sorry.,Je suis tellement désolée.
+SAY.Flowchart.692.Domo,,"When you work such late hours, I feel like I’m dying. I’m suffocating. It’s hard to contain such painful feelings.","Quand tu travailles aussi tardivement, j'ai l'impression de mourir. Je suffoque. C'est difficile de contenir des sentiments si douloureux."
+SAY.Flowchart.694.Mimi,,"I’m sorry!! That's all going to change now... I'll quit my job, I'll end Dermimi's! And from now on it can just be us!","Je suis désolée !! Tout ça va changer... Je vais arrêter mon travail, je vais fermer Dermimi ! Et à partir de maintenant on restera juste toutes les deux ensembles !"
+MENU.Flowchart.696,,Kiss her on the lips,L'embrasser
+SAY.Flowchart.746.,,{i}I kiss her hard. It’s sour; my tongue curls back instinctively.,{i}Je l'embrasse passionnément. C'est amère ; ma langue se rétracte instinctivement..
+MENU.Flowchart.747,,Kiss her on the lips,L'embrasser
+SAY.Flowchart.793.,,{i}I kiss her again. I can’t help it; she’s so cute! It makes up for the strange taste.,{i}Je l'embrasse encore. Je ne peux pas m'en empêcher ; elle est si mignonne ! Ça compense ce goût étrange.
+MENU.Flowchart.794,,Kiss her on the lips,L'embrasser
+SAY.Flowchart.837.,,"{i}I kiss her a third time, this time for longer. My mouth tingles, as if tiny little things were crawling in. It’s itchy.","{i}Je l'embrasse une troisième fois, cette fois-ci plus longtemps. Ma bouche me chatouille, comme si de petites choses s'y faufilaient. Ça picote."
+SAY.Flowchart.839.Domo,,"We’ll be here forever, right? {wi}Always?","On restera ici pour toujours, pas vrai ? {wi}À jamais ?"
+SAY.Flowchart.840.Mimi,,Yes! Yesyesyesyes!!!,Oui! Ouiouiouioui !!!
+SAY.Flowchart.841.Domo,,Promise?,Promis ?
+SAY.Flowchart.842.Mimi,,"I promise! Us, together, always! {wi}I love you! My Domo!","Promis ! Nous, ensemble, pour toujours ! {wi}Je t'aime ! Ma Domo !"
+SAY.Flowchart.843.Domo,,I promise to make all your favorite dishes every day.,Je te promets de préparer tes plats favoris tous les jours.
+SAY.Flowchart.844.Mimi,,I promise we will watch only the TV shows you like!,Je te promets qu'on regardera seulement les émissions que tu aimes !
+SAY.Flowchart.846.,,"{i}Domo turns away shyly, as if trying to conceal her feelings.{wc}However, her face betrays her as she turns beet red and smiles ear to ear.","{i}Domo détourne le regard timidement, comme pour essayer de retenir ses sentiments.{wc}Cependant, son visage l'a trahi alors qu'il devient tout rouge avec un sourire jusqu'aux oreilles."
+SAY.Flowchart.847.Domo,,..Mimi...,..Mimi...
+SAY.Flowchart.849.Mimi,,What’s wrong? Did I do something wrong? Are you okay?,Qu'est-ce qu'il y a ? J'ai fait quelque chose de mal ? Ça va ?
+SAY.Flowchart.850.Domo,,I love you.,Je t'aime.
+SAY.Flowchart.852.Mimi,,I love you too!! SO MUCH!,Je t'aime aussi !! TELLEMENT !
+SAY.Flowchart.853.Domo,,Will you... can we get married? Will you marry me??,Veux-tu... est-ce qu'on peut se marier ? Veux-tu m'épouser ??
+SAY.Flowchart.854.Mimi,,ABSOLUTELY!!,ABSOLUMENT !!
+SAY.Flowchart.856.Domo,,"Mimi... I love you so much, Mimi...{wc}I don’t have a ring, but you can take a piece of my hair and wrap it around your finger like an engagement ring. Is that okay?","Mimi... Je t'aime si fort, Mimi...{wc}Je n'ai pas de bague, mais tu peux prendre un de mes cheveux et l'entourer autour de ton doigt comme une bague de fiancaille. Ça ne te dérange pas ?"
+SAY.Flowchart.858.Mimi,,"Domo, I don’t care. This is the best ring I could’ve gotten from you.","Domo, je m'en fiche. C'est la meilleure bague que j'aurais pu recevoir de ta part."
+SAY.Flowchart.860.Domo,,"I’m sorry. I should’ve planned this better. I... I just couldn’t help it. I’m yours, for the rest of eternity...","Je suis désolée. J'aurais dû mieux me préparer. Je... Je ne pouvais juste plus me retenir. Je t'appartiens, pour le reste de l'éternité..."
+SAY.Flowchart.861.Mimi,,"Domo, having a piece of you on me makes me the happiest I could ever be. I love you I love you I love you I love you I love you I love you I LOVE YOU!!!","Domo, avoir un bout de toi sur moi est le comble du bonheur. Je t'aime je t'aime je t'aime je t'aime je t'aime je t'aime JE T'AIME !!!"
+SAY.Flowchart.865.,,"{i}I hug her eternal body close to mine.{wc}Her skin is cold, and it numbs my mind like ice, sweet whispers of her voice growing louder and louder as my mind shuts down.","{i}Je serre contre moi son corps éternel. Sa peau est froide, et elle engourdit mon esprit comme de la glace, tandis que les doux murmures de sa voix deviennent de plus en plus forts, jusqu’à ce que mon esprit s’éteigne."
+SAY.Flowchart.866.,,"{i}I’m so happy. I promise, Domo, we will be together forever.","{i}Je suis tellement heureuse. Je te promets, Domo, on restera ensemble pour toujours et à jamais."
+SAY.Flowchart.867.,,{i}We'll stay together forever and ever.,{i}On restera ensemble pour toujours et à jamais.
+SAY.Flowchart.869.,,{i}We’ll never have to worry about a thing from now on.{wc}I promise to be with you forever...,{i}On a plus besoin de s'inquièter pour quoi que ce soit.{wc}Je promets de rester à tes côtés pour toujours...
+SAY.Flowchart.871.,,{i}and forever... and ever...,{i}et toute l'éternité...
+SAY.Flowchart.873.,,{i}forever and ever and ever...,"{i}Pour toujours et à jamais, encore et encore..."
+SAY.Flowchart.875.,,{i}and forever and ever and ever together. {wi}I love you.,{i}Et encore et encore et encore ensemble. {wi}Je t'aime.
+CHARACTER.Domo,,Domo,Domo
+CHARACTER.Mimi,,Mimi,Mimi
+CHARACTER.Customer,,Customer,Cliente

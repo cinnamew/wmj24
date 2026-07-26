@@ -1,0 +1,58 @@
+Key,Description,Standard,fr
+SAY.Flowchart.46.,,"{i}After a long and fulfilling day of work, I call it a night and return upstairs to my home, where my beloved waits for me, sitting on the living room couch.","{i}Après une longue et gratifiante journée de travail, je décide de m'arrêter là et de retourner à l'étage où ma bien-aimée m'attend, assise sur le canapé du salon."
+SAY.Flowchart.47.Domo,,Finally. You took forever...{wc}Welcome home.,Enfin. Tu en as mis du temps...{wc}Bienvenue à la maison.
+SAY.Flowchart.48.Mimi,,"Sorry! I was working, you know that!","Désolée ! Je travaillais, tu le sais bien !"
+SAY.Flowchart.51.Domo,,I know.{wc}You were just... gone for so long.{wc}I missed you.{wc}It’s just so stressful sitting in the living room all day waiting for you.,Oui.{wc}Tu es juste... partie pendant si longtemps.{wc}Tu m'as manqué.{wc}C'est tellement stressant de rester assise toute la journée à t'attendre.
+SAY.Flowchart.52.Mimi,,"Aw, I missed you too!","Aw, toi aussi tu m'as manqué !"
+SAY.Flowchart.54.Mimi,,Work was great today. I started working on a rabbit. I couldn’t stop thinking about you the whole time. It just reminded me of you so much! It’s your favorite animal!,Le boulot s'est bien passé aujourd'hui. J'ai commencé à travailler sur un lapin. Je ne pouvais pas m'empêcher de penser à toi. Il m'a juste tout suite rappelait toi ! C'est ton animal préféré !
+SAY.Flowchart.55.,,{i}A hint of red touches Domo’s cheeks as she seemingly tries to avoid my gaze.,{i}Une tinte de rouge apparaît sur les joues de Domo alors qu'elle essaie d'éviter mon regard.
+SAY.Flowchart.58.,,"{i}However, just as quickly as her face lifts, I notice her expression had vanished, replaced with a new one both tensed and unamused. ","{i}Cependant, aussi rapidement que son visage s'était illuminé, je remarque que son expression est rapidement remplacé par un air inquiet."
+MENU.Flowchart.59,,Ignore it,L'ignorer
+MENU.Flowchart.64,,Push on,L'interroger
+SAY.Flowchart.65.Domo,,Are you sure you’re not overdoing it? You come back so late...,Tu es sûre que tu n'en fais pas trop ? Tu reviens souvent tard le soir...
+SAY.Flowchart.66.Mimi,,"Absolutely not! If anything, I’m really stoked and energized.","Pas du tout ! C'est plutôt l'inverse, je déborde d'énergie."
+SAY.Flowchart.69.Domo,,Oh...{wc}That’s good.,Oh...{wc}C'est bien.
+SAY.Flowchart.70.Domo,,"Well, if you have energy right now... why don't we play some games?","Eh bien, si tu as de l'énergie à revendre... que dirais-tu de jouer à quelque chose ?"
+SAY.Flowchart.72.,,"{i}Of course -- gaming is one of our favorite pastimes!{wc}Or rather, Domo watching while I game is one of our favorite pastimes. She never really plays herself, always insisting it's more fun to sit by my side and watch me.","{i}J'suis partante -- les jeux vidéos font parti de nos passes-temps préférés !{wc}Ou plutôt, Domo qui me regarde alors que je joue fait parti de nos passes-temps préférés. Elle ne joue jamais elle même, affirmant que c'est plus amusant de s'assoir à côté de moi et de me regarder."
+SAY.Flowchart.73.Mimi,,Sure! Have any games in mind?,D'accord ! Tu penses à un jeu en particulier ?
+SAY.Flowchart.74.Domo,,"I saw this visual novel the other day that looked pretty interesting...{wc}It was about joining a company of cute maid girls.{wc}Something like Miss Inconsiderate Maid Girls...? {wi}No, that can’t be right...","J'ai vu ce visual novel l'autre jour qui avait l'air assez intéressant...{wc}On suit l'héroine qui rejoint une entreprise de jolies maids.{wc}Je crois que c'est Miss Inconsiderate Maid Girls...? {wi}Non, je me trompe peut-être..."
+SAY.Flowchart.75.Mimi,,"Ooh, sounds fun! I’m sure we’ll find it, don’t worry.","Ooh, ça a l'air amusant ! Je suis sûre qu'on va le trouver, ne t'inquiète pas."
+SAY.Flowchart.76.,,"{i}We crowd around my PC and find the game. Loading it up, we spend an hour playing through it.","{i}On s'assied devant mon PC et retrouvons le jeu. On met environ une heure pour le finir."
+SAY.Flowchart.78.Mimi,,"Wow, that story was really interesting!{wc}And the maid girls really are cute! Not as cute as my Domo, though!","Waouh, cette histoire était vraiment intéressante !{wc}Et les maids sont tellement mignonnes ! Mais pas autant que ma Domo !"
+SAY.Flowchart.79.,,{i}Domo blushes and leans on my shoulder.,{i}Domo rougit et pose sa tête sur mon épaule.
+SAY.Flowchart.80.Domo,,You’re cuter!,C'est toi la plus mignonne !
+SAY.Flowchart.82.,,{i}I playfully squeeze her cheeks.,{i}Je lui pince gentiment les joues.
+SAY.Flowchart.83.Mimi,,"No, you are!",Non c'est toi !
+SAY.Flowchart.84.,,{i}We continue back and forth like this until I catch a glance at the clock.,{i}On continue cet échange jusqu'à que je jette un coup d'œil vers l'horloge.
+SAY.Flowchart.85.Mimi,,"Woah, look at the time! I can’t believe it’s almost 9:00PM! Our favorite show is about to start!","Waouh, regarde l'heure ! Il est déjà 21 heures ! Notre émission préférée va commencer !"
+SAY.Flowchart.87.,,"{i}Domo’s discontented expression flashes back over her face, a momentary flicker revealing her true feelings. ","{i}L'expression mécontente de Domo réapparaît pendant un bref instant, une fraction de seconde qui révéle ses vrais sentiments. "
+SAY.Flowchart.88.Domo,,I w-wouldn’t say it’s my favorite.,J-Je ne dirais pas que c'est ma préférée.
+SAY.Flowchart.89.Mimi,,Is it not??,Vraiment ??
+SAY.Flowchart.90.Mimi,,"You like it too! I mean, you always watch it with me. It isn’t wrong to say it’s both of our favorite shows.","Mais tu l'aimes aussi ! Je veux dire, tu la regarde toujours avec moi. On peut très bien dire que c'est notre émission favorite."
+SAY.Flowchart.93.Domo,,Please... {wi}Let’s just watch it...,S'il te plaît... {wi}Juste regardons-la...
+SAY.Flowchart.94.,,"{i}A spark of annoyance flares up inside me -- why won’t Domo communicate? -- But I snuff it out and focus on the TV.{wc}Ahh, I love Mailer Soon! Always wanted to be a magical girl.","{i}Une pointe d'agacement occupe mon esprit -- pourquoi est-ce que Domo ne me parle pas ? -- Mais j'essaye de ne pas y penser et me concentre sur la télé.{wc}Ahh, j'adore Mailer Soon ! J'ai toujours voulu être une magical girl."
+SAY.Flowchart.97.Mimi,,This again.,Et c'est reparti.
+SAY.Flowchart.99.Domo,,You know I don’t like hearing about your work.,Tu sais que je n'aime pas entendre parler de ton travail.
+SAY.Flowchart.101.Mimi,,Huh? I don’t find anything wrong with my work.,Hein ? Je ne vois pas ce qu'il y a de mal.
+SAY.Flowchart.103.Domo,,It’s just... you know. Kind of gross. Maybe a little gruesome.,C'est juste... tu sais. Un peu dégoutant ou même sordide.
+SAY.Flowchart.105.Mimi,,"I mean, it’s not that bad. Honestly, you’re so sensitive about these things. It’s good work, and people find my work beneficial to them.","N'exagère pas. Honnêtement, je te trouve un peu trop sensible. Je fais du bon travail et mes clients en sont ravis."
+SAY.Flowchart.107.Domo,,It just makes me... uncomfortable. I wish that someday you’d stop.,Ça me rend juste... mal à l'aise. J'aimerais que tu arrêtes un jour.
+SAY.Flowchart.108.Mimi,,"I do it all for you, anyway. We need the money!","Je fais tout ça pour toi. On a besoin de cette argent !"
+SAY.Flowchart.109.Domo,,"I thought it was fine at first -- you know I -- I didn’t gift you that cat sewing tool, pin cushion, needles, or everything else so you can use it like this.","Je pensais que ça allait au début -- tu sais, je -- je ne t'ai pas offert tout ce matériel de couture pour que tu l'utilise comme ça."
+SAY.Flowchart.110.Mimi,,I don’t know why you keep bringing it up. It’s unhealthy for you to keep focusing on something so useless when you can come downstairs and see for yourself how it is.,Je ne comprends pas pourquoi tu insistes sur ce sujet. Ce n'est pas bon pour toi de rester fixée sur quelque chose d'aussi inutile quand tu peux juste descendre et voir par toi-même comment c'est.
+SAY.Flowchart.113.Domo,,"But you know the creepy animals everywhere are the -- the very reason I can’t go down to your shop.{wc}I could visit you more if you weren’t... I don’t know, working with d-dead animals!","Mais tu sais que les animaux sinistres un peu partout sont l'-- l'exacte raison de pourquoi je ne peux pas descendre dans ton atelier.{wc}Je pourrais venir te voir plus souvent si tu... je sais pas, travaillé pas avec des a-animaux morts !"
+SAY.Flowchart.114.,,{i}...,{i}...
+SAY.Flowchart.115.Mimi,,"I don’t understand why you have to be so negative about it. Besides, I'm not killing the animals, and it makes my customers happy.","Je ne comprends pas pourquoi tu es si négative. En plus, je ne tue pas les animaux, et ça rend mes clients heureux."
+SAY.Flowchart.117.,,"{i}Domo just sighs, and the conversation naturally comes to a close. The air suffocates us with neither of our gazes meeting the other.","{i}Domo soupire, et la conversation se termine. L'atmoshpère est pesante alors qu'on évite de croiser nos regards."
+SAY.Flowchart.118.Domo,,"Come on, let’s go watch TV, okay?{wc}It’s almost 9:00PM and your favorite show is about to air.{wc}“I am the pretty Mimi, who fights for love and for justice! I am Mailor Soon! And now in the name of the Moon, I'll punish you...!”{wi} Yeah?","Allez, regardons la télé, d'accord ?{wc}Il est presque 21 heures et ton émission préférée va bientôt commencer.{wc}“Je suis la belle Mimi, qui se bat pour l'amour et la justice ! Je suis Mailor Soon ! Et maintenant, au nom de la Lune, je vais te punir...!”{wi} Alors ?"
+SAY.Flowchart.120.Mimi,,"Haha, okay, that sounds good to me.","Haha, d'accord, ça me va."
+SAY.Flowchart.124.,,{i}I try not to think much of the minor disagreement as the night passes to the next morning.,{i}J'essaie de ne pas trop penser à notre petite dispute alors que la nuit laisse place au matin.
+SAY.Flowchart.125.Domo,,By the way... The neighbor next door came knocking an hour ago while you were sleeping.,D'ailleurs... Le voisin d'à côté est venu toquer il y a environ une heure alors que tu dormais.
+SAY.Flowchart.141.Mimi,,What did they want?,Qu'est-ce qu'il voulait ?
+SAY.Flowchart.142.Domo,,"I don’t know... Something about a smell?{wc}They weren’t very clear about it, but they insisted that it needed to be removed...","Je sais pas... Quelque chose à propos d'une odeur ?{wc}Ce n'était pas très clair, mais il a insisté qu'il fallait la faire disparaître..."
+SAY.Flowchart.143.Mimi,,"A smell? I don’t smell anything. Maybe they're just trying to be an asshole, or they’ve got the wrong place. Just ignore it.","Une odeur ? Je ne sens rien de particulier. Peut-être qu'il essaie juste d'être un connard, ou qu'il s'est trompé d'endroit. Juste ignore-le."
+SAY.Flowchart.144.Domo,,Okay.,D'accord.
+SAY.Flowchart.146.Mimi,,"Well, I'm off to work! See you later! Love you!","Bon, je vais travailler! À tout à l'heure ! Je t'aime !"
+CHARACTER.Domo,,Domo,Domo
+CHARACTER.Mimi,,Mimi,Mimi
+CHARACTER.Customer,,Customer,Cliente

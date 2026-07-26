@@ -1,0 +1,71 @@
+Key,Description,Standard,fr
+SAY.Flowchart.487.,,"{i}I return to our house on the second floor to find Domo waiting for me by the door, glaring daggers at me.","{i}Je remonte au deuxième étage et trouve Domo qui m’attend près de la porte, me lançant un regard noir."
+SAY.Flowchart.489.Domo,,"Mimi, you can't keep coming back this late. It's not fair.","Mimi, tu ne peux pas continuer à rentrer aussi tard. Ce n'est pas juste."
+SAY.Flowchart.492.Mimi,,I needed to finish my project. I already told you about this! What's not fair is how you keep nagging me about it.,J'avais besoin de finir mon projet. Je te l'ai déjà dit ! Ce qui n'est pas juste c'est que tu me fasses constamment des remarques dessus.
+SAY.Flowchart.493.Domo,,I'm just so worried about you... This project has consumed your life! You barely eat or sleep or spend time with me at all anymore.,"Je m'inquiète juste tellement pour toi... Ce projet a rongé ta vie ! Tu ne fais presque plus rien avec moi, que ce soit manger, dormir ou même me parler."
+SAY.Flowchart.494.Mimi,,"You're being so dramatic! It's not a big deal. And I'm done with the big project now, so everything should get better now! You'll see.","Tu es bien trop dramatique ! Arrête d'exagérer. Et en plus, j'en ai terminé avec ce grand projet maintenant, donc tout devrait s'arranger ! Tu verras."
+SAY.Flowchart.495.Domo,,I don't want to see it! I've already told you that!,Je ne veux pas le voir ! Tu le sais très bien !
+SAY.Flowchart.496.,,"{i}I'm confused why Domo is getting so passionate today. She usually would have backed off by now; she never yells at me like this. My gut twists with anger at her behavior, but I try to push it down.","{i}Je ne comprends pas pourquoi Domo est aussi passionnée aujourd’hui. D’habitude, elle aurait déjà lâché l’affaire ; elle ne me crie jamais dessus comme ça. Mon estomac se noue de colère face à son comportement, mais j’essaie de la contenir."
+SAY.Flowchart.504.Mimi,,I'm not having this conversation with you right now.,Je ne veux pas avoir cette conversion avec toi maintenant.
+SAY.Flowchart.505.Domo,,Let's just... do something else.,Faisons... quelque chose d'autre.
+SAY.Flowchart.506.Mimi,,Sure! Let's watch more of Mailer Soon! Our favoritest TV show!!,Oui ! On peut regarder la suite de Mailer Soon ! Notre émission préférée !!
+SAY.Flowchart.508.,,"{i}Bitterness sours Domo's expression, and she crosses her arms over her chest.","{i}L'expression de Domo s'assombrit, et elle croise ses bras sur sa poitrine."
+SAY.Flowchart.510.Domo,,"That's not what I meant. I've already told you, I don't want to watch that show.","C'est pas ce que je voulais dire. Je ne veux pas regarder cette émission, ."
+SAY.Flowchart.511.Mimi,,Why not?!,Pourquoi pas ?!
+SAY.Flowchart.513.Domo,,It makes me uncomfortable!,Elle me met mal à l'aise !
+SAY.Flowchart.514.Mimi,,What? Why does everything make you uncomfortable? You're acting like such an immature baby! Grow up!,Quoi ? Pourquoi est-ce que tout te rend mal à l'aise ? Arrêtes de faire la gamine et grandie un peu !
+SAY.Flowchart.515.Domo,,And you're acting like a heartless partner...,Et toi arrêtes d'être sans cœur...
+SAY.Flowchart.516.,,"{i}She remains adamant in her refusal. But her words stir something inside me, and I feel conflicted over what to do.","{i}Elle reste ferme sur son refus. Mais ses mots réveillent quelque chose en moi et je ne sais pas quoi faire."
+MENU.Flowchart.497,,Don't watch the TV show,Ne pas regarder l'émission
+MENU.Flowchart.498,,Watch the TV show,Regarder l'émission
+SAY.Flowchart.521.Mimi,,"Argh, fine! We don't have to watch it!","Pff, d'accord ! On va pas la regarder !"
+SAY.Flowchart.520.Domo,,...Thank you.,...Merci.
+SAY.Flowchart.554.Mimi,,"I still don't understand why it's that big of a deal to you, though. Can't you just do this one little thing for me?","Mais je ne comprends quand même pas pourquoi c'est si difficile pour toi. Tu pourrais au moins faire un petit geste pour moi."
+SAY.Flowchart.525.Domo,,"One little thing...? I do so much for you, Mimi. And you rarely ever appreciate it.","Un petit geste..? Je fais tellement de choses pour toi, Mimi. Et tu les remarques presque jamais."
+SAY.Flowchart.526.,,"{i}I scoff incredulously, waiting for the punchline that never comes. ","{i}Je lâche un petit rire, incrédule, en attendant la chute qui ne vient pas. "
+SAY.Flowchart.523.Mimi,,"Oh, you're serious? Haha, that's funny!","Oh, tu es séreuse ? Haha, c'est drôle !"
+SAY.Flowchart.547.Domo,,"Yes, I'm serious...","Oui, je suis sérieuse..."
+SAY.Flowchart.579.Domo,,"I do a lot for you. I sit around here all day and take care of you and the house, and I wait for you. {wi}Because you're my entire life, Mimi!","Je fais beaucoup pour toi. Je reste ici toute la journée à m’occuper de toi et de la maison, et je t’attends. {wi}Parce que tu es le centre de mon monde, Mimi !"
+SAY.Flowchart.557.Domo,,"But you care more about those stupid, dead animals than you ever did about me...","Mais tes stupides animaux morts sont bien plus important à tes yeux que je ne l'ai jamais été..."
+SAY.Flowchart.558.Mimi,,"Oh, come on, you're not still talking about the taxidermy, are you?","Oh, allez, T'es encore là-dessus ?"
+SAY.Flowchart.559.Domo,,"Yes, I am... It's disturbing, how easily you handle it all.","Oui... C'est inquiètant de voir à quel point tu sembles y prendre goût."
+SAY.Flowchart.560.Mimi,,"I never said it was easy! It's very hard -- but that's what makes it worth it. Because I'm so good at it, even though it's so difficult!","Je n'ai jamais dit que j'aimais ça ! C'est pas facile -- mais c'est ce qui rend ce travail intéréssant. Parce que j'y suis forte, même si c'est compliqué !"
+SAY.Flowchart.562.Domo,,There it is again. It's always about you and your ambition. It's like Dermimi's is the only thing in this whole world you're passionate about!,Et c'est reparti. Toujours toi et ton ambition. Comme si Dermimi était la seule chose dans le monde entier qui te passione !
+SAY.Flowchart.550.,,"{i}Something about Domo is so different today. Loud, confrontational, emotional. It strikes pangs through my heart that I can't distinguish the feeling of between guilt or anger.","{i}Quelque chose dans l'attidude de Domo est très différent aujourd'hui. Bruyante, conflictuelle, émotive. Une douleur me transperce le cœur, incapable de dire si c’est de la culpabilité ou de la colère."
+SAY.Flowchart.566.Mimi,,"Hey, don't say that! Remember how the D in Dermimi’s was for you?--","Hé, ne dis pas ça ! Tu te rappelles que le D dans Dermimi est pour toi ?--"
+SAY.Flowchart.565.Domo,,"-- It’s the ""D"" in ""taxid--","-- C'est le ""D"" dans ""taxid--"
+SAY.Flowchart.564.Mimi,,It’s a double meaning!!! And I think of it as representing you!!,Il y a un double sens !!! Et je le vois comme te représentant toi !!
+SAY.Flowchart.567.Mimi,,You have no idea how much I love you. How everything I do has always been for your sake.{wc}You don't get to decide that I don't love you enough by taking my actions out of context!,Tu n'imagines même pas à quel point que j'aime. Comment tout ce que je fais a été pour toi.{wc}Tu ne peux pas décider que je ne t'aime pas en prenant mes actions hors de leur contexte !
+SAY.Flowchart.569.Domo,,What context? Your actions -- {wi}we both know what you've truly done! What you're capable of!,Quel contexte ? Tes actions -- {wi}on sait toutes les deux ce que tu as vraiment fait ! Ce que tu es capable de faire !
+SAY.Flowchart.571.Domo,,I would know better than anyone! {wi}After what happened a week ago--,Je suis la mieux placée pour savoir ! {wi}Après ce qui s'est passé la semaine dernière--
+SAY.Flowchart.572.Mimi,,Just stop it!,Arrête !
+SAY.Flowchart.573.Domo,,"{s=10}Remember, Mimi!?{/s} You--","{s=10}Te souviens-tu, Mimi !?{/s} Tu-"
+SAY.Flowchart.575.Mimi,,JUST STOP IT!!,J'AI DIT ARRÊTE !!
+SAY.Flowchart.563.,,{i}Anger rages inside of me. Her ignorance. Her disobedience. I cannot take it anymore and-,{i}La colêre monte en moi. Son ignorance. Sa désobéissance. Je ne peux plus le supporter et-
+SAY.Flowchart.631.,,{i}THUD,{i}BAM
+SAY.Flowchart.634.Mimi,,...,...
+SAY.Flowchart.638.Mimi,,{s=5}.....{/s},{s=5}.....{/s}
+SAY.Flowchart.641.Mimi,,{s=10}What have I done...?,{s=10}Qu'est-ce que j'ai fait...?
+SAY.Flowchart.643.Mimi,,{s=15}She’s broken...,{s=15}Elle est cassé...
+SAY.Flowchart.645.Mimi,,I have to fix her...,Je dois la réparer...
+SAY.Flowchart.611.Mimi,,"Look -- it's my favorite show, and we always watch it, and you never used to complain about it. So we're going to watch it today.{wc}I don't care about how much you whine or hate it. We are going to watch the show.","Écoute-- c'est mon émission préférée, on l'a suit depuis le début, et tu ne t'étais jamais plains. Donc on va regarder l'épisode d'aujourd'hui.{wc}Je m'en fiche si tu geins et pleurniches. On va le regarder."
+SAY.Flowchart.587.Domo,,How can you say things like this and then claim to love me?{wc}You never listen to me or what I want -- you only ever do what you want!,Comment est-ce que tu peux dire ça et prétendre m'aimer ?{wc}Tu n'écoutes jamais ce que je dis ou ce que je veux -- tu te préoccupes seulement de ce que TU as envie !
+SAY.Flowchart.606.,,"{i}Domo's speech keeps growing more and more heated, much to my surprise and annoyance.","{i}Les mots de Domo continuent de monter d'un ton, à ma grande surprise et pour mon plus grand agacement."
+SAY.Flowchart.613.Domo,,"After all that you've done -- neglecting me and leaving me here, and ignoring my pleas, and covering it all up with cutesy cuddles and kisses to pretend nothing was wrong -- it makes sense to me.{wc}You never loved me. You just love yourself!","Après tout ce que tu as fait -- me négligeant, me laissant ici, ignorant mes supplications, et me couvrant de câlins ou de baisers pour prétendre que tout va bien -- je comprends maintenant.{wc}Tu ne m'as jamais aimé. Il n'y a que toi-même qui t'importe !"
+SAY.Flowchart.585.Mimi,,"Oh, really? You're trying to say that I'm the bad one in this relationship? When you're the one who constantly interrupts and insults my work, and relies on me to the point where I have no personal space?!{wc}You’re lucky I still love you. If it were anyone else, they probably would’ve left you already!","Oh, vraiment ? Tu essaies de dire que je suis la méchante dans notre relation ? Alors que tu es celle qui interrompt et critique constamment mon travail, et se repose toujours sur moi au point que je n'ai plus d'espace personnel ?!{wc}Tu es chanceuse que je t'aime encore. Si c'était n'importe qui d'autre, elle t'aurait déjà quitté !"
+SAY.Flowchart.607.Domo,,What do you mean you still love me? Your actions -- {wi}we both know what you've truly done! What you're capable of!,Comment ça tu m'aimes encore ? Tes actions -- {wi}on sait toutes les deux ce que tu as vraiment fait ! Ce que tu es capable de faire !
+SAY.Flowchart.614.Mimi,,What are you even talking about?,Qu'est-ce que tu racontes ?
+SAY.Flowchart.616.Mimi,,"Oh, you're not still talking about the taxidermy, are you? I've told you so many times before, I don't kill the animals myself!","Oh, t'es encore sur la taxidermie ? Je te l'ai déjà tellement répété avant, je ne tue pas les animaux !"
+SAY.Flowchart.618.Mimi,,"...But even if I did, what's wrong with that? I gift them eternal life through my art! {wi}You wouldn’t get it, Domo! You never do!","...Mais même si je le faisais, où serait le mal ? Je leur offre la vie éternelle à travers mon art ! {wi}Tu ne comprendrais pas, Domo ! Tu ne comprends jamais !"
+SAY.Flowchart.619.Domo,,"What?? No... you take lives! All you do is take, take, take! Because you're selfish and arrogant and--","Quoi ?? Non… tu prends des vies ! Tu fais que prendre, prendre, prendre ! Parce que tu es égoïste, arrogante, et--"
+SAY.Flowchart.620.Mimi,,"That's not true! You’re the one who has no passion, nothing to your name, no source of income yet you still keep spending my money on those stupid little trinkets--","Ce n’est pas vrai ! C’est toi qui n’as aucune passion, rien à qui t'appartient, aucune source de revenu, et pourtant tu continues à dépenser mon argent pour ces stupides petits bibelots--"
+SAY.Flowchart.621.Domo,,They were for you! You wouldn’t be able to do your creepy animal thing without me!!,Ils étaitent pour toi ! Tu ne pourrais même pas faire ton truc bizarre avec les animaux sans moi !!
+SAY.Flowchart.622.,,{i}A wisp of a laugh slips from Domo.,{i}Domo laisse échapper un petit rire.
+SAY.Flowchart.623.Domo,,I should’ve known you were never grateful for me! After what you did to me--,J’aurais dû savoir que tu ne m’étais jamais reconnaissante ! Après ce que tu m’as fait--
+SAY.Flowchart.624.Mimi,,Stop!! I AM grateful for you!!!,Arrête !! Je te SUIS reconnaissante  !!!
+SAY.Flowchart.625.Domo,,{s=10}Oh yeah...? {/s}Then look me in the eye and tell me why you--,{s=10}Oh vraiment...? {/s}Alors regarde-moi dans les yeux et dis-moi pourquoi tu--
+SAY.Flowchart.626.Mimi,,SHUT UP!!,TAIS-TOI !!
+SAY.Flowchart.924.,,{i}Anger rages inside of me. Her ignorance. Her disobedience. I cannot take it anymore and-,{i}La colêre monte en moi. Son ignorance. Sa désobéissance. Je ne peux plus le supporter et-
+CHARACTER.Domo,,Domo,Domo
+CHARACTER.Mimi,,Mimi,Mimi
+CHARACTER.Customer,,Customer,Cliente
