@@ -2852,7 +2852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: a397e67b26c844beba2a2d1e1e6880ab, type: 3}
+  localizationFile: {fileID: 4900000, guid: 57b13249497984aa0ba1e1feccd5a3bd, type: 3}
 --- !u!4 &675429374
 Transform:
   m_ObjectHideFlags: 0
@@ -4276,8 +4276,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1250590303}
   m_HandleRect: {fileID: 1250590302}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.49310568
+  m_Value: 1.0000001
+  m_Size: 0.50437474
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
